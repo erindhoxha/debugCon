@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main-dist.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark">
@@ -44,7 +45,7 @@
   </div>
 </nav>
 
-<div class="container-fluid banner">
+<div class="container-fluid banner" data-aos="fade-up">
   <div class="container hero-text">
     <div class="text-container">
     <img class="logo-icon" src="img/placeholder-logo.png">
@@ -59,16 +60,10 @@
 </div>
 <div class="bg-stripes"></div>
 
-
-<div class="img-div">
-  <div class="overlay">
-  </div>
-</div>
-
 <div class="container-fluid banner-loc">
   <div class="banner-loc-overlay">
     <div class="center-flex">
-      <div id="svg-container">
+      <div id="svg-container" data-aos="fade-up">
       <svg id="svg-square-icon" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 449 430" enable-background="new 0 0 449 430" xml:space="preserve">
         <rect id="XMLID_1_" x="33" y="118" fill="none" stroke="#231F20" stroke-width="7" stroke-miterlimit="10" width="288"
@@ -77,29 +72,31 @@
           height="288" />
       </svg>
       </div>
-    <h1>Join us for two days of talks and sessions celebrating the people and projects that push technology forward. After all,
-    the future of software isn’t so far off—you’re building it right now.</h1>
+      <div data-aos="fade-up">
+       <h1>Join us for two days of talks and sessions celebrating the people and projects that push technology forward. After all,
+        the future of software isn’t so far off—you’re building it right now.</h1>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="container people text-white">
   <div class="row flex-center">
-    <div class="col-lg-4">
+      <div class="col-lg-4" data-aos="fade-up">
       <i class="fas fa-users"></i>
       <h3>Discover</h3>
       <p class="p-lg mt-4">See how teams take projects from inspiration to launch across two days of talks and events.</p>
       <a class="link link-green">People speaking</a>
     </div>
 
-    <div class="col-lg-4 text-white">
+    <div class="col-lg-4 text-white" data-aos="fade-up">
       <i class="fas fa-users"></i>
       <h3>Discover</h3>
       <p class="p-lg mt-4">See how teams take projects from inspiration to launch across two days of talks and events.</p>
       <a class="link link-pink">People speaking</a>
     </div>
     
-    <div class="col-lg-4 text-white">
+    <div class="col-lg-4 text-white" data-aos="fade-up">
       <i class="fas fa-users"></i>
       <h3>Discover</h3>
       <p class="p-lg mt-4">See how teams take projects from inspiration to launch across two days of talks and events.</p>
@@ -117,7 +114,7 @@
 <div class="container-fluid banner-spo">
   <div class="banner-loc-overlay">
     <div class="center-flex">
-      <div id="svg-container">
+      <div id="svg-container" data-aos="fade-up">
         <svg id="svg-square-icon" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px" y="0px" viewBox="0 0 449 430" enable-background="new 0 0 449 430" xml:space="preserve">
           <rect id="XMLID_1_" x="33" y="118" fill="none" stroke="#231F20" stroke-width="7" stroke-miterlimit="10" width="288"
@@ -126,7 +123,9 @@
             height="288" />
         </svg>
       </div>
-      <h1>Sponsors and Community Partners.</h1>
+      <div data-aos="fade-up">
+        <h1>Sponsors and Community Partners.</h1>        
+      </div>
     </div>
   </div>
 </div>
@@ -136,7 +135,7 @@
   <h5>Meet the organizations that make Universe possible. If you’d like to learn more about sponsorships, visit our GitHub
   Sponsors Site or email us.</h5>
     <h1 class="mt-5">Sponsors</h1>
-  <div class="row mt-5">
+<div class="row mt-5" data-aos="fade-up">
 <div class="col-lg-2 col-spo">
 <img src="img/sponsor1.png">
 </div>
@@ -243,6 +242,7 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -252,6 +252,9 @@
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
