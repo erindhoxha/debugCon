@@ -620,6 +620,11 @@ body svg path.st1 {
   nav {
     font-size: 20px;
   }
+
+  .banner-spo {
+    text-align: center;
+    min-height: 600px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   #nav-logo {
@@ -650,7 +655,7 @@ body svg path.st1 {
   }
 
   .p-sm {
-    font-size: 23px !important;
+    font-size: 23px;
   }
 
   .center-flex {

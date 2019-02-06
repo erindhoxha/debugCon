@@ -91,3 +91,44 @@
      },
    ]
  }
+
+
+
+  var sponsors = {
+    sponsorsks: [{
+        img: "img/sponsor1.png",
+      },
+      {
+        img: "img/sponsor1.png",
+      },
+      {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      }, {
+        img: "img/sponsor1.png",
+      },
+    ]
+  }

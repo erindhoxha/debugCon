@@ -195,97 +195,8 @@
         GitHub
         Sponsors Site or email us.</h5>
       <h1 class="mt-5 link link-pink">Sponzoret</h1>
-      <div class="row mt-5" data-aos="fade-up">
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor1.png">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor2.svg">
-        </div>
-        <div class="col-lg-2 col-spo">
-          <img src="img/sponsor3.svg">
-        </div>
+      <div class="row mt-5" id="sponsor-div" data-aos="fade-up">
+
       </div>
     </div>
   </div>
@@ -336,11 +247,25 @@
         {{/each}}
     </script>
 
+    <script id="sponsors-template" type="text/x-handlebars-template">
+            {{#each sponsorsks}}
+            <div class="col-lg-2 col-sm-4 col-4 col-spo">
+              <img src="img/sponsor3.svg">
+            </div>
+            {{/each}}
+      </script>
+
   <script type="text/javascript">
     var templateInfo = document.getElementById('speakers-template').innerHTML;
     var template = Handlebars.compile(templateInfo);
     var templateData = template(speakers);
     document.getElementById('person-div').innerHTML += templateData;
+
+    var templateInfoOfSponsors = document.getElementById('sponsors-template').innerHTML;
+    var templateOfSponsors = Handlebars.compile(templateInfoOfSponsors);
+    var templateDataOfSponsors = templateOfSponsors(sponsors);
+    document.getElementById('sponsor-div').innerHTML += templateDataOfSponsors;
+
   </script>
 </body>
 
