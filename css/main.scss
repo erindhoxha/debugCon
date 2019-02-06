@@ -43,12 +43,26 @@ html {
   transition:0.3s ease;
 }
 .banner-loc {
-  height:25vh;
-  background: linear-gradient(90deg, #845EC2 0%, #FF6F91 100%);
+  height:40vh;
+  background: linear-gradient(90deg, #845EC2 0%, rgb(49, 0, 172) 100%);
 }
 .banner-spo {
     height:25vh;
     background: linear-gradient(90deg, #845EC2 0%, #2C73D2 100%);
+}
+.title {
+  font-size:40px !important;
+}
+.image-scale {
+  transition:0.3s ease;
+  cursor:pointer;
+}
+.image-scale:hover {
+  transform:scale(1.06);
+}
+.form-a-link, .form-a-link:hover {
+  color:rgb(217, 194, 255);
+  text-decoration: underline;
 }
 #sponsors {
   background-color:white;
@@ -677,4 +691,50 @@ nav {
   }
 }
 
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.curly-left {
+  width:50px !important;
+  left:0;
+  position:absolute;
+  bottom:15%;
+  z-index:2;
+}
+.curly-right {
+  width: 50px !important;
+  right: 0;
+  position: absolute;
+  bottom: 15%;
+  transform: rotate(180deg);
+  z-index:2;
+}
+.text {
+  color: #6022FF;
+  background-color:rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight:600;
+  position: absolute;
+  padding:10px 30px;
+  top: 50%;
+  left: 50%;
+  border-radius:20px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

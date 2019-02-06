@@ -2,92 +2,116 @@
    speakersks: [{
        img: "img/person1.png",
        goToId: 'speakers/#id',
-       'img-id':1
+       'img-id':1,
+       text:'Justin Bieber'
      },
      {
        img: "img/person2.png",
-       'img-id': 2
+       'img-id': 2,
+       text:'Denat Hoxha'
      },
      {
        img: "img/person3.png",
-       'img-id': 3
+       'img-id': 3,
+       text: 'Denat Hoxha'
      },
      {
        img: "img/person4.png",
-       'img-id': 4
+       'img-id': 4,
+       text: 'Denat Hoxha'
      },
      {
        img: "img/person5.png",
-       'img-id': 5
+       'img-id': 5,
+       text: 'Denat Hoxha'
      },
      {
        img: "img/person1.png",
-       'img-id': 6
+       'img-id': 6,
+       text: 'Denat Hoxha'
      },
      {
        img: "img/person2.png",
-       'img-id': 7
+       'img-id': 7,
+       text: 'Denat Hoxha'
      },
      {
        img: "img/person3.png",
-         'img-id': 8
+         'img-id': 8,
+         text: 'Denat Hoxha'
      },
      {
        img: "img/person4.png",
-         'img-id': 9
+         'img-id': 9,
+         text: 'Denat Hoxha'
      },
      {
        img: "img/person5.png",
-         'img-id': 10
+         'img-id': 10,
+         text: 'Denat Hoxha'
      },
      {
        img: "img/person1.png",
-         'img-id': 11
+         'img-id': 11,
+         text: 'Denat Hoxha'
      },
      {
        img: "img/person2.png",
-         'img-id': 12
+         'img-id': 12,
+         text: 'Denat Hoxha'
      },
      {
        img: "img/person3.png",
-         'img-id': 13
+         'img-id': 13,
+         text: 'Denat Hoxha'
      },
      {
        img: "img/person4.png",
-         'img-id': 14
+         'img-id': 14,
+         text: 'Denat Hoxha'
      },
      {
        img: "img/person5.png",
-         'img-id': 15
+         'img-id': 15,
+         text: 'Denat Hoxha'
      },
      {
        img: "img/person1.png",
-         'img-id': 16
+         'img-id': 16,
+         text: 'Denat Hoxha'
      }, {
        img: "img/person2.png",
-         'img-id': 17
+         'img-id': 17,
+         text: 'Denat Hoxha'
      }, {
        img: "img/person3.png",
-         'img-id': 18
+         'img-id': 18,
+         text: 'Denat Hoxha'
      }, {
        img: "img/person4.png",
-         'img-id': 19
+         'img-id': 19,
+         text: 'Denat Hoxha'
      }, {
        img: "img/person5.png",
-         'img-id': 20
+         'img-id': 20,
+         text: 'Denat Hoxha'
      },
      {
        img: "img/person1.png",
-         'img-id': 21
+         'img-id': 21,
+         text: 'Denat Hoxha'
      }, {
        img: "img/person2.png",
-         'img-id': 22
+         'img-id': 22,
+         text: 'Denat Hoxha'
      }, {
        img: "img/person3.png",
-         'img-id': 23
+         'img-id': 23,
+         text: 'Denat Hoxha'
      }, {
        img: "img/person4.png",
-         'img-id': 24
+         'img-id': 24,
+         text: 'Denat Hoxha'
      },
    ]
  }

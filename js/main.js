@@ -1,3 +1,15 @@
+
+$(".image-scale").mouseover(function () {
+  var id = $(this).find('img').attr('id');
+  console.log(id);
+  $("#overlay-" + id).css('opacity', '1');
+});
+
+$(".image-scale").mouseleave(function () {
+  var id = $(this).find('img').attr('id');
+  $("#overlay-" + id).css('opacity', '0');
+});
+
 //Illustration By Rick Granados
 $("#svg-square-icon").on('click', function() {
   drawSVGPaths('svg', 2222, 500, 400);
@@ -242,4 +254,3 @@ $(document).on('scroll', function () {
 })
 
 startSVGAnimationMain($('#code-debugcon'));
-
