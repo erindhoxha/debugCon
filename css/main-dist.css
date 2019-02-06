@@ -508,10 +508,39 @@ body svg path.st1 {
     transform: translatey(0px);
   }
 }
+#code-debugcon {
+  margin: 0px;
+  position: absolute;
+  right: 0%;
+  height: 400px;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 0.1;
+}
+#code-debugcon .st0 {
+  fill: none;
+  stroke: #6022FF;
+  stroke-width: 5px;
+  stroke-miterlimit: 10;
+}
+
 .speakers {
-  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.speakers .clip-border {
+  width: 150px;
+  height: 100%;
+  background-color: white;
+  clip-path: circle(62px at center);
+  position: absolute;
 }
 .speakers img {
+  width: 150px;
   clip-path: circle(60px at center);
 }
 

@@ -237,3 +237,5 @@ $(document).on('scroll', function () {
     isScrolled = false;
   }
 })
+
+startSVGAnimation($('#code-debugcon'));

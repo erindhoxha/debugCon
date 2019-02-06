@@ -511,11 +511,40 @@ body {
     }
   }
 
+#code-debugcon {
+   .st0 {
+    fill: none;
+    stroke: #6022FF;
+    stroke-width: 5px;
+    stroke-miterlimit: 10;
+  }
+      margin: 0px;
+      position: absolute;
+      right: 0%;
+      height: 400px;
+      bottom: 0;
+      overflow: hidden;
+      opacity: 0.1;
+}
 
 
 .speakers {
-  height:100vh;
+  padding-top:100px;
+  padding-bottom:100px;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  .clip-border {
+    width:150px;
+    height:100%;
+    background-color:white;
+    clip-path: circle(62px at center);
+    position:absolute;
+  }
   img {
+    width:150px;
     clip-path: circle(60px at center);
   }
 }
+
