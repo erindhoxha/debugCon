@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main-dist.css">
+  <link rel="stylesheet" href="css/form.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -134,24 +135,24 @@
   <div class="container people text-white margin-mobile">
     <div class="row flex-center">
       <div class="col-lg-4" data-aos="fade-up">
-        <i class="fas fa-users"></i>
+        <i class="fas fa-users float-animate"></i>
         <h3>Prezantuesit</h3>
         <p class="p-lg p-sm mt-4">Ne DebugCon kemi 24 prezantues, secili ka per qellim per te prezantuar temen ose lamine e tyre profesionale.</p>
-        <a class="link link-green">Prezantuesit</a>
+        <a class="link link-green float-animate ">Prezantuesit</a>
       </div>
 
       <div class="col-lg-4 text-white margin-mobile" data-aos="fade-up">
-        <i class="fas fa-users"></i>
+        <i class="fas fa-map-marker-alt float-animate"></i>
         <h3>Lokacioni</h3>
         <p class="p-lg p-sm mt-4">Ambienti dhe lokacioni gjindet ne Pallatin e Rinise 24/B 227 - Gjeje ne google maps.</p>
-        <a class="link link-pink">Lokacioni ne google maps</a>
+        <a class="link link-pink float-animate ">Lokacioni ne google maps</a>
       </div>
 
       <div class="col-lg-4 text-white margin-mobile" data-aos="fade-up">
-        <i class="fas fa-users"></i>
+        <i class="fas fa-code float-animate "></i>
         <h3>Tema</h3>
         <p class="p-lg p-sm mt-4">Tema dhe qellimi i debugCon eshte te mbledhemi sa me shume profesional, student ose te interesuar per programim.</p>
-        <a class="link link-cyan">Tema dhe qellimi</a>
+        <a class="link link-cyan float-animate ">Tema dhe qellimi</a>
       </div>
     </div>
   </div>
@@ -169,31 +170,92 @@
     </div>
   </div>
 
+  <div class="bg-contact3">
+    <div class="container-contact3">
+      <div class="wrap-contact3">
+        <form class="contact3-form validate-form">
+          <span class="contact3-form-title">
+            Apliko per te prezantuar.
+          </span>
+  
+          <div class="wrap-input3 validate-input" data-validate="Name is required">
+            <input class="input3" type="text" name="name" placeholder="Your Name">
+            <span class="focus-input3"></span>
+          </div>
+  
+          <div class="wrap-input3 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+            <input class="input3" type="text" name="email" placeholder="Your Email">
+            <span class="focus-input3"></span>
+          </div>
+  
+          <div class="wrap-input3 validate-input" data-validate="Message is required">
+            <textarea class="input3" name="message" placeholder="Your Message"></textarea>
+            <span class="focus-input3"></span>
+          </div>
+  
+          <div class="container-contact3-form-btn">
+            <button class="contact3-form-btn">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
 
   <div class="container-fluid banner-spo">
     <div class="banner-loc-overlay">
       <div class="center-flex">
         <div id="svg-container" data-aos="fade-up">
-          <svg id="svg-square-icon" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px" y="0px" viewBox="0 0 449 430" enable-background="new 0 0 449 430" xml:space="preserve">
-            <rect id="XMLID_1_" x="33" y="118" fill="none" stroke="#231F20" stroke-width="7" stroke-miterlimit="10"
-              width="288" height="288" />
-            <rect id="XMLID_3_" x="97" y="31" fill="none" stroke="#231F20" stroke-width="7" stroke-miterlimit="10"
-              width="288" height="288" />
-          </svg>
+        <svg version="1.1" id="svg-icon-code" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+          y="0px" viewBox="0 0 108 102" style="enable-background:new 0 0 108 102;" xml:space="preserve">
+          <g id="XMLID_30_">
+            <g id="XMLID_34_">
+              <path id="XMLID_35_" class="st0" d="M-83.5,82.9c0.6,1.2,1,1.8,2.1,2.4L-80,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
+        			l-0.8-0.9l-3.3-2.9c-1-1-2-2.1-2.7-3.3c-1.9-3.4-2.1-6.5-2.1-9.9V62.3c0-2.1-0.3-4.1-0.9-4.5c-0.7-0.7-1.7-1-2.7-1h-2.1
+        			c-1.4,0-2.1-0.7-2.1-2.1v-5.5c0-1.4,0.7-2.1,2.1-2.1h2.1c1.1,0,2-0.3,2.6-1c0.6-0.6,1-3.3,1-5.4v-14c0-3.4,0.2-6.7,2.1-10.1
+        			c1.6-2.9,3.6-4.8,6.4-7.5l0.5-0.5c1-1,2-1,3,0l4.5,4.4c0.9,0.9,0.9,2.1,0,2.9l-1.2,1.2l-1.8,1.9c-0.6,0.6-1,1.3-1.4,2.1
+        			c-0.6,1.3-1,3.3-1.1,6l-0.2,14.3c-0.1,4.4-1.2,8.3-3.7,10.4c2.9,2.2,3.6,5.8,3.7,9.5l0.2,14.4c0.1,2.6,0.4,4.6,1,6L-83.5,82.9z" />
+            </g>
+            <g id="XMLID_31_">
+              <path id="XMLID_32_" class="st0" d="M-31.9,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
+        			l-0.2-14.3c-0.1-2.8-0.5-4.8-1.1-6c-0.4-0.9-0.9-1.5-1.4-2.1l-1.8-1.9l-1.2-1.2c-0.9-0.9-0.9-2.1,0-2.9l4.5-4.4c1-1,2-1,3,0
+        			l0.5,0.5c2.8,2.8,4.8,4.6,6.4,7.5c1.8,3.4,2.1,6.7,2.1,10.1v14c0,2.1,0.4,4.8,1,5.4c0.6,0.6,1.5,1,2.6,1h2.1
+        			c1.4,0,2.1,0.7,2.1,2.1v5.5c0,1.4-0.7,2.1-2.1,2.1h-2.1c-1,0-2,0.3-2.7,1c-0.6,0.4-0.9,2.4-0.9,4.5v14.1c0,3.4-0.2,6.5-2.1,9.9
+        			c-0.7,1.2-1.7,2.3-2.7,3.3l-3.3,2.9l-0.8,0.9c-0.7,0.9-2,1.2-2.9,0l-4.5-4.4c-1-1-1-2,0.2-3l1.4-0.7c1.2-0.6,1.6-1.2,2.1-2.4
+        			L-31.9,81.8z" />
+            </g>
+          </g>
+          <g id="XMLID_1_">
+            <g id="XMLID_38_">
+              <path id="XMLID_39_" class="st0" d="M28.5,82.9c0.6,1.2,1,1.8,2.1,2.4L32,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
+        			l-0.8-0.9l-3.3-2.9c-1-1-2-2.1-2.7-3.3c-1.9-3.4-2.1-6.5-2.1-9.9V62.3c0-2.1-0.3-4.1-0.9-4.5c-0.7-0.7-1.7-1-2.7-1h-2.1
+        			c-1.4,0-2.1-0.7-2.1-2.1v-5.5c0-1.4,0.7-2.1,2.1-2.1h2.1c1.1,0,2-0.3,2.6-1c0.6-0.6,1-3.3,1-5.4v-14c0-3.4,0.2-6.7,2.1-10.1
+        			c1.6-2.9,3.6-4.8,6.4-7.5l0.5-0.5c1-1,2-1,3,0l4.5,4.4c0.9,0.9,0.9,2.1,0,2.9l-1.2,1.2L29.4,19c-0.6,0.6-1,1.3-1.4,2.1
+        			c-0.6,1.3-1,3.3-1.1,6l-0.2,14.3c-0.1,4.4-1.2,8.3-3.7,10.4c2.9,2.2,3.6,5.8,3.7,9.5l0.2,14.4c0.1,2.6,0.4,4.6,1,6L28.5,82.9z" />
+            </g>
+            <g id="XMLID_2_">
+              <path id="XMLID_36_" class="st0" d="M80.1,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
+        			l-0.2-14.3c-0.1-2.8-0.5-4.8-1.1-6c-0.4-0.9-0.9-1.5-1.4-2.1l-1.8-1.9l-1.2-1.2c-0.9-0.9-0.9-2.1,0-2.9l4.5-4.4c1-1,2-1,3,0
+        			L83.6,9c2.8,2.8,4.8,4.6,6.4,7.5C91.8,20,92,23.2,92,26.7v14c0,2.1,0.4,4.8,1,5.4c0.6,0.6,1.5,1,2.6,1h2.1c1.4,0,2.1,0.7,2.1,2.1
+        			v5.5c0,1.4-0.7,2.1-2.1,2.1h-2.1c-1,0-2,0.3-2.7,1c-0.6,0.4-0.9,2.4-0.9,4.5v14.1c0,3.4-0.2,6.5-2.1,9.9c-0.7,1.2-1.7,2.3-2.7,3.3
+        			l-3.3,2.9l-0.8,0.9c-0.7,0.9-2,1.2-2.9,0L75.7,89c-1-1-1-2,0.2-3l1.4-0.7c1.2-0.6,1.6-1.2,2.1-2.4L80.1,81.8z" />
+            </g>
+          </g>
+        </svg>
         </div>
         <div data-aos="fade-up">
-          <h1>Sponsors and Community Partners.</h1>
+          <h1>Sponzoret dhe partneret e komunitetit.</h1>
         </div>
       </div>
     </div>
   </div>
 
+
   <div id="sponsors">
     <div class="container">
-      <h5>Meet the organizations that make Universe possible. If you’d like to learn more about sponsorships, visit our
-        GitHub
-        Sponsors Site or email us.</h5>
+      <h5>Njoftohu me sponzoret dhe partneret qe e mundesuan debugCon. Nese deshironi te dish me shume per sponzorshipin, vizito linkun "Pse debugCon" per me shume informata ose dergoni email.</h5>
       <h1 class="mt-5 link link-pink">Sponzoret</h1>
       <div class="row mt-5" id="sponsor-div" data-aos="fade-up">
 
@@ -236,6 +298,7 @@
     AOS.init();
   </script>
   <script src="js/handlebars-v4.0.12.js"></script>
+  <script src="js/form.js"></script>
 
   <script id="speakers-template" type="text/x-handlebars-template">
         {{#each speakersks}}

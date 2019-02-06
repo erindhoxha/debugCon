@@ -498,7 +498,9 @@ body {
   .btn-speaker:hover {
    animation: float 2s ease-in-out infinite;
   }
-
+  .float-animate {
+    animation: float 2s ease-in-out infinite;
+  }
   @keyframes float {
     0% {
       transform: translatey(0px);
@@ -673,3 +675,5 @@ nav {
     }
   }
 }
+
+
