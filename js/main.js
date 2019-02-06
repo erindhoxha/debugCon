@@ -1,6 +1,6 @@
 //Illustration By Rick Granados
 $("#svg-square-icon").on('click', function() {
-  drawSVGPaths('svg', 250, 1500, 222);
+  drawSVGPaths('svg', 2222, 500, 400);
 })
 
 jQuery.extend(jQuery.easing, {
@@ -214,8 +214,26 @@ function replaceWithPaths(parentElement) {
 }
 
 function startSVGAnimation(parentElement) {
-  drawSVGPaths(parentElement, 250, 500, 25);
+  drawSVGPaths(parentElement, 500, 700, 25);
 }
 
 replaceWithPaths($('svg'));
-startSVGAnimation($('#svg-square-icon'));
+
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 0) { // this refers to window
+    $("#nav-logo").show(100);
+    $(".logo-icon").hide(300);
+  } else {
+    $("#nav-logo").hide(100);
+    $(".logo-icon").show(300);
+  }
+});
+
+var isScrolled = true;
+$(document).on('scroll', function () {
+  if ($(this).scrollTop() <= $('#banner-loc').position().top && isScrolled) {
+    startSVGAnimation($('#svg-icon-code'));
+    isScrolled = false;
+  }
+})
