@@ -45,12 +45,12 @@ html {
 }
 
 .banner-loc {
-  height: 45vh;
+  height: 25vh;
   background: linear-gradient(90deg, #845EC2 0%, #FF6F91 100%);
 }
 
 .banner-spo {
-  height: 45vh;
+  height: 25vh;
   background: linear-gradient(90deg, #845EC2 0%, #2C73D2 100%);
 }
 
@@ -109,7 +109,7 @@ nav {
   margin: 0 auto;
 }
 .center-flex h1 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .navbar-brand {
