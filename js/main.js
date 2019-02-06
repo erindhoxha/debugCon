@@ -216,6 +216,9 @@ function replaceWithPaths(parentElement) {
 function startSVGAnimation(parentElement) {
   drawSVGPaths(parentElement, 500, 700, 25);
 }
+function startSVGAnimationMain(parentElement) {
+  drawSVGPaths(parentElement, 1400, 1200, 444);
+}
 
 replaceWithPaths($('svg'));
 
@@ -238,5 +241,5 @@ $(document).on('scroll', function () {
   }
 })
 
-startSVGAnimation($('#code-debugcon'));
+startSVGAnimationMain($('#code-debugcon'));
 
