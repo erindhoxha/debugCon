@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <div class="logo-container">
         <a class="navbar-brand" href="#"><img id="nav-logo" src="img/dblogo2.png"></a>
@@ -73,7 +73,7 @@
           DebugCon eshte nje konference per zhvilluesit, planifikuesit e se ardhmes dhe udheheqesit e te ardhmes se
           softuerit.
         </h1>
-        <p class="date-p"><span class="lead">MAR 23 - 24 2019</span> <br>
+        <p class="date-p"><span class="lead date-lead">MAR 23 - 24 2019</span> <br>
           PALLATI I RINISE | KOSOVE, PRISHTINE</p>
         <button class='btn-speaker'>Prezanto ne konference</button>
       </div>
@@ -124,37 +124,34 @@
 
         </div>
         <div data-aos="fade-up">
-          <h1>Na u bashkangjit per nje dite produktive qe shtyn teknologjine perpara. E ardhmja e software development
+          <h1 class="head-text">Na u bashkangjit per nje dite produktive qe shtyn teknologjine perpara. E ardhmja e software development
             nuk eshte larg, le ta ndertojme tani.</h1>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container people text-white">
+  <div class="container people text-white margin-mobile">
     <div class="row flex-center">
       <div class="col-lg-4" data-aos="fade-up">
         <i class="fas fa-users"></i>
-        <h3>Discover</h3>
-        <p class="p-lg mt-4">See how teams take projects from inspiration to launch across two days of talks and
-          events.</p>
-        <a class="link link-green">People speaking</a>
+        <h3>Prezantuesit</h3>
+        <p class="p-lg p-sm mt-4">Ne DebugCon kemi 24 prezantues, secili ka per qellim per te prezantuar temen ose lamine e tyre profesionale.</p>
+        <a class="link link-green">Prezantuesit</a>
       </div>
 
-      <div class="col-lg-4 text-white" data-aos="fade-up">
+      <div class="col-lg-4 text-white margin-mobile" data-aos="fade-up">
         <i class="fas fa-users"></i>
-        <h3>Discover</h3>
-        <p class="p-lg mt-4">See how teams take projects from inspiration to launch across two days of talks and
-          events.</p>
-        <a class="link link-pink">People speaking</a>
+        <h3>Lokacioni</h3>
+        <p class="p-lg p-sm mt-4">Ambienti dhe lokacioni gjindet ne Pallatin e Rinise 24/B 227 - Gjeje ne google maps.</p>
+        <a class="link link-pink">Lokacioni ne google maps</a>
       </div>
 
-      <div class="col-lg-4 text-white" data-aos="fade-up">
+      <div class="col-lg-4 text-white margin-mobile" data-aos="fade-up">
         <i class="fas fa-users"></i>
-        <h3>Discover</h3>
-        <p class="p-lg mt-4">See how teams take projects from inspiration to launch across two days of talks and
-          events.</p>
-        <a class="link link-cyan">People speaking</a>
+        <h3>Tema</h3>
+        <p class="p-lg p-sm mt-4">Tema dhe qellimi i debugCon eshte te mbledhemi sa me shume profesional, student ose te interesuar per programim.</p>
+        <a class="link link-cyan">Tema dhe qellimi</a>
       </div>
     </div>
   </div>
@@ -166,14 +163,10 @@
 
   <div class="speakers">
     <div class="container text-white text-center">
-      <h1 class="header-speakers link link-green mb-5">Speakers</h1>
-      <div class="row" id="person-div">
-        
+      <h1 class="header-speakers link link-purple mb-5">Speakers</h1>
+      <div class="row" id="person-div" data-aos="fade-up">
       </div>
     </div>
-
-
-
   </div>
 
 
@@ -201,7 +194,7 @@
       <h5>Meet the organizations that make Universe possible. If you’d like to learn more about sponsorships, visit our
         GitHub
         Sponsors Site or email us.</h5>
-      <h1 class="mt-5 link link-pink">Sponsors</h1>
+      <h1 class="mt-5 link link-pink">Sponzoret</h1>
       <div class="row mt-5" data-aos="fade-up">
         <div class="col-lg-2 col-spo">
           <img src="img/sponsor1.png">
@@ -335,13 +328,11 @@
 
   <script id="speakers-template" type="text/x-handlebars-template">
         {{#each speakersks}}
-        <a href="{{goToId}}">
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0">
           <div class="clip-border" style="position:absolute;">
           </div>
-          <img src="{{img}}">
+          <img src="{{img}}" id="{{img-id}}">
         </div>
-        </a>
         {{/each}}
     </script>
 

@@ -47,7 +47,7 @@ html {
   background: linear-gradient(90deg, #845EC2 0%, #FF6F91 100%);
 }
 .banner-spo {
-    height:30vh;
+    height:45vh;
     background: linear-gradient(90deg, #845EC2 0%, #2C73D2 100%);
 }
 #sponsors {
@@ -129,8 +129,8 @@ nav {
   justify-content: center;
   height:100%;
   width:100%;
-  margin-left:20% !important;
   flex-direction: column;
+  padding-top:50px;
 }
 .img-div {
   height:60vh;
@@ -154,7 +154,7 @@ nav {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23180c49' fill-opacity='0.4'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 .lead-hero-text {
-  font-size:2.5rem;
+  font-size:2.2rem;
 }
 
 .text-container {
@@ -166,7 +166,7 @@ nav {
     margin-bottom:20px;
   }
   display:flex;
-  height: 55vh;
+  height: 70vh;
   align-items:center;
 }
 
@@ -461,7 +461,9 @@ body {
 }
 .link-green:after {
   background: linear-gradient(90deg, #1d6200 0%, rgb(0, 178, 92) 50%);
-
+}
+.link-purple:after {
+  background: linear-gradient(90deg, #6022FF 0%, #6022FF 50%);
 }
 .link-pink:after {
   background: linear-gradient(90deg, #620021 0%, rgb(178, 0, 59) 50%);
@@ -529,8 +531,8 @@ body {
 
 
 .speakers {
-  padding-top:100px;
-  padding-bottom:100px;
+  padding-top:150px;
+  padding-bottom:150px;
   height:100%;
   display:flex;
   justify-content: center;
@@ -538,13 +540,132 @@ body {
   .clip-border {
     width:150px;
     height:100%;
-    background-color:white;
-    clip-path: circle(62px at center);
     position:absolute;
   }
   img {
-    width:150px;
-    clip-path: circle(60px at center);
+    width:100%;
+    padding:5px;
   }
 }
 
+
+@media only screen and (max-width: 767px) {
+ .lead-hero-text {
+   font-size:1.5rem !important;
+ }
+ .banner {
+   min-height:900px;
+   height:100%;
+   padding-top:100px;
+ }
+ .logo-icon {
+   width:100%;
+ }
+ .date-lead, .date-p {
+   font-size:15px !important;
+ }
+ .banner-loc {
+   height:100%;
+ }
+ .people {
+   height:100%;
+   text-align:center;
+   padding-top:80px;
+   padding-bottom:80px;
+   .margin-mobile {
+     margin-top:40px;
+   }
+ }
+ .center-flex {
+   flex-direction: column;
+   width:90%;
+   padding-bottom:80px;
+   padding-top:80px;
+   .head-text {
+     font-size:20px !important;
+     margin-top:20px;
+     text-align:center;
+   }
+ }
+#person-div {
+  padding:10px;
+}
+.speakers {
+
+  .clip-border {
+    width: 82px;
+    height: 100%;
+    background-color: #FFF;
+    clip-path: circle(0px at center);
+    position: absolute;
+  }
+
+  img {
+    width: 100%;
+    clip-path: none;
+  }
+}
+.btn-speaker-nav {
+  margin-top:15px;
+  margin-bottom:26px;
+}
+.btn-speaker {
+  padding:10px;
+  font-size:16px !important;
+}
+nav {
+  font-size:20px;
+}
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #nav-logo {
+      width:240px;
+    }
+   .date-lead,
+   .date-p {
+     font-size: 21px;
+   }
+   .btn-speaker {
+     font-size:21px;
+   }
+
+   .banner-loc {
+     height: 100%;
+   }
+
+   .people {
+     height: 100%;
+     text-align: center;
+     padding-top: 80px;
+     padding-bottom: 80px;
+
+     .margin-mobile {
+       margin-top: 40px;
+     }
+   }
+    .p-sm {
+      font-size: 23px !important;
+    }
+   .center-flex {
+     flex-direction: column;
+     width: 90%;
+     padding-bottom: 80px;
+     padding-top: 80px;
+
+     .head-text {
+       font-size: 28px;
+       margin-top: 20px;
+       text-align: center;
+     }
+   }
+  nav {
+    font-size:23px;
+    .btn-speaker-nav {
+      margin-top:25px;
+      margin-bottom:25px;
+      font-size:18px;
+    }
+  }
+}
