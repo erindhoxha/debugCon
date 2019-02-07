@@ -1,7 +1,6 @@
 
 $(".image-scale").mouseover(function () {
   var id = $(this).find('img').attr('id');
-  console.log(id);
   $("#overlay-" + id).css('opacity', '1');
 });
 
@@ -261,6 +260,8 @@ startSVGAnimationMain($('#code-debugcon'));
 $(function () {
 
   $('.md-trigger').on('click', function () {
+    console.log($(this).attr('data-nr'));
+    var dataNr = $(this).attr('data-nr');
     $('.md-modal').addClass('md-show');
     startSVGAnimation($('#code-debugcon-overlay'));
   });
