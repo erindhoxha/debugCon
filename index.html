@@ -40,7 +40,7 @@
             <a class="nav-link" href="#">N'shpi <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="prezantuesit.html">Prezantuesit</a>
+            <a class="nav-link" href="#prezantuesit">Prezantuesit</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">Pse DebugCon?</a>
@@ -146,12 +146,12 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <img style="width:300px" src="img/person1.png">
-            <h1 class="mt-4" style="font-family:Track">Denat Hoxha</h1>
-            <h5>Software Engineer</h5>
-            <p style="width:60%; margin:0 auto;" class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem odit delectus voluptatem non exercitationem culpa facere ex adipisci cupiditate! Delectus nihil nostrum pariatur. Ducimus esse ea quia recusandae natus id quo necessitatibus, amet tenetur est, ullam animi sit excepturi.</p>
-            <p style="width:60%; margin:0 auto;" class="mb-4">Lorem iamet tenetur est, ullam animi sit excepturi.</p>
-            <h5>Day 1 - 9AM - 10AM</h5>
-            <h5>The stars and the galaxy.</h5>
+            <h1 id="name-speaker" class="mt-4" style="font-family:Track">Denat Hoxha</h1>
+            <h5 id="occupation">Software Engineer</h5>
+            <p id="paragraph-1" style="width:60%; margin:0 auto;" class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem odit delectus voluptatem non exercitationem culpa facere ex adipisci cupiditate! Delectus nihil nostrum pariatur. Ducimus esse ea quia recusandae natus id quo necessitatibus, amet tenetur est, ullam animi sit excepturi.</p>
+            <p id="paragraph-2" style="width:60%; margin:0 auto;" class="mb-4">Lorem iamet tenetur est, ullam animi sit excepturi.</p>
+            <h5 id="days-text">Day 1 - 9AM - 10AM</h5>
+            <h5 id="days-subject">The stars and the galaxy.</h5>
         </div>
       </div>
 
@@ -187,24 +187,24 @@
     <div class="row flex-center">
       <div class="col-lg-4">
         <i class="fas fa-users float-animate"></i>
-        <h3>Prezantuesit</h3>
-
+        <a href="#prezantuesit">
+        <h3 class="link-t link-green float-animate">Prezantuesit</h3>
+        </a>
         <p class="p-lg p-sm mt-4">Ne DebugCon kemi 24 prezantues, secili ka per qellim per te prezantuar temen ose lamine e tyre profesionale.</p>
-        <a class="link link-green float-animate ">Prezantuesit</a>
       </div>
 
       <div class="col-lg-4 text-white margin-mobile">
         <i class="fas fa-map-marker-alt float-animate"></i>
-        <h3>Lokacioni</h3>
+        <a href="https://www.google.com/maps/dir//42.658796,21.1579646/@42.6588861,21.157774,57m/data=!3m1!1e3" target="_blank">
+        <h3 class="link-t link-pink">Lokacioni</h3>
+        </a>
         <p class="p-lg p-sm mt-4">Ambienti dhe lokacioni gjindet ne Pallatin e Rinise 24/B 227 - Gjeje ne google maps.</p>
-        <a class="link link-pink float-animate ">Lokacioni ne google maps</a>
       </div>
 
       <div class="col-lg-4 text-white margin-mobile">
         <i class="fas fa-code float-animate "></i>
-        <h3>Tema</h3>
+        <h3 class="link-t link-cyan float-animate">Kur dhe ku?</h3>
         <p class="p-lg p-sm mt-4">Tema dhe qellimi i debugCon eshte te mbledhemi sa me shume profesional, student ose te interesuar per programim.</p>
-        <a class="link link-cyan float-animate ">Tema dhe qellimi</a>
       </div>
     </div>
   </div>
@@ -218,17 +218,17 @@
   <div class="bg-contact3" id="apliko">
     <div class="container-contact3">
       <div class="wrap-contact3">
-        <form class="contact3-form validate-form">
+        <form class="contact3-form validate-form" action="https://formspree.io/erind.cbh@gmail.com" method="POST">
           <span class="contact3-form-title">
             Apliko per te prezantuar.
           </span>
           <div class="wrap-input3 validate-input">
-            <input class="input3" type="email" name="name" placeholder="Your Name">
+            <input class="input3" type="text" name="name" placeholder="Your Name">
             <span class="focus-input3"></span>
           </div>
   
           <div class="wrap-input3 validate-input">
-            <input class="input3" type="text" name="email" placeholder="Your Email">
+            <input class="input3" type="email" name="email" placeholder="Your Email">
             <span class="focus-input3"></span>
           </div>
   

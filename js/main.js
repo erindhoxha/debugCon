@@ -262,8 +262,19 @@ $(function () {
   $('.md-trigger').on('click', function () {
     console.log($(this).attr('data-nr'));
     var dataNr = $(this).attr('data-nr');
+    $("#name-speaker").text(speakers.speakersks[dataNr].name);
+    $("#occupation").text(speakers.speakersks[dataNr].occupation);
+    $("#paragraph-1").text(speakers.speakersks[dataNr].p1);
+    $("#paragraph-2").text(speakers.speakersks[dataNr].p2);
+    $("#days-text").text(speakers.speakersks[dataNr].daysText);
+    $("#days-subject").text(speakers.speakersks[dataNr].daysSubject);
+
     $('.md-modal').addClass('md-show');
     startSVGAnimation($('#code-debugcon-overlay'));
+  });
+
+  $(document).keyup(function (e) {
+    if (e.keyCode === 27) $('.md-close').click(); // esc
   });
 
   $('.md-close').on('click', function () {

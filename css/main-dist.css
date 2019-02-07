@@ -202,6 +202,7 @@ nav {
 .people i {
   font-size: 40px;
   margin-bottom: 20px;
+  display: inherit;
 }
 
 /*
@@ -476,6 +477,17 @@ body svg path.st1 {
   transition: transform 0.4s ease-in-out;
 }
 
+.link-t:after {
+  content: "";
+  width: 200%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: transform 0.4s ease-in-out;
+}
+
 .link-green:after {
   background: linear-gradient(90deg, #1d6200 0%, #00b25c 50%);
 }
@@ -500,6 +512,13 @@ body svg path.st1 {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.link-t {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -768,6 +787,11 @@ body svg path.st1 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.text-white a {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main-dist.css.map */

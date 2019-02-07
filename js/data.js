@@ -1,7 +1,8 @@
  var speakers = {
    speakersks: [{
        img: "img/person1.png",
-       goToId: 'speakers/#id',
+       name: 'Erind Hoxha',
+       occupation: 'Front-end Developer',
        'img-id':1,
        text:'Justin Bieber'
      },
@@ -158,4 +159,3 @@
   }
 
 
-  
