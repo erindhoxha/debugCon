@@ -129,6 +129,7 @@ nav {
 }
 
 .banner {
+  min-height:900px;
   height: 95vh;
   background-color:rgba(0, 0, 0, 0.34);
 }
@@ -544,6 +545,23 @@ body {
       overflow: hidden;
       opacity: 0.1;
 }
+
+#code-debugcon-overlay {
+  .st0 {
+    fill: none;
+    stroke: #6022FF;
+    stroke-width: 5px;
+    stroke-miterlimit: 10;
+  }
+
+  margin: 0px;
+  position: absolute;
+  height: 400px;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 0.1;
+}
+
 
 
 .speakers {

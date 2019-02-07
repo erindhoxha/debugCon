@@ -254,3 +254,19 @@ $(document).on('scroll', function () {
 })
 
 startSVGAnimationMain($('#code-debugcon'));
+
+
+// spekaers js
+
+$(function () {
+
+  $('.md-trigger').on('click', function () {
+    $('.md-modal').addClass('md-show');
+    startSVGAnimation($('#code-debugcon-overlay'));
+  });
+
+  $('.md-close').on('click', function () {
+    $('.md-modal').removeClass('md-show');
+  });
+
+});
