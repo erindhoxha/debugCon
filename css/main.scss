@@ -602,11 +602,17 @@ body {
 
 
 @media only screen and (max-width: 767px) {
+  #nav-logo {
+    width:200px;
+  }
+  .title {
+    text-align:center;
+  }
  .lead-hero-text {
    font-size:1.5rem !important;
  }
  .banner {
-   min-height:900px;
+   min-height:650px;
    height:100%;
    padding-top:100px;
  }
@@ -670,21 +676,24 @@ nav {
 }
 .banner-spo {
   text-align:center;
-  min-height:600px;
+  min-height:400px;
 }
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1023px) {
+  .lead-hero-text {
+    font-size:32px;
+  }
     #nav-logo {
-      width:240px;
+      width:230px;
     }
    .date-lead,
    .date-p {
-     font-size: 21px;
+     font-size: 19px;
    }
    .btn-speaker {
-     font-size:21px;
+     font-size:19px;
    }
 
    .banner-loc {
@@ -702,7 +711,18 @@ nav {
      }
    }
     .p-sm {
-      font-size: 23px;
+      font-size: 19px;
+    }
+    #paragraph-1 {
+      font-size:21px;
+    }
+    .banner-spo {
+      text-align:center;
+      min-height:400px;
+      font-size:23px;
+    }
+    .row.flex-center .p-lg {
+      font-size:23px !important;
     }
    .center-flex {
      flex-direction: column;
@@ -711,17 +731,20 @@ nav {
      padding-top: 80px;
 
     .head-text {
-      font-size: 28px;
+      font-size: 23px;
       margin-top: 20px;
       text-align: center;
     }
+   }
+   .title {
+     text-align:center;
    }
   nav {
     font-size:23px;
     .btn-speaker-nav {
       margin-top:25px;
       margin-bottom:25px;
-      font-size:18px;
+      font-size:17px;
     }
   }
 }

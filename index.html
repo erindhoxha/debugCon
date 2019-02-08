@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main-dist.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="css/speakers.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -40,13 +40,19 @@
             <a class="nav-link" href="#">N'shpi <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
+            <a class="nav-link" href="#kudhekur">Ku dhe kur?</a>
+          </li>
+          <li class="nav-item active">
             <a class="nav-link" href="#prezantuesit">Prezantuesit</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="prezantuesit.html">Thirrje per propozime</a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#info">Info</a>
+          </li>
         </ul>
-        <a href="#apliko"><button class="btn-speaker-nav">Prezanto ne konference</button></a>
+        <a href="prezanto.html"><button class="btn-speaker-nav">Prezanto ne konference</button></a>
       </div>
     </div>
   </nav>
@@ -77,7 +83,6 @@
         </h1>
         <p class="date-p"><span class="lead date-lead">MAR 23 - 24 2019</span> <br>
           PALLATI I RINISE | KOSOVE, PRISHTINE</p>
-        <a href="#apliko"><button class='btn-speaker'>Prezanto ne konference</button><br></a>
         <button class='btn-speaker'>Kush ka me prezantu?</button>
       </div>
     </div>
@@ -86,7 +91,7 @@
 
 
 <div class="container-fluid banner-loc" id="banner-loc">
-  <div class="banner-loc-overlay">
+  <div class="banner-loc-overlay" id="kudhekur">
     <div class="center-flex">
       <div id="svg-container" data-aos="fade-up">
         <svg version="1.1" id="svg-icon-code" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -235,7 +240,7 @@
   </div>
 </div>
 
-  <div class="container people text-white margin-mobile">
+  <div class="container people text-white margin-mobile" id="info">
     <div class="row flex-center">
       <div class="col-lg-4">
         <i class="fas fa-users float-animate"></i>
