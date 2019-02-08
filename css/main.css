@@ -516,6 +516,15 @@ body {
     border-radius: 13px; }
 
 @media only screen and (max-width: 767px) {
+  .md-modal {
+    overflow: scroll;
+    padding-bottom: 100px; }
+
+  .md-content img {
+    width: 100px !important; }
+  .md-content #name-speaker {
+    font-size: 15px; }
+
   #nav-logo, #nav-show {
     width: 200px; }
 

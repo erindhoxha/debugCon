@@ -1,7 +1,7 @@
 
 .md-close {
   position:absolute;
-  top: -85px;
+  top: 20px;
   right:24px;
   cursor:pointer;
   font-size:30px;
@@ -10,7 +10,7 @@
 .md-modal {
   margin: auto;
   position: fixed;
-  top: 100px;
+  top: 0px;
   left: 0;
   right: 0;
   width: 100%;

@@ -148,8 +148,8 @@
     <div class="md-modal md-effect-12">
       <div class="md-content">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <img style="width:300px" src="img/person1.png">
+          <div class="col-lg-12 text-center mt-5">
+            <img style="width:150px" src="img/person1.png">
             <h1 id="name-speaker" class="mt-4" style="font-family:Track">Denat Hoxha</h1>
             <h5 id="occupation">Software Engineer</h5>
             <p id="paragraph-1" style="width:60%; margin:0 auto;" class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem odit delectus voluptatem non exercitationem culpa facere ex adipisci cupiditate! Delectus nihil nostrum pariatur. Ducimus esse ea quia recusandae natus id quo necessitatibus, amet tenetur est, ullam animi sit excepturi.</p>
@@ -163,10 +163,6 @@
         </div>
       </div>
     </div>
-
-
-
-
 <div class="md-overlay">
   <svg version="1.1" id="code-debugcon-overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
     x="0px" y="0px" viewBox="0 0 383.9 238.3" style="enable-background:new 0 0 383.9 238.3;" xml:space="preserve">
@@ -186,8 +182,9 @@
 
 
 
-    <div class="row" id="person-div" data-aos="fade-up">
-    </div>
+<div class="row" id="person-div" data-aos="fade-up">
+  </div>
+  
   </div>
 </div>
 
@@ -357,8 +354,6 @@
   <script id="speakers-template" type="text/x-handlebars-template">
         {{#each speakersks}}
           <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0 image-scale md-trigger" data-nr={{@index}}>
-          <div class="clip-border" style="position:absolute;">
-          </div>
           <img src="{{img}}" id="{{img-id}}">
             <div class="overlay" id="overlay-{{img-id}}">
             <div class="text" id="text-{{img-id}}">{{text}}</div>
