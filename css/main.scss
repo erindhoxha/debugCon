@@ -602,7 +602,7 @@ body {
 
 
 @media only screen and (max-width: 767px) {
-  #nav-logo {
+  #nav-logo, #nav-show {
     width:200px;
   }
   .title {
@@ -672,8 +672,15 @@ body {
   font-size:16px !important;
 }
 nav {
-  font-size:20px;
+  font-size:19px !important;
+  .btn-speaker-nav {
+    font-size:14px !important;
+  }
 }
+.contact3-form-btn {
+  width:100%;
+}
+
 .banner-spo {
   text-align:center;
   min-height:400px;
@@ -685,7 +692,7 @@ nav {
   .lead-hero-text {
     font-size:32px;
   }
-    #nav-logo {
+    #nav-logo, #nav-show {
       width:230px;
     }
    .date-lead,
