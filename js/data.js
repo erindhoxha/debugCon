@@ -4,7 +4,7 @@
        name: 'Erind Hoxha',
        occupation: 'Front-end Developer',
        'img-id':1,
-       text:'Justin Bieber'
+       text:'Erind Hoxha'
      },
      {
        img: "img/person2.png",
