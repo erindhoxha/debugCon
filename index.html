@@ -21,6 +21,19 @@
   <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="css/speakers.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+  #map {
+    height: 100%;
+  }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+</style>
 </head>
 
 <body>
@@ -57,6 +70,7 @@
     </div>
   </nav>
 
+
   <div class="container-fluid banner" data-aos="fade-up">
     <div class="container hero-text">
 <svg version="1.1" id="code-debugcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -89,6 +103,7 @@
   </div>
   <div class="bg-stripes"></div>
 
+<div id="map"></div>
 
 <div class="container-fluid banner-loc" id="banner-loc">
   <div class="banner-loc-overlay" id="kudhekur">
@@ -344,6 +359,7 @@
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/gmaps.js"></script>
   <script src="js/data.js"></script>
   <script>
     AOS.init();
@@ -370,7 +386,11 @@
             {{/each}}
       </script>
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbvewPFTvR59BAleCyfbl9WAJAG6zMudI&callback=initMap"
+  async defer></script>
+
   <script type="text/javascript">
+
     var templateInfo = document.getElementById('speakers-template').innerHTML;
     var template = Handlebars.compile(templateInfo);
     var templateData = template(speakers);
@@ -380,7 +400,6 @@
     var templateOfSponsors = Handlebars.compile(templateInfoOfSponsors);
     var templateDataOfSponsors = templateOfSponsors(sponsors);
     document.getElementById('sponsor-div').innerHTML += templateDataOfSponsors;
-
   </script>
   <script src="js/main.js"></script>
 

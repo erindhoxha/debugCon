@@ -134,7 +134,8 @@ nav {
 .banner {
   min-height:900px;
   height: 95vh;
-  background-image:url('../img/map.png');
+  background-color:rgba(0, 1, 27, 0.3);
+  // background-image:url('../img/map.png');
   background-size:cover;
   background-position:center;
 }
@@ -828,4 +829,13 @@ nav {
 .text-white a {
   color:white;
   text-decoration: none;
+}
+
+#map {
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      z-index: -1;
 }
