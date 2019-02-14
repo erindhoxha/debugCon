@@ -2,6 +2,9 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var pump = require('pump');
 var cssMin = require('gulp-css');
+var sass = require('gulp-sass');
+ 
+sass.compiler = require('node-sass');
 
 /*
     -- TOP LEVEL FUNCTIONS --
@@ -10,6 +13,12 @@ var cssMin = require('gulp-css');
     gulp.dest - Point to folder to output
     gulp.watch - Watch files and folders for changes
 */
+
+gulp.task('sass', function () {
+  return gulp.src('./css/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./css'));
+});
 
 gulp.task('compress', function (cb) {
   pump([
@@ -27,8 +36,10 @@ gulp.task('cssMinify', function () {
     .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('default', gulp.parallel('compress','cssMinify'));
+gulp.task("css", gulp.series("sass","cssMinify"));
+
+gulp.task('default', gulp.parallel('compress','css'));
 
 gulp.task('watch', () => {
-  return gulp.watch(['js/*.js','css/**/*.css'],gulp.series("default"));
+  return gulp.watch(['js/*.js','css/**/*.scss'],gulp.series("default"));
 })

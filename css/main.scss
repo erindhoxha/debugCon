@@ -896,6 +896,13 @@ nav {
       height: 100vh;
 }
 
+#image-map {
+  width: 100%;
+  position: absolute;
+  top:0;
+  z-index: -1;
+}
+
 // THIRRJE PER PREZANTUESIT CSS
 
 .text-tpp-container {
