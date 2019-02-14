@@ -147,7 +147,7 @@
         <div class="md-content">
           <div class="row">
             <div class="col-lg-12 text-center mt-5">
-              <img style="width:150px" src="img/person1.png">
+              <img id="image-speaker" style="width:150px" src="img/person1.png">
               <h1 id="name-speaker" class="mt-4" style="font-family:Track">Denat Hoxha</h1>
               <h5 id="occupation">Software Engineer</h5>
               <p id="paragraph-1" style="width:60%; margin:0 auto;" class="mt-4">Lorem ipsum dolor sit amet consectetur
@@ -338,15 +338,15 @@
     ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-  <script src="dist/js/bootstrap.bundle.min.js"></script>
-  <script src="dist/js/bootstrap.min.js"></script>
-  <script src="dist/js/gmaps.js"></script>
-  <script src="dist/js/data.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/gmaps.js"></script>
+  <script src="js/data.js"></script>
   <script>
     AOS.init();
   </script>
-  <script src="dist/js/handlebars-v4.0.12.js"></script>
-  <script src="dist/js/form.js"></script>
+  <script src="js/handlebars-v4.0.12.js"></script>
+  <script src="js/form.js"></script>
 
   <script id="speakers-template" type="text/x-handlebars-template">
     {{#each speakersks}}
@@ -381,7 +381,7 @@
     var templateDataOfSponsors = templateOfSponsors(sponsors);
     document.getElementById('sponsor-div').innerHTML += templateDataOfSponsors;
   </script>
-  <script src="dist/js/main.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

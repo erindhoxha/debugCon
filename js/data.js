@@ -1,6 +1,6 @@
  var speakers = {
    speakersks: [{
-       img: "img/person1.png",
+       img: "img/person2.png",
        name: 'Erind Hoxha',
        occupation: 'Front-end Developer',
        'img-id': 1,

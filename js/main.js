@@ -268,7 +268,7 @@ $(function () {
     $("#paragraph-2").text(speakers.speakersks[dataNr].p2);
     $("#days-text").text(speakers.speakersks[dataNr].daysText);
     $("#days-subject").text(speakers.speakersks[dataNr].daysSubject);
-
+    $("#image-speaker").attr('src', speakers.speakersks[dataNr].img);
     $('.md-modal').addClass('md-show');
     if ($(".md-modal").hasClass("md-show")) {
       $('body').css('overflow','hidden');
