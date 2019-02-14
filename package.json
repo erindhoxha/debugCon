@@ -1,0 +1,29 @@
+{
+  "name": "debugcon",
+  "version": "1.0.0",
+  "description": "The debugCon static webpage",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-css": "^0.1.0",
+    "gulp-uglify": "^3.0.1",
+    "pump": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erindhoxha/debugCon.git"
+  },
+  "author": "Erind Hoxha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erindhoxha/debugCon/issues"
+  },
+  "homepage": "https://github.com/erindhoxha/debugCon#readme"
+}

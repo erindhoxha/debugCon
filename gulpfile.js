@@ -21,8 +21,14 @@ gulp.task('compress', function (cb) {
   );
 });
 
-gulp.task('cssMinfy', function () {
-  return gulp.src('css/*.css')
+gulp.task('cssMinify', function () {
+  return gulp.src('css/**/*.css')
     .pipe(cssMin())
     .pipe(gulp.dest('dist/css'));
 });
+
+gulp.task('default', gulp.parallel('compress','cssMinify'));
+
+gulp.task('watch', () => {
+  return gulp.watch(['js/*.js','css/**/*.css'],gulp.series("default"));
+})
