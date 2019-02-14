@@ -114,17 +114,11 @@
     </div>
   </div>
 
-
-
-
   <div class="container">
-
     <footer class="p-4 text-white text-center">
-      <h6><img src="img/code.svg"> with <img src="img/heart.svg"> by debugCon</h6>
+      <h6><a href="https://github.com/erindhoxha" target="_blank"><img src="img/code.svg"></a> with <a href="https://github.com/erindhoxha" target="_blank"><img src="img/heart.svg"></a> by debugCon</h6>
     </footer>
   </div>
-
-
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -154,40 +148,6 @@
   </script>
   <script src="js/handlebars-v4.0.12.js"></script>
   <script src="js/form.js"></script>
-
-  <script id="speakers-template" type="text/x-handlebars-template">
-        {{#each speakersks}}
-          <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0 image-scale md-trigger" data-nr={{@index}}>
-          <div class="clip-border" style="position:absolute;">
-          </div>
-          <img src="{{img}}" id="{{img-id}}">
-            <div class="overlay" id="overlay-{{img-id}}">
-            <div class="text" id="text-{{img-id}}">{{text}}</div>
-          </div>
-        </div>
-        {{/each}}
-    </script>
-
-    <script id="sponsors-template" type="text/x-handlebars-template">
-            {{#each sponsorsks}}
-            <div class="col-lg-2 col-sm-4 col-4 col-spo">
-              <img src="img/sponsor3.svg">
-            </div>
-            {{/each}}
-      </script>
-
-  <script type="text/javascript">
-    var templateInfo = document.getElementById('speakers-template').innerHTML;
-    var template = Handlebars.compile(templateInfo);
-    var templateData = template(speakers);
-    document.getElementById('person-div').innerHTML += templateData;
-
-    var templateInfoOfSponsors = document.getElementById('sponsors-template').innerHTML;
-    var templateOfSponsors = Handlebars.compile(templateInfoOfSponsors);
-    var templateDataOfSponsors = templateOfSponsors(sponsors);
-    document.getElementById('sponsor-div').innerHTML += templateDataOfSponsors;
-
-  </script>
   <script src="js/main.js"></script>
 
 </body>
