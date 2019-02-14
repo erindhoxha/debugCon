@@ -7,38 +7,23 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/form.css">
-  <link rel="stylesheet" href="css/speakers.css">
+  <link rel="stylesheet" href="dist/css/normalize.css">
+  <link rel="stylesheet" href="dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="dist/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dist/css/main.css">
+  <link rel="stylesheet" href="dist/css/form.css">
+  <link rel="stylesheet" href="dist/css/speakers.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-<style>
-  #map {
-    opacity:0.8;
-    height: 100%;
-  }
-
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-</style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+<body data-spy="scroll" data-target=".navbar" data-offset="200">
+  <nav class="navbar navbar-expand-xl navbar-dark">
     <div class="container">
       <div class="logo-container">
         <a class="navbar-brand" href="#"><img id="nav-logo" src="img/dblogo2.png"></a>
@@ -47,23 +32,23 @@
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarsExample04">
+
         <ul class="navbar-nav ml-auto pr-4">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">N'shpi <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link nav-link-active" href="#home">N'shpi <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#kudhekur">Ku dhe kur?</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#prezantuesit">Prezantuesit</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="prezantuesit.html">Thirrje per propozime</a>
-          </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#info">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="thirrjePerPropozime.html">Thirrje per propozime</a>
           </li>
         </ul>
         <a href="prezanto.html"><button class="btn-speaker-nav">Prezanto ne konference</button></a>
@@ -71,22 +56,21 @@
     </div>
   </nav>
 
-
-  <div class="container-fluid banner" data-aos="fade-up">
+  <div class="container-fluid banner" id="home" data-aos="fade-up">
     <div class="container hero-text">
-<svg version="1.1" id="code-debugcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-  viewBox="0 0 383.9 238.3" style="enable-background:new 0 0 383.9 238.3;" xml:space="preserve">
-  <g id="XMLID_28_">
-    <path id="XMLID_29_" class="st0" d="M89.7,241.1l-0.4-24.2c-0.3-14-3-27.4-13.7-35.8c9.2-8,13.4-22.7,13.7-39l0.9-53.6
+      <svg version="1.1" id="code-debugcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" viewBox="0 0 383.9 238.3" style="enable-background:new 0 0 383.9 238.3;" xml:space="preserve">
+        <g id="XMLID_28_">
+          <path id="XMLID_29_" class="st0" d="M89.7,241.1l-0.4-24.2c-0.3-14-3-27.4-13.7-35.8c9.2-8,13.4-22.7,13.7-39l0.9-53.6
 		C90.5,78,92,70.5,94.4,65.8c1.5-3.3,3.3-5.7,5.4-8l6.9-7.2l4.5-4.5c3.3-3.3,3.3-7.7,0-11l-17-16.7c-3.9-3.9-7.4-3.9-11.3,0L81,20.2
 		C70.5,30.6,63.1,37.4,57.1,48.5c-6.9,12.8-7.7,25-7.7,37.8v52.4c0,7.7-1.5,18.3-3.6,20.4c-2.4,2.4-5.7,3.7-9.9,3.7h-8
 		c-5.1,0-7.5,2.4-7.5,7.8v20.6c0,5.4,2.4,7.7,7.5,7.7h8c3.9,0,7.5,1.4,10.1,4.1c2.1,1.5,3.3,9.1,3.3,17.2v21.3" />
-    <path id="XMLID_27_" class="st0" d="M334.4,241.3v-21.3c0-8,1.3-15.7,3.3-17.2c2.7-2.7,6.3-4.1,10.2-4.1h8c5.1,0,7.4-2.3,7.4-7.7
+          <path id="XMLID_27_" class="st0" d="M334.4,241.3v-21.3c0-8,1.3-15.7,3.3-17.2c2.7-2.7,6.3-4.1,10.2-4.1h8c5.1,0,7.4-2.3,7.4-7.7
 		v-20.6c0-5.4-2.4-7.8-7.4-7.8h-8c-4.2,0-7.5-1.3-9.9-3.7c-2.1-2.1-3.6-12.6-3.6-20.4V86.3c0-12.8-0.8-25-7.7-37.8
 		c-6-11-13.4-17.9-23.8-28.3l-1.8-1.8c-3.9-3.9-7.4-3.9-11.3,0l-17,16.7c-3.3,3.3-3.3,7.7,0,11l4.5,4.5l6.9,7.2
 		c2.1,2.4,3.9,4.8,5.4,8c2.4,4.8,3.9,12.2,4.2,22.6l0.9,53.6c0.3,16.4,4.5,31,13.7,39c-10.7,8.3-13.4,21.7-13.7,35.7l-0.4,24.4" />
-  </g>
-</svg>
+        </g>
+      </svg>
 
       <div class="text-container">
         <div class="icon-logo-main-hero-image-container">
@@ -98,7 +82,7 @@
         </h1>
         <p class="date-p"><span class="lead date-lead">MAR 23 - 24 2019</span> <br>
           PALLATI I RINISE | KOSOVE, PRISHTINE</p>
-        <button class='btn-speaker'>Kush ka me prezantu?</button>
+        <a href="#prezantuesit"><button class='btn-speaker'>See our presenters</button></a>
       </div>
     </div>
   </div>
@@ -106,185 +90,186 @@
 
 <img id="image-map" src="img/map.png">
 
-<div class="container-fluid banner-loc" id="banner-loc">
-  <div class="banner-loc-overlay" id="kudhekur">
-    <div class="center-flex">
-      <div id="svg-container" data-aos="fade-up">
-        <svg version="1.1" id="svg-icon-code" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px" y="0px" viewBox="0 0 108 102" style="enable-background:new 0 0 108 102;" xml:space="preserve">
-          <g id="XMLID_30_">
-            <g id="XMLID_34_">
-              <path id="XMLID_35_" class="st0" d="M-83.5,82.9c0.6,1.2,1,1.8,2.1,2.4L-80,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
+  <div class="container-fluid banner-loc" id="banner-loc">
+    <div class="banner-loc-overlay" id="kudhekur">
+      <div class="center-flex">
+        <div id="svg-container" data-aos="fade-up">
+          <svg version="1.1" id="svg-icon-code" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 108 102" style="enable-background:new 0 0 108 102;" xml:space="preserve">
+            <g id="XMLID_30_">
+              <g id="XMLID_34_">
+                <path id="XMLID_35_" class="st0" d="M-83.5,82.9c0.6,1.2,1,1.8,2.1,2.4L-80,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
 			l-0.8-0.9l-3.3-2.9c-1-1-2-2.1-2.7-3.3c-1.9-3.4-2.1-6.5-2.1-9.9V62.3c0-2.1-0.3-4.1-0.9-4.5c-0.7-0.7-1.7-1-2.7-1h-2.1
 			c-1.4,0-2.1-0.7-2.1-2.1v-5.5c0-1.4,0.7-2.1,2.1-2.1h2.1c1.1,0,2-0.3,2.6-1c0.6-0.6,1-3.3,1-5.4v-14c0-3.4,0.2-6.7,2.1-10.1
 			c1.6-2.9,3.6-4.8,6.4-7.5l0.5-0.5c1-1,2-1,3,0l4.5,4.4c0.9,0.9,0.9,2.1,0,2.9l-1.2,1.2l-1.8,1.9c-0.6,0.6-1,1.3-1.4,2.1
 			c-0.6,1.3-1,3.3-1.1,6l-0.2,14.3c-0.1,4.4-1.2,8.3-3.7,10.4c2.9,2.2,3.6,5.8,3.7,9.5l0.2,14.4c0.1,2.6,0.4,4.6,1,6L-83.5,82.9z" />
-            </g>
-            <g id="XMLID_31_">
-              <path id="XMLID_32_" class="st0" d="M-31.9,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
+              </g>
+              <g id="XMLID_31_">
+                <path id="XMLID_32_" class="st0" d="M-31.9,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
 			l-0.2-14.3c-0.1-2.8-0.5-4.8-1.1-6c-0.4-0.9-0.9-1.5-1.4-2.1l-1.8-1.9l-1.2-1.2c-0.9-0.9-0.9-2.1,0-2.9l4.5-4.4c1-1,2-1,3,0
 			l0.5,0.5c2.8,2.8,4.8,4.6,6.4,7.5c1.8,3.4,2.1,6.7,2.1,10.1v14c0,2.1,0.4,4.8,1,5.4c0.6,0.6,1.5,1,2.6,1h2.1
 			c1.4,0,2.1,0.7,2.1,2.1v5.5c0,1.4-0.7,2.1-2.1,2.1h-2.1c-1,0-2,0.3-2.7,1c-0.6,0.4-0.9,2.4-0.9,4.5v14.1c0,3.4-0.2,6.5-2.1,9.9
 			c-0.7,1.2-1.7,2.3-2.7,3.3l-3.3,2.9l-0.8,0.9c-0.7,0.9-2,1.2-2.9,0l-4.5-4.4c-1-1-1-2,0.2-3l1.4-0.7c1.2-0.6,1.6-1.2,2.1-2.4
 			L-31.9,81.8z" />
+              </g>
             </g>
-          </g>
-          <g id="XMLID_1_">
-            <g id="XMLID_38_">
-              <path id="XMLID_39_" class="st0" d="M28.5,82.9c0.6,1.2,1,1.8,2.1,2.4L32,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
+            <g id="XMLID_1_">
+              <g id="XMLID_38_">
+                <path id="XMLID_39_" class="st0" d="M28.5,82.9c0.6,1.2,1,1.8,2.1,2.4L32,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
 			l-0.8-0.9l-3.3-2.9c-1-1-2-2.1-2.7-3.3c-1.9-3.4-2.1-6.5-2.1-9.9V62.3c0-2.1-0.3-4.1-0.9-4.5c-0.7-0.7-1.7-1-2.7-1h-2.1
 			c-1.4,0-2.1-0.7-2.1-2.1v-5.5c0-1.4,0.7-2.1,2.1-2.1h2.1c1.1,0,2-0.3,2.6-1c0.6-0.6,1-3.3,1-5.4v-14c0-3.4,0.2-6.7,2.1-10.1
 			c1.6-2.9,3.6-4.8,6.4-7.5l0.5-0.5c1-1,2-1,3,0l4.5,4.4c0.9,0.9,0.9,2.1,0,2.9l-1.2,1.2L29.4,19c-0.6,0.6-1,1.3-1.4,2.1
 			c-0.6,1.3-1,3.3-1.1,6l-0.2,14.3c-0.1,4.4-1.2,8.3-3.7,10.4c2.9,2.2,3.6,5.8,3.7,9.5l0.2,14.4c0.1,2.6,0.4,4.6,1,6L28.5,82.9z" />
-            </g>
-            <g id="XMLID_2_">
-              <path id="XMLID_36_" class="st0" d="M80.1,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
+              </g>
+              <g id="XMLID_2_">
+                <path id="XMLID_36_" class="st0" d="M80.1,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
 			l-0.2-14.3c-0.1-2.8-0.5-4.8-1.1-6c-0.4-0.9-0.9-1.5-1.4-2.1l-1.8-1.9l-1.2-1.2c-0.9-0.9-0.9-2.1,0-2.9l4.5-4.4c1-1,2-1,3,0
 			L83.6,9c2.8,2.8,4.8,4.6,6.4,7.5C91.8,20,92,23.2,92,26.7v14c0,2.1,0.4,4.8,1,5.4c0.6,0.6,1.5,1,2.6,1h2.1c1.4,0,2.1,0.7,2.1,2.1
 			v5.5c0,1.4-0.7,2.1-2.1,2.1h-2.1c-1,0-2,0.3-2.7,1c-0.6,0.4-0.9,2.4-0.9,4.5v14.1c0,3.4-0.2,6.5-2.1,9.9c-0.7,1.2-1.7,2.3-2.7,3.3
 			l-3.3,2.9l-0.8,0.9c-0.7,0.9-2,1.2-2.9,0L75.7,89c-1-1-1-2,0.2-3l1.4-0.7c1.2-0.6,1.6-1.2,2.1-2.4L80.1,81.8z" />
+              </g>
             </g>
-          </g>
-        </svg>
-
-      </div>
-      <div data-aos="fade-up">
-        <h1 class="title">Ku dhe kur?</h1>
-        <h4 class="head-text">debugCon do the mbahet ne Restorantin Gresa, Prishtine, Kosove.</h4>
-        <h4 class="head-text">Data e konferences eshte 30 Mars, 2019</h4>
-        <h4 class="head-text">debugCon eshte paguaj-sa-te-duash, por ne sugjerojme se paku nje pagese prej 5€.<h4>
+          </svg>
+        </div>
+        <div data-aos="fade-up">
+          <h1 class="title">Ku dhe kur?</h1>
+          <h4 class="head-text">debugCon do the mbahet ne Pallatin e Rinise ne 28 West 23rd Street, 4th Floor,
+            Prishtine, Kosove.</h4>
+          <h4 class="head-text">debugCon eshte paguaj-sa-te-duash event por ne sugjerojme se paku 2€ donacion.<h4>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-
-<div class="speakers" id="prezantuesit">
-  <div class="container text-white text-center">
-    <h1 class="header-speakers link link-purple mb-5">Prezantuesit</h1>
-    <div class="md-modal md-effect-12">
-      <div class="md-content">
-        <div class="row">
-          <div class="col-lg-12 text-center mt-5">
-            <img style="width:150px" src="img/person1.png">
-            <h1 id="name-speaker" class="mt-4" style="font-family:Track">Denat Hoxha</h1>
-            <h5 id="occupation">Software Engineer</h5>
-            <p id="paragraph-1" style="width:60%; margin:0 auto;" class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem odit delectus voluptatem non exercitationem culpa facere ex adipisci cupiditate! Delectus nihil nostrum pariatur. Ducimus esse ea quia recusandae natus id quo necessitatibus, amet tenetur est, ullam animi sit excepturi.</p>
-            <p id="paragraph-2" style="width:60%; margin:0 auto;" class="mb-4">Lorem iamet tenetur est, ullam animi sit excepturi.</p>
-            <h5 id="days-text">Day 1 - 9AM - 10AM</h5>
-            <h5 id="days-subject">The stars and the galaxy.</h5>
+  <div class="speakers" id="prezantuesit">
+    <div class="container text-white text-center" style="overflow:hidden">
+      <h1 class="header-speakers link link-purple mb-5">Prezantuesit</h1>
+      <div class="md-modal md-effect-12">
+        <div class="md-content">
+          <div class="row">
+            <div class="col-lg-12 text-center mt-5">
+              <img id="image-speaker" style="width:150px" src="img/person1.png">
+              <h1 id="name-speaker" class="mt-4" style="font-family:Track">Denat Hoxha</h1>
+              <h5 id="occupation">Software Engineer</h5>
+              <p id="paragraph-1" style="width:60%; margin:0 auto;" class="mt-4">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quae quidem odit delectus voluptatem non exercitationem culpa facere ex adipisci
+                cupiditate! Delectus nihil nostrum pariatur. Ducimus esse ea quia recusandae natus id quo
+                necessitatibus, amet tenetur est, ullam animi sit excepturi.</p>
+              <p id="paragraph-2" style="width:60%; margin:0 auto;" class="mb-4">Lorem iamet tenetur est, ullam animi
+                sit excepturi.</p>
+              <h5 id="days-text">Day 1 - 9AM - 10AM</h5>
+              <h5 id="days-subject">The stars and the galaxy.</h5>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-times md-close"></i>
+          </div>
         </div>
       </div>
-        <div>
-        <i class="fas fa-times md-close"></i>
-        </div>
-      </div>
-    </div>
-<div class="md-overlay">
-  <svg version="1.1" id="code-debugcon-overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-    x="0px" y="0px" viewBox="0 0 383.9 238.3" style="enable-background:new 0 0 383.9 238.3;" xml:space="preserve">
-    <g id="XMLID_28_">
-      <path id="XMLID_29_" class="st0" d="M89.7,241.1l-0.4-24.2c-0.3-14-3-27.4-13.7-35.8c9.2-8,13.4-22.7,13.7-39l0.9-53.6
+      <div class="md-overlay">
+        <svg version="1.1" id="code-debugcon-overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px" y="0px" viewBox="0 0 383.9 238.3" style="enable-background:new 0 0 383.9 238.3;" xml:space="preserve">
+          <g id="XMLID_28_">
+            <path id="XMLID_29_" class="st0" d="M89.7,241.1l-0.4-24.2c-0.3-14-3-27.4-13.7-35.8c9.2-8,13.4-22.7,13.7-39l0.9-53.6
 		C90.5,78,92,70.5,94.4,65.8c1.5-3.3,3.3-5.7,5.4-8l6.9-7.2l4.5-4.5c3.3-3.3,3.3-7.7,0-11l-17-16.7c-3.9-3.9-7.4-3.9-11.3,0L81,20.2
 		C70.5,30.6,63.1,37.4,57.1,48.5c-6.9,12.8-7.7,25-7.7,37.8v52.4c0,7.7-1.5,18.3-3.6,20.4c-2.4,2.4-5.7,3.7-9.9,3.7h-8
 		c-5.1,0-7.5,2.4-7.5,7.8v20.6c0,5.4,2.4,7.7,7.5,7.7h8c3.9,0,7.5,1.4,10.1,4.1c2.1,1.5,3.3,9.1,3.3,17.2v21.3" />
-      <path id="XMLID_27_" class="st0" d="M334.4,241.3v-21.3c0-8,1.3-15.7,3.3-17.2c2.7-2.7,6.3-4.1,10.2-4.1h8c5.1,0,7.4-2.3,7.4-7.7
+            <path id="XMLID_27_" class="st0" d="M334.4,241.3v-21.3c0-8,1.3-15.7,3.3-17.2c2.7-2.7,6.3-4.1,10.2-4.1h8c5.1,0,7.4-2.3,7.4-7.7
 		v-20.6c0-5.4-2.4-7.8-7.4-7.8h-8c-4.2,0-7.5-1.3-9.9-3.7c-2.1-2.1-3.6-12.6-3.6-20.4V86.3c0-12.8-0.8-25-7.7-37.8
 		c-6-11-13.4-17.9-23.8-28.3l-1.8-1.8c-3.9-3.9-7.4-3.9-11.3,0l-17,16.7c-3.3,3.3-3.3,7.7,0,11l4.5,4.5l6.9,7.2
 		c2.1,2.4,3.9,4.8,5.4,8c2.4,4.8,3.9,12.2,4.2,22.6l0.9,53.6c0.3,16.4,4.5,31,13.7,39c-10.7,8.3-13.4,21.7-13.7,35.7l-0.4,24.4" />
-    </g>
-  </svg>
-</div>
+          </g>
+        </svg>
+      </div>
 
-
-
-
-<div class="row" id="person-div" data-aos="fade-up">
+      <div class="row" id="person-div" data-aos="fade-up">
+      </div>
+    </div>
   </div>
-  
-  </div>
-</div>
-
-<div class="container-fluid banner-spo">
-  <div class="banner-loc-overlay">
-    <div class="center-flex">
-      <div id="svg-container" data-aos="fade-up">
-        <svg version="1.1" id="svg-icon-code" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px" y="0px" viewBox="0 0 108 102" style="enable-background:new 0 0 108 102;" xml:space="preserve">
-          <g id="XMLID_30_">
-            <g id="XMLID_34_">
-              <path id="XMLID_35_" class="st0" d="M-83.5,82.9c0.6,1.2,1,1.8,2.1,2.4L-80,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
+  <div class="container-fluid banner-spo">
+    <div class="banner-loc-overlay">
+      <div class="center-flex">
+        <div id="svg-container" data-aos="fade-up">
+          <svg version="1.1" id="svg-icon-code" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 108 102" style="enable-background:new 0 0 108 102;" xml:space="preserve">
+            <g id="XMLID_30_">
+              <g id="XMLID_34_">
+                <path id="XMLID_35_" class="st0" d="M-83.5,82.9c0.6,1.2,1,1.8,2.1,2.4L-80,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
         			l-0.8-0.9l-3.3-2.9c-1-1-2-2.1-2.7-3.3c-1.9-3.4-2.1-6.5-2.1-9.9V62.3c0-2.1-0.3-4.1-0.9-4.5c-0.7-0.7-1.7-1-2.7-1h-2.1
         			c-1.4,0-2.1-0.7-2.1-2.1v-5.5c0-1.4,0.7-2.1,2.1-2.1h2.1c1.1,0,2-0.3,2.6-1c0.6-0.6,1-3.3,1-5.4v-14c0-3.4,0.2-6.7,2.1-10.1
         			c1.6-2.9,3.6-4.8,6.4-7.5l0.5-0.5c1-1,2-1,3,0l4.5,4.4c0.9,0.9,0.9,2.1,0,2.9l-1.2,1.2l-1.8,1.9c-0.6,0.6-1,1.3-1.4,2.1
         			c-0.6,1.3-1,3.3-1.1,6l-0.2,14.3c-0.1,4.4-1.2,8.3-3.7,10.4c2.9,2.2,3.6,5.8,3.7,9.5l0.2,14.4c0.1,2.6,0.4,4.6,1,6L-83.5,82.9z" />
-            </g>
-            <g id="XMLID_31_">
-              <path id="XMLID_32_" class="st0" d="M-31.9,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
+              </g>
+              <g id="XMLID_31_">
+                <path id="XMLID_32_" class="st0" d="M-31.9,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
         			l-0.2-14.3c-0.1-2.8-0.5-4.8-1.1-6c-0.4-0.9-0.9-1.5-1.4-2.1l-1.8-1.9l-1.2-1.2c-0.9-0.9-0.9-2.1,0-2.9l4.5-4.4c1-1,2-1,3,0
         			l0.5,0.5c2.8,2.8,4.8,4.6,6.4,7.5c1.8,3.4,2.1,6.7,2.1,10.1v14c0,2.1,0.4,4.8,1,5.4c0.6,0.6,1.5,1,2.6,1h2.1
         			c1.4,0,2.1,0.7,2.1,2.1v5.5c0,1.4-0.7,2.1-2.1,2.1h-2.1c-1,0-2,0.3-2.7,1c-0.6,0.4-0.9,2.4-0.9,4.5v14.1c0,3.4-0.2,6.5-2.1,9.9
         			c-0.7,1.2-1.7,2.3-2.7,3.3l-3.3,2.9l-0.8,0.9c-0.7,0.9-2,1.2-2.9,0l-4.5-4.4c-1-1-1-2,0.2-3l1.4-0.7c1.2-0.6,1.6-1.2,2.1-2.4
         			L-31.9,81.8z" />
+              </g>
             </g>
-          </g>
-          <g id="XMLID_1_">
-            <g id="XMLID_38_">
-              <path id="XMLID_39_" class="st0" d="M28.5,82.9c0.6,1.2,1,1.8,2.1,2.4L32,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
+            <g id="XMLID_1_">
+              <g id="XMLID_38_">
+                <path id="XMLID_39_" class="st0" d="M28.5,82.9c0.6,1.2,1,1.8,2.1,2.4L32,86c1.2,1,1.3,2,0.2,3l-4.5,4.4c-0.9,1.2-2.1,0.9-2.9,0
         			l-0.8-0.9l-3.3-2.9c-1-1-2-2.1-2.7-3.3c-1.9-3.4-2.1-6.5-2.1-9.9V62.3c0-2.1-0.3-4.1-0.9-4.5c-0.7-0.7-1.7-1-2.7-1h-2.1
         			c-1.4,0-2.1-0.7-2.1-2.1v-5.5c0-1.4,0.7-2.1,2.1-2.1h2.1c1.1,0,2-0.3,2.6-1c0.6-0.6,1-3.3,1-5.4v-14c0-3.4,0.2-6.7,2.1-10.1
         			c1.6-2.9,3.6-4.8,6.4-7.5l0.5-0.5c1-1,2-1,3,0l4.5,4.4c0.9,0.9,0.9,2.1,0,2.9l-1.2,1.2L29.4,19c-0.6,0.6-1,1.3-1.4,2.1
         			c-0.6,1.3-1,3.3-1.1,6l-0.2,14.3c-0.1,4.4-1.2,8.3-3.7,10.4c2.9,2.2,3.6,5.8,3.7,9.5l0.2,14.4c0.1,2.6,0.4,4.6,1,6L28.5,82.9z" />
-            </g>
-            <g id="XMLID_2_">
-              <path id="XMLID_36_" class="st0" d="M80.1,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
+              </g>
+              <g id="XMLID_2_">
+                <path id="XMLID_36_" class="st0" d="M80.1,81.8c0.6-1.3,1-3.3,1-6l0.2-14.4c0.1-3.7,0.8-7.3,3.7-9.5c-2.5-2.1-3.6-6-3.7-10.4
         			l-0.2-14.3c-0.1-2.8-0.5-4.8-1.1-6c-0.4-0.9-0.9-1.5-1.4-2.1l-1.8-1.9l-1.2-1.2c-0.9-0.9-0.9-2.1,0-2.9l4.5-4.4c1-1,2-1,3,0
         			L83.6,9c2.8,2.8,4.8,4.6,6.4,7.5C91.8,20,92,23.2,92,26.7v14c0,2.1,0.4,4.8,1,5.4c0.6,0.6,1.5,1,2.6,1h2.1c1.4,0,2.1,0.7,2.1,2.1
         			v5.5c0,1.4-0.7,2.1-2.1,2.1h-2.1c-1,0-2,0.3-2.7,1c-0.6,0.4-0.9,2.4-0.9,4.5v14.1c0,3.4-0.2,6.5-2.1,9.9c-0.7,1.2-1.7,2.3-2.7,3.3
         			l-3.3,2.9l-0.8,0.9c-0.7,0.9-2,1.2-2.9,0L75.7,89c-1-1-1-2,0.2-3l1.4-0.7c1.2-0.6,1.6-1.2,2.1-2.4L80.1,81.8z" />
+              </g>
             </g>
-          </g>
-        </svg>
-      </div>
-      <div data-aos="fade-up">
-        <h1>Kush prezanton?</h1>
-        <h4>Ndoshta ti! Thirrja per prezantime eshte e <a style="color:white; text-decoration: underline" href="#">hapur!</a></h4>
+          </svg>
+        </div>
+        <div data-aos="fade-up">
+          <h1>Kush prezanton?</h1>
+          <h4>Ndoshta ti! Thirrja per prezantime eshte e <a style="color:white; text-decoration: underline" href="thirrjePerPropozime.html">hapur!</a></h4>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <div class="container people text-white margin-mobile" id="info">
     <div class="row flex-center">
       <div class="col-lg-4">
         <i class="fas fa-users float-animate"></i>
         <a href="#prezantuesit">
-        <h3 class="link-t link-green float-animate">Prezantuesit</h3>
+          <h3 class="link-t link-green float-animate">Prezantuesit</h3>
         </a>
-        <p class="p-lg p-sm mt-4">Ne DebugCon kemi 24 prezantues, secili ka per qellim per te prezantuar temen ose lamine e tyre profesionale.</p>
+        <p class="p-lg p-sm mt-4">Ne DebugCon kemi 24 prezantues, secili ka per qellim per te prezantuar temen ose
+          lamine e tyre profesionale.</p>
       </div>
 
       <div class="col-lg-4 text-white margin-mobile">
         <i class="fas fa-map-marker-alt float-animate"></i>
         <a href="https://www.google.com/maps/dir//42.658796,21.1579646/@42.6588861,21.157774,57m/data=!3m1!1e3" target="_blank">
-        <h3 class="link-t link-pink">Lokacioni</h3>
+          <h3 class="link-t link-pink">Lokacioni</h3>
         </a>
         <p class="p-lg p-sm mt-4">Konferenca do te mbahet ne Restorantin Gresa, Prishtine. <a href="#">Kliko ketu per drejtime.</a></p>
       </div>
 
       <div class="col-lg-4 text-white margin-mobile">
         <i class="fas fa-code float-animate "></i>
-        <h3 class="link-t link-cyan float-animate">Kur dhe ku?</h3>
-        <p class="p-lg p-sm mt-4">Tema dhe qellimi i debugCon eshte te mbledhemi sa me shume profesional, student ose te interesuar per programim.</p>
+        <a href="#banner-loc">
+         <h3 class="link-t link-cyan float-animate">Kur dhe ku?</h3>
+        </a>
+        <p class="p-lg p-sm mt-4">Tema dhe qellimi i debugCon eshte te mbledhemi sa me shume profesional, student ose
+          te interesuar per programim.</p>
       </div>
     </div>
   </div>
+<!-- COMMENT OUT MAP FOR NOW -->
+<div id="map"></div>
+  <!-- <div class="img-div-google-maps">
+  </div> -->
 
-  <div class="img-div-sponsors">
-
-  </div>
-
-<!-- 
+  <!-- 
 
   <div class="bg-contact3" id="apliko">
     <div class="container-contact3">
@@ -318,26 +303,22 @@
     </div>
   </div> -->
 
-
-
   <div id="sponsors">
     <div class="container">
-      <h5>Njoftohu me sponzoret dhe partneret qe e mundesuan debugCon. Nese deshironi te dish me shume per sponzorshipin, vizito linkun "Pse debugCon" per me shume informata ose dergoni email.</h5>
+      <h5>Njoftohu me sponzoret dhe partneret qe e mundesuan debugCon. Nese deshironi te dish me shume per
+        sponzorshipin, vizito linkun "Pse debugCon" per me shume informata ose dergoni email.</h5>
       <h1 class="mt-5 link link-pink">Sponzoret</h1>
       <div class="row mt-5" id="sponsor-div" data-aos="fade-up">
-
       </div>
     </div>
   </div>
 
   <div class="container">
-
     <footer class="p-4 text-white text-center">
-      <h6><img src="img/code.svg"> with <img src="img/heart.svg"> by debugCon</h6>
+<h6><a href="http://github.com/erindhoxha" target="_blank"><img src="img/code.svg"></a> with <a href="https://en.wikipedia.org/wiki/Love" target="_blank"><img
+      src="img/heart.svg"></a> by debugCon</h6>
     </footer>
   </div>
-
-
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -345,9 +326,8 @@
   <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
   </script>
-  <script src="js/plugins.js"></script>
+  <script src="dist/js/plugins.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () {
@@ -370,7 +350,7 @@
   <script src="js/form.js"></script>
 
   <script id="speakers-template" type="text/x-handlebars-template">
-        {{#each speakersks}}
+    {{#each speakersks}}
           <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0 image-scale md-trigger" data-nr={{@index}}>
           <img src="{{img}}" id="{{img-id}}">
             <div class="overlay" id="overlay-{{img-id}}">
@@ -380,19 +360,18 @@
         {{/each}}
     </script>
 
-    <script id="sponsors-template" type="text/x-handlebars-template">
-            {{#each sponsorsks}}
+  <script id="sponsors-template" type="text/x-handlebars-template">
+    {{#each sponsorsks}}
             <div class="col-lg-2 col-sm-4 col-4 col-spo">
               <img src="img/sponsor3.svg">
             </div>
             {{/each}}
       </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbvewPFTvR59BAleCyfbl9WAJAG6zMudI&callback=initMap"
-  async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbvewPFTvR59BAleCyfbl9WAJAG6zMudI&callback=initMap"
+    async defer></script>
 
   <script type="text/javascript">
-
     var templateInfo = document.getElementById('speakers-template').innerHTML;
     var template = Handlebars.compile(templateInfo);
     var templateData = template(speakers);
