@@ -190,7 +190,7 @@ nav {
   background-position:center;
   background-size:cover;
 }
-.img-div-sponsors {
+.img-div-google-maps {
     height:60vh;
     background-image:url('../img/map.png');
     background-position:center;
@@ -862,15 +862,12 @@ nav {
 
 // COMMENT OUT MAP FOR NOW
 
-// #map {
-//       position: absolute;
-//       overflow: hidden;
-//       top: 0;
-//       width: 100%;
-//       height: 100vh;
-//       z-index: -1;
-//       opacity:0.8;
-// }
+#map {
+      overflow: hidden;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+}
 
 // THIRRJE PER PREZANTUESIT CSS
 

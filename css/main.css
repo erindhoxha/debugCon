@@ -186,7 +186,7 @@ nav {
   background-size: cover;
 }
 
-.img-div-sponsors {
+.img-div-google-maps {
   height: 60vh;
   background-image: url("../img/map.png");
   background-position: center;
@@ -858,6 +858,13 @@ body svg path.st1 {
 .text-white a {
   color: white;
   text-decoration: none;
+}
+
+#map {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  height: 100vh;
 }
 
 .text-tpp-container {

@@ -14,7 +14,7 @@
      {
        img: "img/person3.png",
        'img-id': 3,
-       text: 'Denat Hoxha'
+       text: 'Filanfistek Haxhihoxhaj'
      },
      {
        img: "img/person4.png",
