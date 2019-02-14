@@ -861,4 +861,10 @@ body svg path.st1 {
   text-decoration: none;
 }
 
+.text-tpp-container {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
