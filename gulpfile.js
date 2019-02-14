@@ -11,8 +11,6 @@ var cssMin = require('gulp-css');
     gulp.watch - Watch files and folders for changes
 */
 
-
-
 gulp.task('compress', function (cb) {
   pump([
       gulp.src('js/*.js'),
