@@ -1,8 +1,8 @@
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var pump = require('pump');
-var concat = require('gulp-concat');
 var cssMin = require('gulp-css');
+
 /*
     -- TOP LEVEL FUNCTIONS --
     gulp.task - Define tasks
@@ -21,4 +21,10 @@ gulp.task('compress', function (cb) {
     ],
     cb
   );
+});
+
+gulp.task('cssMinfy', function () {
+  return gulp.src('css/*.css')
+    .pipe(cssMin())
+    .pipe(gulp.dest('dist/css'));
 });
