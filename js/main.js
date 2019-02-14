@@ -270,6 +270,9 @@ $(function () {
     $("#days-subject").text(speakers.speakersks[dataNr].daysSubject);
 
     $('.md-modal').addClass('md-show');
+    if ($(".md-modal").hasClass("md-show")) {
+      $('body').css('overflow','hidden');
+    }
     startSVGAnimation($('#code-debugcon-overlay'));
   });
 
@@ -279,6 +282,8 @@ $(function () {
 
   $('.md-close').on('click', function () {
     $('.md-modal').removeClass('md-show');
+    $('body').css('overflow','unset');
   });
 
 });
+

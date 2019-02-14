@@ -14,12 +14,44 @@
 }
 $mainHex: #000;
 
+// MAIN SECTIONS
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
   font-family:'Titillium Web';
 }
+
+body {
+  font-family: 'Titillium Web';
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%2325045a' fill-opacity='0.25'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.banner {
+  min-height: 900px;
+  height: 95vh;
+  // NDRRO QETU IMAGE PER BANNER - HERO IMAGE (PRISHTINE ETJ) 
+  //KISHA SUGJERU ME SHTI NI FOTO ME OPACITY, CHEERS
+  // background-image: url('../img/map.png');
+  // background-image:url('../img/map.png');
+  background-position: center;
+}
+.banner::before {
+  background-image: url('../img/map.png');
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.4;
+}
+
+// SPEAKERS
+
 .btn-speaker-nav {
   border:2px solid #6022FF;
   background-color:transparent;
@@ -42,14 +74,26 @@ html {
   background-color:#6022FF;
   transition:0.3s ease;
 }
+
+// MAPS
+
+.banner-loc-overlay {
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.06'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
 .banner-loc {
-  height:40vh;
+  height: 40vh;
   background: linear-gradient(90deg, #845EC2 0%, rgb(49, 0, 172) 100%);
 }
+
 .banner-spo {
-    height:25vh;
-    background: linear-gradient(90deg, #845EC2 0%, #2C73D2 100%);
+  height: 40vh;
+  background: linear-gradient(90deg, #845EC2 0%, #2C73D2 100%);
 }
+
+// FORM
+
 .title {
   font-size:40px !important;
 }
@@ -64,6 +108,9 @@ html {
   color:rgb(217, 194, 255);
   text-decoration: underline;
 }
+
+// SPONSORS
+
 #sponsors {
   background-color:white;
   height:100%;
@@ -77,15 +124,9 @@ html {
   }
 }
 
-.banner-loc-overlay {
-  height:100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.06'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-
-body {
-  font-family:'Titillium Web';
-  background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%2325045a' fill-opacity='0.25'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+// NAVIGATION 
+.nav-link {
+  transition:0.3s ease;
 }
 .logo-container {
   width:200px;
@@ -102,6 +143,10 @@ body {
 #nav-show {
   width:200px;
 }
+  .active {
+    transition:0.3s;
+    // border-bottom: 4px solid #6022FF;
+  }
 nav {
   background-color: $mainHex;
   position:fixed !important;
@@ -131,13 +176,6 @@ nav {
   margin-bottom:30px;
 }
 
-.banner {
-  min-height:900px;
-  height: 95vh;
-  background-image:url('../img/map.png');
-  background-size:cover;
-  background-position:center;
-}
 .date-p, .loc-p {
   font-family:"Track";
   margin-top:20px;
@@ -158,7 +196,7 @@ nav {
   background-position:center;
   background-size:cover;
 }
-.img-div-sponsors {
+.img-div-google-maps {
     height:60vh;
     background-image:url('../img/map.png');
     background-position:center;
@@ -508,7 +546,7 @@ body {
   position: relative;
   padding-bottom: 4px;
   overflow: hidden;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
   cursor:pointer;
@@ -584,8 +622,6 @@ body {
   opacity: 0.1;
 }
 
-
-
 .speakers {
   padding-top:150px;
   padding-bottom:150px;
@@ -607,8 +643,12 @@ body {
 
 
 @media only screen and (max-width: 767px) {
+  .active {
+    border-left: 4px solid #6022FF;
+    border-bottom:none;
+    padding-left:10px !important;
+  }
 .md-modal {
-  overflow:scroll;
   padding-bottom:100px;
 }
   .md-content {
@@ -620,7 +660,7 @@ body {
     }
   }
   #nav-logo, #nav-show {
-    width:200px;
+    width:200px !important;
   }
   .title {
     text-align:center;
@@ -663,7 +703,7 @@ body {
    }
  }
 #person-div {
-  padding:10px;
+  padding:15px;
 }
 .speakers {
 
@@ -738,7 +778,7 @@ nav {
       font-size: 19px;
     }
     #paragraph-1 {
-      font-size:21px;
+      font-size:15px;
     }
     .banner-spo {
       text-align:center;
@@ -746,7 +786,7 @@ nav {
       font-size:23px;
     }
     .row.flex-center .p-lg {
-      font-size:23px !important;
+      font-size:20px !important;
     }
    .center-flex {
      flex-direction: column;
@@ -828,4 +868,31 @@ nav {
 .text-white a {
   color:white;
   text-decoration: none;
+}
+
+// COMMENT OUT MAP FOR NOW
+
+#map {
+      overflow: hidden;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+}
+
+// THIRRJE PER PREZANTUESIT CSS
+
+.text-tpp-container {
+  padding-top:150px;
+  padding-bottom:150px;
+  color:white;
+}
+
+.active:before {
+  content:"< ";
+  color:#6022FF;
+}
+
+.active:after {
+  content: " />";
+  color:#6022FF;
 }
