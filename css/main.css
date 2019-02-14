@@ -114,6 +114,10 @@ body {
   width: 100%;
 }
 
+.nav-link {
+  transition: 0.3s ease;
+}
+
 .logo-container {
   width: 200px;
   height: 47px;
@@ -131,6 +135,10 @@ body {
 
 #nav-show {
   width: 200px;
+}
+
+.active {
+  transition: 0.3s;
 }
 
 nav {
@@ -621,8 +629,13 @@ body svg path.st1 {
 }
 
 @media only screen and (max-width: 767px) {
+  .active {
+    border-left: 4px solid #6022FF;
+    border-bottom: none;
+    padding-left: 10px !important;
+  }
+
   .md-modal {
-    overflow: scroll;
     padding-bottom: 100px;
   }
 
@@ -634,7 +647,7 @@ body svg path.st1 {
   }
 
   #nav-logo, #nav-show {
-    width: 200px;
+    width: 200px !important;
   }
 
   .title {
@@ -686,7 +699,7 @@ body svg path.st1 {
   }
 
   #person-div {
-    padding: 10px;
+    padding: 15px;
   }
 
   .speakers .clip-border {
@@ -764,7 +777,7 @@ body svg path.st1 {
   }
 
   #paragraph-1 {
-    font-size: 21px;
+    font-size: 15px;
   }
 
   .banner-spo {
@@ -774,7 +787,7 @@ body svg path.st1 {
   }
 
   .row.flex-center .p-lg {
-    font-size: 23px !important;
+    font-size: 20px !important;
   }
 
   .center-flex {
@@ -871,6 +884,16 @@ body svg path.st1 {
   padding-top: 150px;
   padding-bottom: 150px;
   color: white;
+}
+
+.active:before {
+  content: "< ";
+  color: #6022FF;
+}
+
+.active:after {
+  content: " />";
+  color: #6022FF;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -125,7 +125,9 @@ body {
 }
 
 // NAVIGATION 
-
+.nav-link {
+  transition:0.3s ease;
+}
 .logo-container {
   width:200px;
   height:47px;;
@@ -141,6 +143,10 @@ body {
 #nav-show {
   width:200px;
 }
+  .active {
+    transition:0.3s;
+    // border-bottom: 4px solid #6022FF;
+  }
 nav {
   background-color: $mainHex;
   position:fixed !important;
@@ -637,8 +643,12 @@ body {
 
 
 @media only screen and (max-width: 767px) {
+  .active {
+    border-left: 4px solid #6022FF;
+    border-bottom:none;
+    padding-left:10px !important;
+  }
 .md-modal {
-  overflow:scroll;
   padding-bottom:100px;
 }
   .md-content {
@@ -650,7 +660,7 @@ body {
     }
   }
   #nav-logo, #nav-show {
-    width:200px;
+    width:200px !important;
   }
   .title {
     text-align:center;
@@ -693,7 +703,7 @@ body {
    }
  }
 #person-div {
-  padding:10px;
+  padding:15px;
 }
 .speakers {
 
@@ -768,7 +778,7 @@ nav {
       font-size: 19px;
     }
     #paragraph-1 {
-      font-size:21px;
+      font-size:15px;
     }
     .banner-spo {
       text-align:center;
@@ -776,7 +786,7 @@ nav {
       font-size:23px;
     }
     .row.flex-center .p-lg {
-      font-size:23px !important;
+      font-size:20px !important;
     }
    .center-flex {
      flex-direction: column;
@@ -875,4 +885,14 @@ nav {
   padding-top:150px;
   padding-bottom:150px;
   color:white;
+}
+
+.active:before {
+  content:"< ";
+  color:#6022FF;
+}
+
+.active:after {
+  content: " />";
+  color:#6022FF;
 }
