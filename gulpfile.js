@@ -31,7 +31,7 @@ gulp.task('compress', function (cb) {
 });
 
 gulp.task('cssMinify', function () {
-  return gulp.src('css/*.css')
+  return gulp.src('css/**/*.css')
     .pipe(cssMin())
     .pipe(gulp.dest('dist/css'));
 });
