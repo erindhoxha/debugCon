@@ -36,7 +36,7 @@ body {
 }
 
 .banner {
-  min-height: 900px;
+  min-height: 650px;
   height: 95vh;
   // NDRRO QETU IMAGE PER BANNER - HERO IMAGE (PRISHTINE ETJ) 
   //KISHA SUGJERU ME SHTI NI FOTO ME OPACITY, CHEERS
@@ -45,7 +45,7 @@ body {
   // background-position: center;
 }
 .banner::before {
-  background-image: url('../img/map.png');
+  // background-image: url('../img/map.png');
   background-size:cover;
   content: "";
   display: block;

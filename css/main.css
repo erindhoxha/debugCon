@@ -29,12 +29,11 @@ body {
 }
 
 .banner {
-  min-height: 900px;
+  min-height: 650px;
   height: 95vh;
 }
 
 .banner::before {
-  background-image: url("../img/map.png");
   background-size: cover;
   content: "";
   display: block;

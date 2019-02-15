@@ -231,7 +231,7 @@ function startSVGAnimationMain(parentElement) {
   drawSVGPaths(parentElement, 1400, 1200, 444);
 }
 function hyjneshaNfron(parentElement) {
-  drawSVGPaths(parentElement, 2555, 1555, 344);
+  drawSVGPaths(parentElement, 2555, 4000, 550);
 }
 
 replaceWithPaths($('svg'));
