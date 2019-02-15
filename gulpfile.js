@@ -15,9 +15,9 @@ sass.compiler = require('node-sass');
 */
 
 gulp.task('sass', function () {
-  return gulp.src('./css/**/*.scss')
+  return gulp.src('./css/main.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./dist/css'));
 });
 
 gulp.task('compress', function (cb) {
@@ -31,7 +31,7 @@ gulp.task('compress', function (cb) {
 });
 
 gulp.task('cssMinify', function () {
-  return gulp.src('css/**/*.css')
+  return gulp.src('css/*.css')
     .pipe(cssMin())
     .pipe(gulp.dest('dist/css'));
 });

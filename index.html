@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>debugCon</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="manifest" href="site.webmanifest">
@@ -16,10 +16,10 @@
   <link rel="stylesheet" href="dist/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="dist/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="dist/css/main.css">
   <link rel="stylesheet" href="dist/css/form.css">
   <link rel="stylesheet" href="dist/css/speakers.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="200">
@@ -88,7 +88,7 @@
   </div>
   <div class="bg-stripes"></div>
 
-<img id="image-map" src="img/map.png">
+<!-- <img id="image-map" src="img/map.png"> -->
 
   <div class="container-fluid banner-loc" id="banner-loc">
     <div class="banner-loc-overlay" id="kudhekur">
@@ -348,24 +348,24 @@
   <script src="js/handlebars-v4.0.12.js"></script>
   <script src="js/form.js"></script>
 
-  <script id="speakers-template" type="text/x-handlebars-template">
-    {{#each speakersks}}
-          <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0 image-scale md-trigger" data-nr={{@index}}>
-          <img src="{{img}}" id="{{img-id}}">
-            <div class="overlay" id="overlay-{{img-id}}">
-            <div class="text" id="text-{{img-id}}">{{text}}</div>
-          </div>
-        </div>
-        {{/each}}
-    </script>
+<script id="speakers-template" type="text/x-handlebars-template">
+  {{#each speakersks}}
+    <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0 image-scale md-trigger" data-nr={{@index}}>
+      <img src="{{img}}" id="{{img-id}}">
+      <div class="overlay" id="overlay-{{img-id}}">
+      <div class="text" id="text-{{img-id}}">{{text}}</div>
+      </div>
+    </div>
+  {{/each}}
+</script>
 
   <script id="sponsors-template" type="text/x-handlebars-template">
     {{#each sponsorsks}}
-            <div class="col-lg-2 col-sm-4 col-4 col-spo">
-              <img src="img/sponsor3.svg">
-            </div>
-            {{/each}}
-      </script>
+      <div class="col-lg-2 col-sm-4 col-4 col-spo">
+        <img src="img/sponsor3.svg">
+      </div>
+    {{/each}}
+  </script>
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbvewPFTvR59BAleCyfbl9WAJAG6zMudI&callback=initMap"
     async defer></script>

@@ -42,7 +42,7 @@ body {
   //KISHA SUGJERU ME SHTI NI FOTO ME OPACITY, CHEERS
   // background-image: url('../img/map.png');
   // background-image:url('../img/map.png');
-  background-position: center;
+  // background-position: center;
 }
 .banner::before {
   background-image: url('../img/map.png');
@@ -53,7 +53,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -2;
+  z-index: -1;
   opacity: 0.4;
 }
 
@@ -130,7 +130,6 @@ body {
     width:100%;
   }
 }
-
 // NAVIGATION 
 .nav-link {
   transition:0.3s ease;
@@ -896,12 +895,12 @@ nav {
       height: 100vh;
 }
 
-#image-map {
-  width: 100%;
-  position: absolute;
-  top:0;
-  z-index: -1;
-}
+// #image-map {
+//   width: 100%;
+//   position: absolute;
+//   top:0;
+//   z-index: -1;
+// }
 
 // THIRRJE PER PREZANTUESIT CSS
 
