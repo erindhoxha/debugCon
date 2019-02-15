@@ -230,6 +230,9 @@ function startSVGAnimation(parentElement) {
 function startSVGAnimationMain(parentElement) {
   drawSVGPaths(parentElement, 1400, 1200, 444);
 }
+function hyjneshaNfron(parentElement) {
+  drawSVGPaths(parentElement, 2555, 1555, 344);
+}
 
 replaceWithPaths($('svg'));
 
@@ -253,6 +256,7 @@ $(document).on('scroll', function () {
 })
 
 startSVGAnimationMain($('#code-debugcon'));
+hyjneshaNfron($('#hnn-pr'));
 
 
 // spekaers js

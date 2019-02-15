@@ -35,6 +35,7 @@ body {
 
 .banner::before {
   background-image: url("../img/map.png");
+  background-size: cover;
   content: "";
   display: block;
   position: absolute;
@@ -602,7 +603,7 @@ ul li.list-presentation::before {
 #code-debugcon {
   margin: 0px;
   position: absolute;
-  right: 0%;
+  left: 0;
   height: 400px;
   bottom: 0;
   overflow: hidden;
@@ -915,6 +916,32 @@ ul li.list-presentation::before {
 .active:after {
   content: " />";
   color: #6022FF;
+}
+
+#path2656,
+#path2698 {
+  fill: none;
+  stroke: #6022FF;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+#hnn-pr {
+  margin: 0px;
+  position: absolute;
+  height: 80vh;
+  bottom: 0%;
+  right: 3%;
+  overflow: hidden;
+  opacity: 0.2;
+}
+#hnn-pr .st0 {
+  fill: none;
+  stroke: #6022FF;
+  stroke-width: 1px;
+  stroke-miterlimit: 10;
 }
 
 /*# sourceMappingURL=main.css.map */
