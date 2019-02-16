@@ -17,7 +17,7 @@ sass.compiler = require('node-sass');
 gulp.task('sass', function () {
   return gulp.src('./css/main.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./dist/css'));
+    .pipe(gulp.dest('./css'));
 });
 
 gulp.task('compress', function (cb) {
