@@ -186,7 +186,7 @@
           <img class="logo-icon" src="img/dblogo2.png">
         </div>
         <h1 class="lead-hero-text">
-          Konferencë një-ditore plot me prezentime 10-minutëshe për përvojat, sfidat, dhe arritjet në botën e softuerit
+          Konferencë një-ditore plot me prezentime <span class="highlight">10-minutëshe</span> për përvojat, sfidat, dhe arritjet në botën e softuerit
         </h1>
         <p class="date-p"><span class="lead date-lead">30 Mars 2019</span> <br>
           PALLATI I RINISË | KOSOVË, PRISHTINË</p>
@@ -337,7 +337,7 @@
         </div>
         <div data-aos="fade-up">
           <h1>Kush prezanton?</h1>
-          <h4>Ndoshta ti! Thirrja për prezantime është e <a style="color:white; text-decoration: underline" href="thirrjePerPropozime.html">hapur!</a></h4>
+          <h4>Ndoshta ti! Thirrja për prezantime është e <a style="color:white; text-decoration: underline" href="prezanto.html">hapur!</a></h4>
         </div>
       </div>
     </div>
@@ -388,13 +388,23 @@
   <script src="js/form.js"></script>
 
 <script id="speakers-template" type="text/x-handlebars-template">
-  {{#each speakersks}}
+  {{#each speakersks as |speaker|}}
+    {{#unless speaker.name}}
+        <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0 image-scale md-trigger">
+            <img src="{{speaker.img}}">
+            <div class="overlay">
+            </div>
+          </div>
+    {{else}}
     <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0 image-scale md-trigger" data-nr={{@index}}>
-      <img src="{{img}}" id="{{img-id}}">
-      <div class="overlay" id="overlay-{{img-id}}">
-      <div class="text" id="text-{{img-id}}">{{text}}</div>
-      </div>
-    </div>
+            <img src="{{speaker.img}}" id="{{speaker.img-id}}">
+            <div class="overlay" id="overlay-{{speaker.img-id}}">
+            <div class="text" id="text-{{speaker.img-id}}">{{speaker.text}}</div>
+            </div>
+          </div>
+    {{/unless}}
+    
+    
   {{/each}}
 </script>
 

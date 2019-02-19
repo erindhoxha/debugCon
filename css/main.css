@@ -7,9 +7,9 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900|Montserrat");
 @font-face {
-  font-family: 'Track-Regular';
+  font-family: 'Track';
   src: url("../fonts/Track-Regular.otf");
   src: url("../fonts/Track-Regular.eot");
   src: url("../fonts/Track-Regular.eot") format("embedded-opentype"), url("../fonts/Track-Regular.woff2") format("woff2"), url("../fonts/Track-Regular.woff") format("woff"), url("../fonts/Track-Regular.ttf") format("truetype"), url("../fonts/Track-Regular.svg#Track-Regular") format("svg"); }
@@ -758,3 +758,22 @@ ul li.list-presentation::before {
     stroke: #6022FF;
     stroke-width: 1px;
     stroke-miterlimit: 10; }
+
+span.highlight {
+  color: #976ffd; }
+
+ul.bullets {
+  padding-left: 15px; }
+  ul.bullets li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #fff;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */ }
