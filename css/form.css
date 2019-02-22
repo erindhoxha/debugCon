@@ -549,3 +549,20 @@ textarea.input3 {
 }
 
 
+@media only screen and (max-width: 1200px) {
+  .wrap-contact3 {
+    width:85%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrap-contact3 {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrap-contact3 {
+    width: 100%;
+  }
+}
