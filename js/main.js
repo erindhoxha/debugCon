@@ -9,10 +9,6 @@ $(".image-scale").mouseleave(function () {
   $("#overlay-" + id).css('opacity', '0');
 });
 
-//Illustration By Rick Granados
-$("#svg-square-icon").on('click', function() {
-  drawSVGPaths('svg', 2222, 500, 400);
-})
 
 jQuery.extend(jQuery.easing, {
   easeInOutQuad: function (x, t, b, c, d) {
@@ -48,7 +44,6 @@ function replaceRectsWithPaths(parentElement) {
       .insertAfter(this);
 
   });
-
   $(rects).remove();
 }
 
@@ -57,15 +52,11 @@ function replaceLinesWithPaths(parentElement) {
   var lines = $(parentElement).find('line');
 
   $.each(lines, function () {
-
     var lineX1 = $(this).attr('x1');
     var lineY1 = $(this).attr('y1');
-
     var lineX2 = $(this).attr('x2');
     var lineY2 = $(this).attr('y2');
-
     var convertedPath = 'M' + lineX1 + ',' + lineY1 + ' ' + lineX2 + ',' + lineY2;
-
 
     $(SVG('path'))
       .attr('d', convertedPath)
@@ -74,16 +65,12 @@ function replaceLinesWithPaths(parentElement) {
       .attr('stroke-width', $(this).attr('stroke-width'))
       .attr('stroke-linecap', $(this).attr('stroke-linecap'))
       .insertAfter(this);
-
   });
-
   $(lines).remove();
 }
 
 function replaceCirclesWithPaths(parentElement) {
-
   var circles = $(parentElement).find('circle');
-
   $.each(circles, function () {
 
     var cX = $(this).attr('cx');
@@ -129,7 +116,6 @@ function replaceEllipsesWithPaths(parentElement) {
       .insertAfter(this);
 
   });
-
   $(ellipses).remove();
 }
 
@@ -153,7 +139,6 @@ function replacePolygonsWithPaths(parentElement) {
       .insertAfter(this);
 
   });
-
   $(polygons).remove();
 }
 
@@ -179,13 +164,9 @@ function replacePolylinesWithPaths(parentElement) {
 }
 
 function hideSVGPaths(parentElement) {
-
   var paths = $(parentElement).find('path');
-
   $.each(paths, function () {
-
     var totalLength = this.getTotalLength();
-
     $(this).css({
       'stroke-dashoffset': totalLength,
       'stroke-dasharray': totalLength + ' ' + totalLength
@@ -198,9 +179,7 @@ function drawSVGPaths(_parentElement, _timeMin, _timeMax, _timeDelay) {
   var paths = $(_parentElement).find('path');
 
   $.each(paths, function (i) {
-
     var totalLength = this.getTotalLength();
-
     $(this).css({
       'stroke-dashoffset': totalLength,
       'stroke-dasharray': totalLength + ' ' + totalLength
@@ -227,15 +206,7 @@ function replaceWithPaths(parentElement) {
 function startSVGAnimation(parentElement) {
   drawSVGPaths(parentElement, 500, 700, 25);
 }
-function startSVGAnimationMain(parentElement) {
-  drawSVGPaths(parentElement, 1400, 1200, 444);
-}
-function hyjneshaNfron(parentElement) {
-  drawSVGPaths(parentElement, 2555, 4000, 550);
-}
-
 replaceWithPaths($('svg'));
-
 
 $(window).scroll(function () {
   if ($(this).scrollTop() > 0) { // this refers to window
@@ -288,6 +259,5 @@ $(function () {
     $('.md-modal').removeClass('md-show');
     $('body').css('overflow','unset');
   });
-
 });
 
