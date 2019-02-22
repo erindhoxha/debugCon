@@ -235,7 +235,6 @@ hyjneshaNfron($('#hnn-pr'));
 $(function () {
 
   $('.md-trigger').on('click', function () {
-    console.log($(this).attr('data-nr'));
     var dataNr = $(this).attr('data-nr');
     $("#name-speaker").text(speakers.speakersks[dataNr].name);
     $("#occupation").text(speakers.speakersks[dataNr].occupation);
