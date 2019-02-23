@@ -142,7 +142,7 @@ nav {
   font-size: 25px; }
 
 .logo-icon {
-  width: 300px;
+  width: 400px;
   margin-bottom: 30px; }
 
 .date-p, .loc-p {
@@ -735,11 +735,11 @@ li.list-presentation {
   color: white; }
 
 .active:before {
-  content: "< ";
+  content: "{  ";
   color: #6022FF; }
 
 .active:after {
-  content: " />";
+  content: " }";
   color: #6022FF; }
 
 #path2656,

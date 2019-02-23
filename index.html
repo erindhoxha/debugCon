@@ -186,7 +186,7 @@
           <img class="logo-icon" src="img/dblogo2.png">
         </div>
         <h1 class="lead-hero-text">
-          Konferencë një-ditore plot me prezentime <span class="highlight">10-minutëshe</span> për përvojat, sfidat, dhe arritjet në botën e softuerit
+          Konferencë një-ditore plot me prezantime <span class="highlight">10-minutëshe</span> për përvojat, sfidat, dhe arritjet në botën e softuerit
         </h1>
         <p class="date-p"><span class="lead date-lead">30 Mars 2019</span> <br>
           Salla Ramiz Sadiku Rr. Johan Hahn | KOSOVË, PRISHTINË</p>
@@ -391,10 +391,12 @@
   {{#each speakersks as |speaker|}}
     {{#unless speaker.name}}
         <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0 image-scale md-trigger">
+          <a href="prezanto.html" target="_blank">
             <img src="{{speaker.img}}">
             <div class="overlay">
             </div>
-          </div>
+          </a>
+        </div>
     {{else}}
     <div class="col-lg-2 col-sm-4 col-xs-3 col-4 m-0 p-0 image-scale md-trigger" data-nr={{@index}}>
             <img src="{{speaker.img}}" id="{{speaker.img-id}}">
