@@ -206,6 +206,7 @@ function replaceWithPaths(parentElement) {
 function startSVGAnimation(parentElement) {
   drawSVGPaths(parentElement, 500, 700, 25);
 }
+
 replaceWithPaths($('svg'));
 
 $(window).scroll(function () {
@@ -225,6 +226,14 @@ $(document).on('scroll', function () {
     isScrolled = false;
   }
 })
+
+function startSVGAnimationMain(parentElement) {
+  drawSVGPaths(parentElement, 1400, 1200, 444);
+}
+
+function hyjneshaNfron(parentElement) {
+  drawSVGPaths(parentElement, 2555, 4000, 550);
+}
 
 startSVGAnimationMain($('#code-debugcon'));
 hyjneshaNfron($('#hnn-pr'));
