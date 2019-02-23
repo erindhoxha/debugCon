@@ -1,17 +1,19 @@
  var speakers = {
    speakersks: [{
-       img: "img/person2.png",
+       img: "img/ermirsuldashi.png",
        name: 'Ermir Suldashi',
        occupation: 'Front-end Developer',
        'img-id': 1,
        text: 'Ermir Suldashi'
      },
      {
-       img: "img/person4.png",
+       img: "img/denathoxha.png",
        'img-id': 2,
        name: 'Denat Hoxha',
        text: 'Denat Hoxha'
-     }, {
+     }, 
+     
+     {
          img: "img/who.png"
      }, {
         img: "img/who.png"
