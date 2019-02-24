@@ -12,7 +12,6 @@
        name: 'Denat Hoxha',
        text: 'Denat Hoxha'
      }, 
-     
      {
          img: "img/who.png"
      }, {

@@ -269,3 +269,96 @@ $(function () {
   });
 });
 
+let toolID = 0, tooltip = function(ev){
+    const colours = ["white", "black", "red", "orange", "green", "blue", "violet"];
+    const positions = ["top", "left", "right", "bottom"];
+    const animations = ["blank", "fade", "ease-in", "ease-out"];
+    
+    let _in = this.getAttribute("data-event-in") || "mouseenter";
+    let _out = this.getAttribute("data-event-out") || "mouseleave";
+    let action = (_in == _out)? !this.hasAttribute("data-tooltip-id"): (ev.type == _in);
+
+    // Show Tooltip
+    if(action){
+        let config = {
+            color: "white", 
+            position: "top", 
+            animation: "blank", 
+            classNames: ""
+        }, tip, pos;
+
+        if(!this.hasAttribute("data-tooltip-id")){
+            if(this.hasAttribute("data-tooltip-config")){
+                this.getAttribute("data-tooltip-config").split(",").forEach((item) => {
+                    if(colours.indexOf(item) >= 0){
+                        config.color = item;
+                    } else if(positions.indexOf(item) >= 0){
+                        config.position = item;
+                    } else if(animations.indexOf(item) >= 0){
+                        config.animation = item;
+                    } else {
+                        config.classNames += ` ${item}`;
+                    }
+                });
+            }
+            tip = document.createElement("DIV");
+            tip.id = `tooltip-${++toolID}`;
+            tip.innerHTML = this.getAttribute("data-tooltip");
+            tip.className = `tooltip tooltip-${config.color} tooltip-${config.position} `
+                          + `tooltip-${config.animation} ${config.classNames}`;
+            document.body.appendChild(tip);
+
+            pos = ((element) => {
+                let position = {
+                    top:    element.offsetTop    || 0,
+                    left:   element.offsetLeft   || 0,
+                    width:  element.offsetWidth  || 0,
+                    height: element.offsetHeight || 0
+                };
+                while(element = element.offsetParent){
+                    position.top  += element.offsetTop;
+                    position.left += element.offsetLeft;
+                }
+                return position;
+            })(this);
+            switch(config.position){
+                case "left":
+                    tip.style.top = (pos.top + (pos.height/2) - (tip.offsetHeight/2)) + "px";
+                    tip.style.left = (pos.left - tip.offsetWidth - 10) + "px";
+                    break;
+                case "right":
+                    tip.style.top = (pos.top + (pos.height/2) - (tip.offsetHeight/2)) + "px";
+                    tip.style.left = (pos.left + pos.width + 10) + "px";
+                    break;
+                case "bottom":
+                    tip.style.top = (pos.top + pos.height + 10) + "px";
+                    tip.style.left = (pos.left + (pos.width / 2) - (tip.offsetWidth / 2)) + "px";
+                    break;
+                default:
+                    tip.style.top = (pos.top - tip.offsetHeight - 10) + "px";
+                    tip.style.left = (pos.left + (pos.width / 2) - (tip.offsetWidth / 2)) + "px";
+                    break;
+            }
+            this.setAttribute("data-tooltip-id", `tooltip-${toolID}`);
+        }
+        ((id) => {
+            setTimeout(() => { document.querySelector(`#${id}`).classList.add("show"); }, 25);
+        })(this.getAttribute("data-tooltip-id"));
+        return;
+    }
+
+    // Hide Tootlip
+    let tip = document.querySelector(`#${this.getAttribute("data-tooltip-id")}`);
+    tip.classList.remove("show");
+    this.removeAttribute("data-tooltip-id");
+    ((e) => { setTimeout(function(){ e.parentElement.removeChild(e); }, 200); })(tip);
+    return;
+};
+
+// Init
+document.addEventListener("DOMContentLoaded", () => {
+    [].forEach.call(document.querySelectorAll("[data-tooltip]"), function(item){
+        item.addEventListener(item.getAttribute("data-event-in") || "mouseenter", tooltip);
+        item.addEventListener(item.getAttribute("data-event-out") || "mouseleave", tooltip);
+    });
+});
