@@ -78,7 +78,7 @@
           <h4 class="text-white mt-5 mb-3" style="font-family:Track; width:100%; font-size:22px;">Info rreth temës dhe prezantimit</h4>
 
           <div class="wrap-input3 validate-input">
-            <div class="info">
+            <div class="tooltip-i" data-tooltip='<div class="info-popup">
               Nese nuk keni ndonje teme te caktuar, ose ju duhet inspirim per titull, ja disa shembuj qe mund ti
               perdorni:
               <ul>
@@ -87,24 +87,25 @@
                 <li class="list-presentation">Sintetizimi bazik me WebAudio</li>
                 <li class="list-presentation">Observer paterna dhe aplikimi i saj</li>
               </ul>
-            </div>
-            <div class="tooltip-i" data-tooltip="Adding the content here with JS" data-tooltip-config="top">
+            </div>' data-tooltip-config="top">
               <i class="fas fa-info-circle info-icon"></i>
             </div>
             <input class="input3" type="text" name="presentationTitle" placeholder="Titulli i prezantimit" autocorrect="off" spellcheck="false">
           </input>
             <span class="focus-input3"></span>
           </div>
-            <div class="info">
+          <div class="wrap-input3 validate-input">
+            <div class="tooltip-i" data-tooltip='<div class="info-popup">
               Nje shembull per kete seksion do te ishte:
               <p>
+                <br/>
                 Observer paterna eshte pattern shume cool, qe mundet me u perdore neper aplikacione te tipit X, Y, dhe
                 Z. Filani do te demonstroje se si ky pattern i shkeput komponentet (loose coupling) dhe lehteson
                 zhvillimin e softuereve te medha.
               </p>
-            </div>
-          <div class="wrap-input3 validate-input">
-
+            </div>' data-tooltip-config="top">
+            <i class="fas fa-info-circle info-icon"></i>
+          </div>
             <textarea class="input3" name="presentationTopic" placeholder="2-3 fjali per temen tuaj" autocorrect="off" spellcheck="false"></textarea>
             <span class="focus-input3"></span>
           </div>
@@ -122,12 +123,12 @@
           </div>
 
           <div class="wrap-input3 validate-input">
+            <div class="tooltip-i" data-tooltip='<div class="info-popup">Informatat e juaja personale do te perdoren vetem per qellime organizative te konferences. Ato do te ruhen me kujdesin me te madh dhe nuk do te shiten ose dorezohen ne pale te trete.</div>'
+             data-tooltip-config="top">
+              <i class="fas fa-info-circle info-icon"></i>
+            </div>
             <input class="input3" name="phone" placeholder="Nr. Telefoni" autocorrect="off" spellcheck="false" />
             <span class="focus-input3"></span>
-          </div>
-
-          <div class="info">
-            Informatat e juaja personale do te perdoren vetem per qellime organizative te konferences. Ato do te ruhen me kujdesin me te madh dhe nuk do te shiten ose dorezohen ne pale te trete.
           </div>
 
           <h4 class="text-white mt-5 mb-3" style="font-family:Track; width:100%; font-size:22px;">Faleminderit!</h4>
