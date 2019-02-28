@@ -1,0 +1,1 @@
+document.getElementById("presentation-title").oninput=function(t){document.getElementById("presentation-subject").setAttribute("value","Presentation submission form: "+t.target.value)};
