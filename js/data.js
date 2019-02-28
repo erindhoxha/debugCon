@@ -17,6 +17,7 @@
        img: "img/denathoxha.png",
        'img-id': 2,
        name: 'Denat Hoxha',
+       occupation: 'Dashamir i arkitekturës dhe dizajnit të software',
        text: 'Denat Hoxha',
        p1: `Insert short bio here`,
        p2: `Insert topic here`,
