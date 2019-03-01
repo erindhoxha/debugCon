@@ -774,6 +774,11 @@ nav {
 
 
 @media only screen and (max-width: 1023px) {
+  #hnn-pr {
+    z-index:-1;
+    height:100vh !important;
+    right:0 !important;
+  }
   .lead-hero-text {
     font-size:32px;
   }
@@ -951,7 +956,6 @@ nav {
     stroke-width: 1px;
     stroke-miterlimit: 10;
   }
-
   margin: 0px;
   position: absolute;
   height: 80vh;
