@@ -668,6 +668,9 @@ li.list-presentation {
 
 
 @media only screen and (max-width: 767px) {
+  .tooltip {
+    width:70% !important;
+  }
   .active {
     border-left: 4px solid #6022FF;
     border-bottom:none;
@@ -984,7 +987,7 @@ ul.bullets {
   cursor: pointer;
 }
 .tooltip {
-  width: auto;
+  width:auto;
   margin: 0;
   padding: 10px 15px;
   opacity: 1;
