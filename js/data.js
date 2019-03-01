@@ -19,7 +19,7 @@
        name: 'Denat Hoxha',
        occupation: 'Dashamir i arkitekturës dhe dizajnit të softuerit',
        text: 'Denat Hoxha',
-       p1: `Denati që një kohë të gjatë punon profesionalisht në web, dhe ka kaluar nëpër gjuhë programuese dhe frameworks të ndryshëm. Përderisa këto kanë ardh e kanë shku, çka ka mbetë nëvojë konstante është kodi i pastër dhe i lexueshëm.`,
+       p1: `Denati që një kohë të gjatë punon profesionalisht në web, dhe ka kaluar nëpër gjuhë programuese dhe frameworks të ndryshme. Përderisa këto kanë ardh e kanë shku, çka ka mbetë nëvojë konstante është kodi i pastër dhe i lexueshëm.`,
        p2: `Dizajn patern-at (Design patterns) janë vegla të dobishme për ata që i njohin dhe dijnë kur me i apliku. Mirëpo, ka shumë raste kur përfundon tu shkaktu dëm, nëse tenton me i apliku aty ku nuk duhet. Denati ka me i prezantu disa shembuj të kurthave të tilla.`,
        daysText: "",
        daysSubject: ""
