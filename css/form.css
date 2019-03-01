@@ -635,10 +635,6 @@ textarea.input3 {
   border-color: transparent transparent #FFFFFF transparent;
 }
 
-.tooltip.tooltip-white {
-  color: #202428;
-  background-color: #f7f7f7;
-}
 
 .tooltip.tooltip-white.tooltip-top:after {
   border-top-color: #f7f7f7;
