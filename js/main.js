@@ -356,9 +356,27 @@ let toolID = 0, tooltip = function(ev){
 };
 
 // Init
-document.addEventListener("DOMContentLoaded", () => {
-    [].forEach.call(document.querySelectorAll("[data-tooltip]"), function(item){
+
+
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    $(".tooltip-i").attr('data-tooltip-config', 'left');
+    document.addEventListener("DOMContentLoaded", () => {
+      [].forEach.call(document.querySelectorAll("[data-tooltip]"), function (item) {
         item.addEventListener(item.getAttribute("data-event-in") || "mouseenter", tooltip);
         item.addEventListener(item.getAttribute("data-event-out") || "mouseleave", tooltip);
+      });
     });
-});
+  } else {
+    document.addEventListener("DOMContentLoaded", () => {
+      [].forEach.call(document.querySelectorAll("[data-tooltip]"), function (item) {
+        item.addEventListener(item.getAttribute("data-event-in") || "mouseenter", tooltip);
+        item.addEventListener(item.getAttribute("data-event-out") || "mouseleave", tooltip);
+      });
+    });
+  }
+}
+
+var x = window.matchMedia("(max-width: 1024px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
