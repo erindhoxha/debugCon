@@ -47,7 +47,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/visar.jpg",
+        name: 'Visar Shehu',
+        occupation: 'Developer, arkitekt softueri, profesor',
+        'img-id': 5,
+        text: 'Visar Shehu',
+        p1: ``,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
