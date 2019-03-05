@@ -32,12 +32,20 @@
         text: 'Admir Kadriu',
         p1: `Admiri është zhvillues me disa vite përvoje, dhe është dashamir i madh i Redis dhe JavaScript. Në 
         moment punon në Inspire11 Prishtina dhe ligjëron disa lëndë ne Univerzitetin e Prishtinës - FIEK.`,
-       p2: `Redis është databazë në memorie (in-memory database) që përdoret gjërësisht si cache, key-value storage, dhe plot
-       përdorime tjera. Këtë vit Redis i mbush 10 vjet (🎂). Në prezantimin e tij, Admiri do të paraqesë disa teknika dhe dobi të Redis në back-end sisteme.`,
-       daysText: "",
-       daysSubject: ""
-    }, {
-        img: "img/who.png"
+        p2: `Redis është databazë në memorie (in-memory database) që përdoret gjërësisht si cache, key-value storage, dhe plot
+        përdorime tjera. Këtë vit Redis i mbush 10 vjet (🎂). Në prezantimin e tij, Admiri do të paraqesë disa teknika dhe dobi të Redis në back-end sisteme.`,
+        daysText: "",
+        daysSubject: ""
+    },  {
+        img: "img/rozafa.jpg",
+        name: 'Rozafë Llalloshi',
+        occupation: 'Full-stack Developer',
+        'img-id': 4,
+        text: 'Rozafë Llalloshi',
+        p1: ``,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
