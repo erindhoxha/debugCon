@@ -67,7 +67,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/lum_zhaveli.jpg",
+        name: 'Lum Zhaveli',
+        occupation: 'Backend Developer',
+        'img-id': 7,
+        text: 'Lum Zhaveli',
+        p1: `Lum will be talking about today's issues with datacenters, and how we can reduce carbon emissions by writing efficient code for enterprises and mobile!`,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
