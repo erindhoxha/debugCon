@@ -69,10 +69,10 @@
     }, {
         img: "img/lum_zhaveli.jpg",
         name: 'Lum Zhaveli',
-        occupation: 'Backend Developer',
+        occupation: 'Backend Developer, olimpist',
         'img-id': 7,
         text: 'Lum Zhaveli',
-        p1: `Lum will be talking about today's issues with datacenters, and how we can reduce carbon emissions by writing efficient code for enterprises and mobile!`,
+        p1: `Lumi do të flasë për efikasitetin energjitik të datacenters, dhe si mund të ulim emetimet e karbonit duke shkruar kod efikas për ndërmarrje dhe pajisje mobile.`,
         p2: ``,
         daysText: "",
         daysSubject: ""
