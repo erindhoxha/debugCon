@@ -72,7 +72,7 @@
         occupation: 'Backend Developer, olimpist',
         'img-id': 7,
         text: 'Lum Zhaveli',
-        p1: `Lumi do të flasë për efikasitetin energjitik te datacenters, dhe si mund të ulim emetimet e karbonit duke shkruar kod efikas për ndërmarrje dhe pajisje mobile.`,
+        p1: `Lumi do të flasë për efikasitetin energjitik të datacenters, dhe si mund të ulim emetimet e karbonit duke shkruar kod efikas për ndërmarrje dhe pajisje mobile.`,
         p2: ``,
         daysText: "",
         daysSubject: ""
