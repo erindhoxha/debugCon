@@ -77,7 +77,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/egzon_zeneli.jpg",
+        name: 'Egzon Zeneli',
+        occupation: '',
+        'img-id': 8,
+        text: 'Egzon Zeneli',
+        p1: ``,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
