@@ -57,7 +57,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/tali.jpg",
+        name: 'Mehmetali Shaqiri',
+        occupation: 'Mjeshtër i infrastrukturës dhe arkitekturës të softuerit',
+        'img-id': 6,
+        text: 'Mehmetali Shaqiri',
+        p1: ``,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
