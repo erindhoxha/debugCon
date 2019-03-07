@@ -79,7 +79,7 @@
     }, {
         img: "img/egzon_zeneli.jpg",
         name: 'Egzon Zeneli',
-        occupation: 'Chief Development Officer at Solaborate',
+        occupation: '',
         'img-id': 8,
         text: 'Egzon Zeneli',
         p1: ``,
