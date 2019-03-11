@@ -102,7 +102,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/gent_bicaj.jpg",
+        name: 'Gent Bicaj',
+        occupation: 'Software Developer',
+        'img-id': 10,
+        text: `Gent Bicaj`,
+        p1: `Genti ka nje eksperiencë pune si zhvillues i softuerëve dhe per momentin punon si BackEnd Developer në Solaborate LLC. Genti kryesisht zhvillon në .NET por nganjëherë  edhe në React (JS & Native).`,
+        p2: `Çka i pelqejnë Gentit shumë janë Stored Procedures dhe SQL-Queries, për këtë arsye ai ka zgjedh me na tregu qysh indeksat e rrisin performancen në SQL.`,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
