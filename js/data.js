@@ -5,7 +5,9 @@
        occupation: 'Hacker i njëfarë lloji',
        'img-id': 1,
        text: 'Ermir Suldashi',
-       p1: `Ermiri gjithmonë ka dashur të prezantojë në konferencë, prandaj e krijoi debugCon pikërisht për këtë qëllim!`,
+       p1: `Ermiri gjithmonë ka dashur të prezantojë në konferencë, prandaj e krijoi debugCon pikërisht për këtë qëllim! 
+       Ermirit i pëlqen të eksperimentojë me teknologji të ndryshme, dhe kohëve të fundita po i teston teknologjitë multimediale,
+       duke u fokusuar në WebRTC dhe teknologji tjera të kohës reale.`,
        p2: `Në sistemet multiplayer të videolojave moderne, UDP protokoli përdoret për t'i lidhur lojtarët për shkak të shpejtësisë
         qe mund të arrihet me të. Lojat e implementuara me JavaScript në browserë nuk e kanë pasur këtë mundësi, që e ka mbajtur
         mbrapa zhvillimin e kësaj platforme. Në prezentimin e tij, Ermiri do te flase se si teknologjitë e reja me WebRTC mund
@@ -19,8 +21,11 @@
        name: 'Denat Hoxha',
        occupation: 'Dashamir i arkitekturës dhe dizajnit të softuerit',
        text: 'Denat Hoxha',
-       p1: `Denati që një kohë të gjatë punon profesionalisht në web, dhe ka kaluar nëpër gjuhë programuese dhe frameworks të ndryshme. Përderisa këto kanë ardh e kanë shku, çka ka mbetë nëvojë konstante është kodi i pastër dhe i lexueshëm.`,
-       p2: `Dizajn patern-at (Design patterns) janë vegla të dobishme për ata që i njohin dhe dijnë kur me i apliku. Mirëpo, ka shumë raste kur përfundon tu shkaktu dëm, nëse tenton me i apliku aty ku nuk duhet. Denati ka me i prezantu disa shembuj të kurthave të tilla.`,
+       p1: `Denati që një kohë të gjatë punon profesionalisht në web, dhe ka kaluar nëpër gjuhë programuese dhe frameworks të ndryshme. 
+       Përderisa këto kanë ardh e kanë shku, çka ka mbetë nëvojë konstante është kodi i pastër dhe i lexueshëm.`,
+       p2: `Dizajn patern-at (Design patterns) janë vegla të dobishme për ata që i njohin dhe dijnë kur me i apliku. Mirëpo, ka
+        shumë raste kur përfundon tu shkaktu dëm, nëse tenton me i apliku aty ku nuk duhet. Denati ka me i prezantu disa shembuj 
+        të kurthave të tilla.`,
        daysText: "",
        daysSubject: ""
      }, 
@@ -52,8 +57,12 @@
         occupation: 'Developer, arkitekt softueri, profesor',
         'img-id': 5,
         text: 'Visar Shehu',
-        p1: ``,
-        p2: ``,
+        p1: `Visar Shehu është profesor i asocuar në Universitetin e Evropës Juglindore në Tetovë, Maqedoni. 
+        Gjithashtu, ai është edhe drejtor teknik i kompanise Inspire11 në Maqedoni.`,
+        p2: `Duke punuar dhe udhëhequr projekte të shumta, Visari ka pasur fatin e mirë që të mesojë dhe provojë
+         shumë gjuhë programuese. Ai është entuziast i teknologjisë dhe këtë entuziazëm dëshiron ta ndajë me të tjerët. Për
+          këtë arsye ai ka vendosur t'i indoktrinojë gjeneratat më të reja. Visari do të flasë për disa iniciativa në STEM 
+          edukim dhe çfarë ai përdor për të infektuar të rinjtë me virusin e programimit.`,
         daysText: "",
         daysSubject: ""
     }, {
@@ -72,8 +81,11 @@
         occupation: 'Backend Developer, olimpist',
         'img-id': 7,
         text: 'Lum Zhaveli',
-        p1: `Lumi do të flasë për efikasitetin energjitik të datacenters, dhe si mund të ulim emetimet e karbonit duke shkruar kod efikas për ndërmarrje dhe pajisje mobile.`,
-        p2: ``,
+        p2: `Lumi do të flasë për efikasitetin energjitik të datacenters, dhe si mund 
+        të ulim emetimet e karbonit duke shkruar kod efikas për ndërmarrje dhe pajisje mobile.`,
+        p1: `Lumi mirret me programim prej nga mosha 15 vjeçare. Ai punon si Senior Back-End Java
+         developer në OpenResearch. Pasionet e tij në shkencat kompjuterike janë High Performance 
+         Computing, Parallel Computing, dhe Computer Graphics (ray-tracing).`,
         daysText: "",
         daysSubject: ""
     }, {
@@ -107,8 +119,10 @@
         occupation: 'Software Developer',
         'img-id': 10,
         text: `Gent Bicaj`,
-        p1: `Genti ka nje eksperiencë pune si zhvillues i softuerëve dhe per momentin punon si BackEnd Developer në Solaborate LLC. Genti kryesisht zhvillon në .NET por nganjëherë  edhe në React (JS & Native).`,
-        p2: `Çka i pelqejnë Gentit shumë janë Stored Procedures dhe SQL-Queries, për këtë arsye ai ka zgjedh me na tregu qysh indeksat e rrisin performancen në SQL.`,
+        p1: `Genti ka nje eksperiencë pune si zhvillues i softuerëve dhe per momentin punon si BackEnd Developer në Solaborate
+         LLC. Genti kryesisht zhvillon në .NET por nganjëherë  edhe në React (JS & Native).`,
+        p2: `Çka i pelqejnë Gentit shumë janë Stored Procedures dhe SQL-Queries, për këtë arsye ai ka zgjedh me na tregu qysh
+         indeksat e rrisin performancen në SQL.`,
         daysText: "",
         daysSubject: ""
     }, {
