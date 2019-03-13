@@ -126,7 +126,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/fiona_podrimaj.jpg",
+        name: 'Fiona Podrimaj',
+        occupation: 'PO/iOS Developer',
+        'img-id': 11,
+        text: `Fiona Podrimaj`,
+        p1: `Fiona aktualisht punon si Product Owner në SPRIGS dhe mirret me zhvillimin e aplikacioneve mobile, përkatësisht iOS.`,
+        p2: `Fiona do te flasë për JIRA, softuer menaxhues e cila po përdoret më shumë e më shumë nga zhvilluesit; mirëpo, pak prej nesh dijmë se si ta përdorim maksimalisht potencialin e kësaj vegle.`,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
