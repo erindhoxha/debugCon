@@ -116,7 +116,7 @@
     }, {
         img: "img/gent_bicaj.jpg",
         name: 'Gent Bicaj',
-        occupation: 'Software Developer',
+        occupation: 'Software Developer, pronar i 20 palë këpucëve për hiking',
         'img-id': 10,
         text: `Gent Bicaj`,
         p1: `Genti ka nje eksperiencë pune si zhvillues i softuerëve dhe per momentin punon si BackEnd Developer në Solaborate
@@ -126,19 +126,41 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/fiona_podrimaj.jpg",
-        name: 'Fiona Podrimaj',
-        occupation: 'PO/iOS Developer',
+        img: "img/robert.jpg",
+        name: 'Robert Shala',
+        occupation: 'Information Security Specialist',
         'img-id': 11,
-        text: `Fiona Podrimaj`,
-        p1: `Fiona aktualisht punon si Product Owner në SPRIGS dhe mirret me zhvillimin e aplikacioneve mobile, përkatësisht iOS.`,
-        p2: `Fiona do te flasë për JIRA, softuer menaxhues e cila po përdoret më shumë e më shumë nga zhvilluesit; mirëpo, pak prej nesh dijmë se si ta përdorim maksimalisht potencialin e kësaj vegle.`,
+        text: `Robert Shala`,
+        p1: `Roberti është Drejtor dhe Specialist i Sigurimit të Informacioneve në Sentry Cybersecurity, një prej të vetmeve kompani të tilla 
+        në Kosovë. Jashtë teknologjisë, Roberti është muzikant i flaktë dhe merr pjesë në disa grupe muzikore.`,
+        p2: `Aplikimi i AI/ML algoritmeve është bërë i dëshirueshëm në shumë produkte sepse është efektiv për zgjidhjen e shumë problemeve. Roberti
+         do të flasë për trendet dhe teknikat ofansive kundër AI/ML algoritmeve si dhe rreziqet në implementime të ndryshme.`,
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/fiona_podrimaj.jpg",
+        name: 'Fiona Podrimaj',
+        occupation: 'PO/iOS Developer',
+        'img-id': 12,
+        text: `Fiona Podrimaj`,
+        p1: `Fiona aktualisht punon si Product Owner në SPRIGS dhe mirret me zhvillimin e aplikacioneve mobile, përkatësisht iOS.`,
+        p2: `Fiona do te flasë për JIRA, softuer menaxhues e cila po përdoret më shumë e më shumë nga zhvilluesit; mirëpo, 
+        pak prej nesh dijmë se si ta përdorim maksimalisht potencialin e kësaj vegle.`,
+        daysText: "",
+        daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/driton.jpg",
+        name: 'Driton Haxhiu',
+        occupation: 'Developer and tech evangelist',
+        'img-id': 13,
+        text: `Driton Haxhiu`,
+        p1: `Dritoni ka pasion teknologjinë dhe shpërndarjen e saj në gjeneratat e reja. Ai ka mbajur dhjetra kurse, workshope, dhe panele,
+        me grupe të të gjitha moshave, duke perfshirë edhe grupin e fëmijëve Young Coders Kosovo.`,
+        p2: `Në React aplikacionet komplekse është vështirë të pasohen të dhënat prej një komponenti në tjetrin nëse nuk kanë
+         prind të përbashkët. Për zgjidhjen e këtij problemi janë shpikur veglat si Redux dhe React Context, dhe Dritoni do të flasë për
+         përparësitë dhe mangësitë e këtyre veglave.`,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
