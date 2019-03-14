@@ -99,7 +99,7 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/arnold.jpg",
+        img: "img/arnold.gif",
         name: 'Arnold Plakolli',
         occupation: 'iOS Developer',
         'img-id': 9,
