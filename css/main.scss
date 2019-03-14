@@ -681,7 +681,7 @@ li.list-presentation {
 }
   .md-content {
     img {
-      width:100px !important;
+      width:150px !important;
     }
     #name-speaker {
       font-size:15px;
@@ -844,6 +844,20 @@ nav {
       font-size:17px;
     }
   }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+	.md-modal {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media screen and (min-width: 1023px) {
+	.md-modal {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 
 .image {

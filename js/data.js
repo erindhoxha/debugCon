@@ -226,7 +226,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/kushtrim_pacaj.jpg",
+        name: 'Kushtrim Pacaj',
+        occupation: 'Lead Android Developer',
+        'img-id': 20,
+        text: `Kushtrim Pacaj`,
+        p1: `Kushtrimi e ka kaluar një pjesë të mirë të karrierës duke punuar në Android, e posaçërisht i pëlqen me e përdorë për me kriju funksionalitete cool me HELLO 2 ;D`,
+        p2: `Në debugCon, Kushtrimi do të flasë për Android internals: krijimin e custom system services.`,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
