@@ -172,7 +172,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/grese.jpg",
+        name: 'Gresë Hyseni',
+        occupation: 'Web Developer',
+        'img-id': 15,
+        text: `Gresë Hyseni`,
+        p1: ``,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
