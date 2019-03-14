@@ -182,7 +182,17 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/sadi.jpg",
+        name: 'Sadi Qevani',
+        occupation: 'Blockchain developer, dhe shumë tjera',
+        'img-id': 16,
+        text: `Sadi Qevani`,
+        p1: `Sadi e krijoi dhe shiti biznesin e tij të parë teknologjik hala pa i mbushur 20 vjet. Ka udhëtuar botën, ka provuar
+        çdo teknologji të mundshme, dhe vjen nga Berlini veçanërisht për debugCon. Momentalisht punon si lead blockchain developer
+        në Ape Unit në Berlin, Gjermani.`,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
