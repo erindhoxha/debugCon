@@ -162,7 +162,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/rita.jpg",
+        name: 'Rita Dobruna',
+        occupation: 'Android Developer',
+        'img-id': 14,
+        text: `Rita Dobruna`,
+        p1: ``,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
