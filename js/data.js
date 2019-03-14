@@ -194,7 +194,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/hakan_shehu.jpg",
+        name: 'Hakan Shehu',
+        occupation: 'Lead Software Engineer',
+        'img-id': 17,
+        text: `Hakan Shehu`,
+        p1: `Hakani është i angazhuar si lead software engineer në Gjirafa, Inc. Ai poashtu ka punuar si tutor në lëndën e programimit të orientuar në objekte në UBT. Duke qenë pjesë e produkteve të ndryshme, ai ka eksperiencë me web developing, dev-ops, machine learning e pak edhe me mobile.`,
+        p2: `Si zhvillues në një kompani që proceson sasi masive të informatave, Hakani do të flasë rreth infrastrukturës së procesimit dhe analizimit të të dhënave brenda Gjirafes.`,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/besart.jpg",
         name: 'Besart Kuleta',
@@ -208,7 +216,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/blend_halilaj.jpg",
+        name: 'Blend Halilaj',
+        occupation: 'Senior Software Engineer',
+        'img-id': 19,
+        text: `Blend Halilaj`,
+        p1: `Blendi është një senior software engineer ne Gjirafa, Inc. Në 2 vitet e fundit Blendi është marrë kryesisht me stream. Jo stream si gamer, por ka punuar intensivisht në infrastrukturën e stream-it të GjirafaVideo duke përfshirë enkodimet, cache, dhe live-stream. Në konferencë ai do të ndajë me neve disa nga mësimet që i ka hasur gjatë kësaj eksperience.`,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
