@@ -199,8 +199,11 @@
         occupation: 'Lead Software Engineer',
         'img-id': 17,
         text: `Hakan Shehu`,
-        p1: `Hakani është i angazhuar si lead software engineer në Gjirafa, Inc. Ai poashtu ka punuar si tutor në lëndën e programimit të orientuar në objekte në UBT. Duke qenë pjesë e produkteve të ndryshme, ai ka eksperiencë me web developing, dev-ops, machine learning e pak edhe me mobile.`,
-        p2: `Si zhvillues në një kompani që proceson sasi masive të informatave, Hakani do të flasë rreth infrastrukturës së procesimit dhe analizimit të të dhënave brenda Gjirafes.`,
+        p1: `Hakani është i angazhuar si lead software engineer në Gjirafa, Inc. Ai poashtu ka punuar si tutor
+         në lëndën e programimit të orientuar në objekte në UBT. Duke qenë pjesë e produkteve të ndryshme,
+          ai ka eksperiencë me web developing, dev-ops, machine learning e pak edhe me mobile.`,
+        p2: `Si zhvillues në një kompani që proceson sasi masive të informatave, Hakani do të flasë rreth
+         infrastrukturës së procesimit dhe analizimit të të dhënave brenda Gjirafes.`,
         daysText: "",
         daysSubject: ""
     }, {
@@ -221,7 +224,10 @@
         occupation: 'Senior Software Engineer',
         'img-id': 19,
         text: `Blend Halilaj`,
-        p1: `Blendi është një senior software engineer ne Gjirafa, Inc. Në 2 vitet e fundit Blendi është marrë kryesisht me stream. Jo stream si gamer, por ka punuar intensivisht në infrastrukturën e stream-it të GjirafaVideo duke përfshirë enkodimet, cache, dhe live-stream. Në konferencë ai do të ndajë me neve disa nga mësimet që i ka hasur gjatë kësaj eksperience.`,
+        p1: `Blendi është një senior software engineer ne Gjirafa, Inc. Në 2 vitet e fundit Blendi është marrë kryesisht me 
+        stream. Jo stream si gamer, por ka punuar intensivisht në infrastrukturën e stream-it të GjirafaVideo duke 
+        përfshirë enkodimet, cache, dhe live-stream. Në konferencë ai do të ndajë me neve disa nga mësimet që i ka hasur
+         gjatë kësaj eksperience.`,
         p2: ``,
         daysText: "",
         daysSubject: ""
@@ -231,12 +237,21 @@
         occupation: 'Lead Android Developer',
         'img-id': 20,
         text: `Kushtrim Pacaj`,
-        p1: `Kushtrimi e ka kaluar një pjesë të mirë të karrierës duke punuar në Android, e posaçërisht i pëlqen me e përdorë për me kriju funksionalitete cool me HELLO 2 ;D`,
+        p1: `Kushtrimi e ka kaluar një pjesë të mirë të karrierës duke punuar në Android, e posaçërisht i pëlqen me e 
+        përdorë për me kriju funksionalitete cool me HELLO 2 😃`,
         p2: `Në debugCon, Kushtrimi do të flasë për Android internals: krijimin e custom system services.`,
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/muhamed.jpg",
+        name: 'Muhamed Retkoceri',
+        occupation: 'Algorithm Engineer',
+        'img-id': 21,
+        text: `Muhamed Retkoceri`,
+        p1: ``,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
