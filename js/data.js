@@ -16,7 +16,7 @@
        daysSubject: ""
      },
      {
-       img: "img/denathoxha.png",
+       img: "img/denathoxha.jpg",
        'img-id': 2,
        name: 'Denat Hoxha',
        occupation: 'Dashamir i arkitekturës dhe dizajnit të softuerit',
