@@ -188,7 +188,7 @@
         'img-id': 16,
         text: `Sadi Qevani`,
         p1: `Sadi e krijoi dhe shiti biznesin e tij të parë teknologjik hala pa i mbushur 20 vjet. Ka udhëtuar botën, ka provuar
-        çdo teknologji të mundshme, dhe vjen nga Berlini veçanërisht për debugCon. Momentalisht punon si lead blockchain developer
+        çdo teknologji të mundshme, dhe vjen nga Berlini veçanërisht për debugCon. Momentalisht punon si Lead Blockchain Developer
         në Ape Unit në Berlin, Gjermani.`,
         p2: ``,
         daysText: "",
@@ -196,7 +196,17 @@
     }, {
         img: "img/who.png"
     }, {
-        img: "img/who.png"
+        img: "img/besart.jpg",
+        name: 'Besart Kuleta',
+        occupation: 'Software Developer and Data Enthusiast',
+        'img-id': 18,
+        text: `Besart Kuleta`,
+        p1: `Besarti është Software Developer me eksperiencë në zhvillimin e web dhe mobile aplikacioneve. Si i apasionuar për të
+         dhënat dhe analizën e tyre, ai do të prezentojë një rast studimi se si të dhënat mund t'i ndihmojnë marketet e mëdha në
+         ndërtimin e kampanjave të marketingut.`,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }, {
