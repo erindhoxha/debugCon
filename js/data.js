@@ -94,8 +94,8 @@
         occupation: '',
         'img-id': 8,
         text: 'Egzon Zeneli',
-        p1: ``,
-        p2: ``,
+        p1: `Egzoni është Chief Development Officer në Solaborate, ku menaxhon ekipin e softuerit. Nën lidershipin e Egzonit, Solaborate u bart në microservices që lejoi rritjen dhe integrimin e shërbimeve të HELLO 2 në rrjetin e Solaborate.`,
+        p2: `Egzoni do të tregojë për disa sfida teknike, në të cilat ka hasur edhe vet, gjatë zhvillimit në gjuhën programuese Go.`,
         daysText: "",
         daysSubject: ""
     }, {
