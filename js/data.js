@@ -239,7 +239,10 @@
         text: `Kushtrim Pacaj`,
         p1: `Kushtrimi e ka kaluar një pjesë të mirë të karrierës duke punuar në Android, e posaçërisht i pëlqen me e 
         përdorë për me kriju funksionalitete cool me HELLO 2 😃`,
-        p2: `Në debugCon, Kushtrimi do të flasë për Android internals: krijimin e custom system services.`,
+        p2: `Në debugCon, Kushtrimi do të flasë për Android internals: krijimin e custom system services. Services jane programe
+        të veçanta të cilat janë aktive në prapavijë të sistemit operativ dhe përdoren për aktivitete që kanë të bejnë me krejt
+        sistemin ose kanë nevojë të jenë aktive gjatë gjithë kohës. Shembuj janë anti-virusët, sistemet e planifikimit (scheduling),
+        background listeners për komanda, etj.`,
         daysText: "",
         daysSubject: ""
     }, {
@@ -248,7 +251,10 @@
         occupation: 'Algorithm Engineer',
         'img-id': 21,
         text: `Muhamed Retkoceri`,
-        p1: ``,
+        p1: `Muhamedi është një Software Engineer dhe etuziast i algoritmeve, duke përfshirë ato klasike por veçanërisht
+        algoritmeve të Machine Learning. Ai është bashkëthemelues i Algorithmics, një kompani Kosovare që merret me aplikimin e Machine
+        Learning dhe algoritmeve të optimizimit në probleme të ndryshme të industrisë. Ai poashtu është i angazhuar në 
+        Universitetin për Biznes dhe Teknologji si asistent dhe ligjërues i Lëndës së Algoritmeve dhe Strukturave të të dhënave.`,
         p2: ``,
         daysText: "",
         daysSubject: ""
