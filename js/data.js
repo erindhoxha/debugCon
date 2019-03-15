@@ -180,7 +180,10 @@
         'img-id': 15,
         text: `Gresë Hyseni`,
         p1: ``,
-        p2: ``,
+        p2: `Për shkak të problemeve dhe vështirësive të medha në renditjen e elementeve në HTML dhe CSS, prodhuesit e browserëve 
+        dhe grupi punues WHATWG shpikën Flexbox, sistemin më të ri të renditjes të elementeve ne CSS. Me Flexbox është
+        e mundur të përzihen elementet me dimenzione fikse dhe ato fleksibile, dhe të bëhet rirenditja sipas rrethanave dhe materialeve.
+        Gresa do të flasë për disa teknika të Flexbox dhe përparësitë e tyre.`,
         daysText: "",
         daysSubject: ""
     }, {
