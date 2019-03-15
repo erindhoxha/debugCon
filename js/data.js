@@ -168,7 +168,9 @@
         'img-id': 14,
         text: `Rita Dobruna`,
         p1: ``,
-        p2: ``,
+        p2: `Si programere me përvojë shumëvjeçare me Android, Rita ka pasur rast të jetë pjesë e disa projekteve që përdorin Java, por 
+        edhe Kotlin. Kotlin, si gjuha e ardhmërisë së Android, preferohet të përdoret nga Google, por hala egziston shumë kod në Java
+        që duhet të bashkëpunojë ose të bartet në Kotlin. Rita do të flasë për tranzicionin nga Java në Kotlin në kontekst të Android.`,
         daysText: "",
         daysSubject: ""
     }, {
