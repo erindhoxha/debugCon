@@ -179,11 +179,13 @@
         occupation: 'Web Developer',
         'img-id': 15,
         text: `Gresë Hyseni`,
-        p1: ``,
-        p2: `Për shkak të problemeve dhe vështirësive të medha në renditjen e elementeve në HTML dhe CSS, prodhuesit e browserëve 
-        dhe grupi punues WHATWG shpikën Flexbox, sistemin më të ri të renditjes të elementeve ne CSS. Me Flexbox është
-        e mundur të përzihen elementet me dimenzione fikse dhe ato fleksibile, dhe të bëhet rirenditja sipas rrethanave dhe materialeve.
-        Gresa do të flasë për disa teknika të Flexbox dhe përparësitë e tyre.`,
+        p1: `Gresa ka qenë Web Developer për më shumë se tre vite. Vitin e fundit ajo ka hyre edhe në botën e të dhënave, 
+        por programimi në web vazhdon të jetë pasion i saj. Në eksperiencën e fundit të saj gjatë një programi certifikues
+         në web, ajo u njoftua me shumë teknologji të reja e të dobishme, ndër to është edhe Flexbox.`,
+        p2: `Flexbox është sistemi më i ri i vendosjes dhe shpërndarjes së elementeve në HTML përmes CSS. Ky sistem u shpik nga 
+        prodhuesit e browserëve dhe grupit punues WHATWG për shkak të vështirësive të deriathërëshme për një gjë të tillë. 
+        Me Flexbox është e mundur të përzihen elementet me dimenzione fikse dhe ato fleksibile, dhe të bëhet rirenditja sipas
+         rrethanave dhe materialeve. Gresa do të flasë për disa teknika të Flexbox dhe përparësitë e tyre.`,
         daysText: "",
         daysSubject: ""
     }, {
