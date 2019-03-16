@@ -106,7 +106,7 @@
         text: `Arnold Plakolli`,
         p1: `Arnoldi është zhvillues me disa vite përvojë pune dhe admirues i produkteve të Apple. 
         Për momentin punon në Solaborate si iOS developer. Arnoldi ka qenë pjesë e ekipit fitues Kosovar në garën
-        Nasa Space Apps 2015 me aplikacionin NatEv Explorer. Vizitoi Floridën si shpërblim, po nuk e pa lansimin e
+        Nasa Space Apps 2015 me aplikacionin NatEv Explorer. Vizitoi NASA në Floridë si shpërblim, po nuk e pa lansimin e
          raketës për shkak se u anulua prej shiut dhe motit të keq.`,
         p2: `Dependency managers janë pjesë kyçe e sistemeve moderne të progamimit, dhe e bëjnë integrimin e librarive të
          ndryshme shumë të lehtë. Arnoldi do të prezantoj përdorimin, të mirat dhe të metat e dependency managers të ndryshëm 
@@ -179,8 +179,13 @@
         occupation: 'Web Developer',
         'img-id': 15,
         text: `Gresë Hyseni`,
-        p1: ``,
-        p2: ``,
+        p1: `Gresa ka qenë Web Developer për më shumë se tre vite. Vitin e fundit ajo ka hyre edhe në botën e të dhënave, 
+        por programimi në web vazhdon të jetë pasion i saj. Në eksperiencën e fundit të saj gjatë një programi certifikues
+         në web, ajo u njoftua me shumë teknologji të reja e të dobishme, ndër to është edhe Flexbox.`,
+        p2: `Flexbox është sistemi më i ri i vendosjes dhe shpërndarjes së elementeve në HTML përmes CSS. Ky sistem u shpik nga 
+        prodhuesit e browserëve dhe grupit punues WHATWG për shkak të vështirësive të deriathërëshme për një gjë të tillë. 
+        Me Flexbox është e mundur të përzihen elementet me dimenzione fikse dhe ato fleksibile, dhe të bëhet rirenditja sipas
+         rrethanave dhe materialeve. Gresa do të flasë për disa teknika të Flexbox dhe përparësitë e tyre.`,
         daysText: "",
         daysSubject: ""
     }, {

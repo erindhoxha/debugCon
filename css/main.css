@@ -954,3 +954,11 @@ ul.bullets {
 
 .info-popup {
   max-width: 300px; }
+
+a.link-text {
+  color: white;
+  text-decoration: underline; }
+
+a.link-text-dark {
+  color: #6139a0;
+  text-decoration: underline; }
