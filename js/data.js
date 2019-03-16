@@ -106,7 +106,7 @@
         text: `Arnold Plakolli`,
         p1: `Arnoldi është zhvillues me disa vite përvojë pune dhe admirues i produkteve të Apple. 
         Për momentin punon në Solaborate si iOS developer. Arnoldi ka qenë pjesë e ekipit fitues Kosovar në garën
-        Nasa Space Apps 2015 me aplikacionin NatEv Explorer. Vizitoi Floridën si shpërblim, po nuk e pa lansimin e
+        Nasa Space Apps 2015 me aplikacionin NatEv Explorer. Vizitoi NASA në Floridë si shpërblim, po nuk e pa lansimin e
          raketës për shkak se u anulua prej shiut dhe motit të keq.`,
         p2: `Dependency managers janë pjesë kyçe e sistemeve moderne të progamimit, dhe e bëjnë integrimin e librarive të
          ndryshme shumë të lehtë. Arnoldi do të prezantoj përdorimin, të mirat dhe të metat e dependency managers të ndryshëm 
