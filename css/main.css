@@ -13,7 +13,6 @@
   src: url("../fonts/Track-Regular.otf");
   src: url("../fonts/Track-Regular.eot");
   src: url("../fonts/Track-Regular.eot") format("embedded-opentype"), url("../fonts/Track-Regular.woff2") format("woff2"), url("../fonts/Track-Regular.woff") format("woff"), url("../fonts/Track-Regular.ttf") format("truetype"), url("../fonts/Track-Regular.svg#Track-Regular") format("svg"); }
-
 html {
   color: #222;
   font-size: 1em;
@@ -342,10 +341,8 @@ textarea {
    ========================================================================== */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */ }
-
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5 / 4), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -361,13 +358,17 @@ textarea {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important; }
+
   a,
   a:visited {
     text-decoration: underline; }
+
   a[href]:after {
     content: " (" attr(href) ")"; }
+
   abbr[title]:after {
     content: " (" attr(title) ")"; }
+
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
@@ -375,31 +376,36 @@ textarea {
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
+
   pre {
     white-space: pre-wrap !important; }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
+
   /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
   thead {
     display: table-header-group; }
+
   tr,
   img {
     page-break-inside: avoid; }
+
   p,
   h2,
   h3 {
     font-size: 30px;
     orphans: 3;
     widows: 3; }
+
   h2,
   h3 {
     page-break-after: avoid; } }
-
 body {
   overflow-x: hidden; }
   body svg {
@@ -510,7 +516,6 @@ li.list-presentation {
     transform: translatey(-5px); }
   100% {
     transform: translatey(0px); } }
-
 #code-debugcon {
   margin: 0px;
   position: absolute;
@@ -557,32 +562,43 @@ li.list-presentation {
 @media only screen and (max-width: 767px) {
   .tooltip {
     width: 70% !important; }
+
   .active {
     border-left: 4px solid #6022FF;
     border-bottom: none;
     padding-left: 10px !important; }
+
   .md-modal {
     padding-bottom: 100px; }
+
   .md-content img {
     width: 150px !important; }
   .md-content #name-speaker {
     font-size: 15px; }
+
   #nav-logo, #nav-show {
     width: 200px !important; }
+
   .title {
     text-align: center; }
+
   .lead-hero-text {
     font-size: 1.5rem !important; }
+
   .banner {
     min-height: 650px;
     height: 100%;
     padding-top: 100px; }
+
   .logo-icon {
     width: 100%; }
+
   .date-lead, .date-p {
     font-size: 15px !important; }
+
   .banner-loc {
     height: 100%; }
+
   .people {
     height: 100%;
     text-align: center;
@@ -590,6 +606,7 @@ li.list-presentation {
     padding-bottom: 80px; }
     .people .margin-mobile {
       margin-top: 40px; }
+
   .center-flex {
     flex-direction: column;
     width: 90%;
@@ -599,8 +616,10 @@ li.list-presentation {
       font-size: 20px !important;
       margin-top: 20px;
       text-align: center; }
+
   #person-div {
     padding: 15px; }
+
   .speakers .clip-border {
     width: 82px;
     height: 100%;
@@ -610,38 +629,48 @@ li.list-presentation {
   .speakers img {
     width: 100%;
     clip-path: none; }
+
   .btn-speaker-nav {
     margin-top: 15px;
     margin-bottom: 26px; }
+
   .btn-speaker {
     padding: 10px;
     font-size: 16px !important; }
+
   nav {
     font-size: 19px !important; }
     nav .btn-speaker-nav {
       font-size: 14px !important; }
+
   .contact3-form-btn {
     width: 100%; }
+
   .banner-spo {
     text-align: center;
     min-height: 400px; } }
-
 @media only screen and (max-width: 1023px) {
   #hnn-pr {
     z-index: -1;
     height: 100vh !important;
     right: 0 !important; }
+
   .lead-hero-text {
     font-size: 32px; }
+
   #nav-logo, #nav-show {
     width: 230px; }
+
   .date-lead,
   .date-p {
     font-size: 19px; }
+
   .btn-speaker {
     font-size: 19px; }
+
   .banner-loc {
     height: 100%; }
+
   .people {
     height: 100%;
     text-align: center;
@@ -649,16 +678,21 @@ li.list-presentation {
     padding-bottom: 80px; }
     .people .margin-mobile {
       margin-top: 40px; }
+
   .p-sm {
     font-size: 19px; }
+
   #paragraph-1 {
     font-size: 15px; }
+
   .banner-spo {
     text-align: center;
     min-height: 400px;
     font-size: 23px; }
+
   .row.flex-center .p-lg {
     font-size: 20px !important; }
+
   .center-flex {
     flex-direction: column;
     width: 90%;
@@ -668,25 +702,24 @@ li.list-presentation {
       font-size: 23px;
       margin-top: 20px;
       text-align: center; }
+
   .title {
     text-align: center; }
+
   nav {
     font-size: 23px; }
     nav .btn-speaker-nav {
       margin-top: 25px;
       margin-bottom: 25px;
       font-size: 17px; } }
-
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .md-modal {
     padding-left: 15px;
     padding-right: 15px; } }
-
 @media screen and (min-width: 1023px) {
   .md-modal {
     padding-left: 15px;
     padding-right: 15px; } }
-
 .image {
   display: block;
   width: 100%;
@@ -954,3 +987,13 @@ ul.bullets {
 
 .info-popup {
   max-width: 300px; }
+
+a.link-text {
+  color: white;
+  text-decoration: underline; }
+
+a.link-text-dark {
+  color: #6139a0;
+  text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */
