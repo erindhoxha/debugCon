@@ -276,7 +276,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/dijon_vula.jpg",
+        name: 'Dijon Vula',
+        occupation: 'Hardware Architect',
+        'img-id': 23,
+        text: `Dijon Vula`,
+        p1: ``,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }, {
         img: "img/who.png"
     }
