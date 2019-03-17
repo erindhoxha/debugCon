@@ -271,7 +271,8 @@
         occupation: 'Software Developer',
         'img-id': 22,
         text: `Muhamet Kaçuri`,
-        p1: `Muhameti ka një eksperiencë pune si zhvillues në web dhe për momentin punon si Angular Developer në Solaborate LLC. Përpos Angular, Muhameti ka dashuri të madhe për gjithçka .NET`,
+        p1: `Muhameti ka një eksperiencë pune si zhvillues në web dhe për momentin punon si Angular Developer në Solaborate LLC.
+         Përpos Angular, Muhameti ka dashuri të madhe për gjithçka .NET`,
         p2: `Muhameti do të flasë për Decision Trees dhe si mund të mësojmë nga të dhënat për të marrë vendime.`,
         daysText: "",
         daysSubject: ""
