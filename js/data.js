@@ -287,7 +287,15 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/who.png"
+        img: "img/marin.jpg",
+        name: 'Marin Nikolli',
+        occupation: 'Full Stack developer dhe motion designer, dashamir i madh i Konstruktivizmit dhe Bauhaus',
+        'img-id': 24,
+        text: `Marin Nikolli`,
+        p1: ``,
+        p2: ``,
+        daysText: "",
+        daysSubject: ""
     }
    ]
  }
