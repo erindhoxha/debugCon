@@ -42,13 +42,17 @@
         daysText: "",
         daysSubject: ""
     },  {
-        img: "img/rozafa.jpg",
-        name: 'Rozafë Llalloshi',
-        occupation: 'Full-stack Developer',
+        img: "img/agnesa.jpg",
+        name: 'Agnesa Belegu',
+        occupation: 'Krijuese e lojërave',
         'img-id': 4,
-        text: 'Rozafë Llalloshi',
-        p1: ``,
-        p2: ``,
+        text: `Agnesa Belegu`,
+        p1: `Agnesa është dizajnere e sistemeve të lojërave me pasion të flaktë për këtë industri. Ka Master në Interactive Entertainment nga Florida Interactive 
+        Entertainment Academy, ndër akademitë më të njoftuna në industri. Nga akademia Agnesa vazhdoi në EA Games Tiburon për të punuar në NBA Live 2018, përvojë të
+         cilën e bjen në këtë konferencë. `,
+        p2: `A ju duket e pamundur me qenë pjesë e ekipit që e bënë Hitman apo Cyberpunk ose edhe Assassin's Creed të ardhshëm? Industria e lojërave është e laramanishme
+         për nga aspekti i diciplinave që nevojiten të kontribuohen për të themeluar një lojë të jashtëzakonshme. A je programer, dizajner, artist apo menaxher, Agnesa na
+          flet prej përvojës saj për përparësitë e mangësitë e secilit rol, e mënyra të ndryshme se si mund të profilizohemi që të mund të bëhemi pjesë e kësaj industrie.`,
         daysText: "",
         daysSubject: ""
     }, {
@@ -292,7 +296,11 @@
         occupation: 'Full Stack developer dhe motion designer, dashamir i madh i Konstruktivizmit dhe Bauhaus',
         'img-id': 24,
         text: `Marin Nikolli`,
-        p1: ``,
+        p1: `Marini është Lead Developer në Brander, një agjensi të vogël Marketingu dhe Zhvillimi Softueri.
+         Ai është ka shumë qef të merret me AR – Augmented Reality (kur flitet për stretegji marketingu dhe zhvillimi 
+            të App-ëve në hapësirë) dhe EPUB nëpër shkolla si mënyrë për të mësuar në kohën që jetojmë. Atij i
+             pëlqen të mësojë prej praktikave më të mira që këto dy teknologji I kanë ofruar komunitetit. 
+        Nëse ai nuk zhvillon, jep mësim apo bën dizajn ai shkon për ngjitje apo gjen rrugë të paeksploruara për të bërë me biçikletë.`,
         p2: ``,
         daysText: "",
         daysSubject: ""
