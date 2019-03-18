@@ -2,7 +2,7 @@
    speakersks: [{
        img: "img/ermirsuldashi.png",
        name: 'Ermir Suldashi',
-       occupation: 'Hacker i njëfarë lloji',
+       occupation: 'Hacker dhe zejtar digjital',
        'img-id': 1,
        text: 'Ermir Suldashi',
        p1: `Ermiri gjithmonë ka dashur të prezantojë në konferencë, prandaj e krijoi debugCon pikërisht për këtë qëllim! 
