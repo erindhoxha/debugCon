@@ -1,0 +1,132 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Prezanto në debugCon</title>
+  <meta name="description" content="Apliko për t'u përzgjedhur si prezantues ne debugCon 2019">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <meta property="og:title" content="Apliko për t'u bërë prezantues - debugCon"/>
+  <meta property="og:description" content="Thirrje per prezantues - apliko këtu për të prezantuar në edicionin e parë të debugCon!"/>
+  <meta property="og:image" content="https://debug.al/img/debugcon_logo.png"/>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-xl navbar-dark">
+    <div class="container">
+      <div class="logo-container">
+        <a class="navbar-brand" href="index.html"><img id="nav-show" src="img/dblogo2.png"></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+
+        <ul class="navbar-nav ml-auto pr-4">
+          <li class="nav-item">
+            <a class="nav-link nav-link-active" href="index.html#home">N'shpi <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#kudhekur">Ku dhe kur?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#prezantuesit">Prezantuesit</a>
+          </li>
+          <!--li class="nav-item">
+            <a class="nav-link" href="info.html">Info</a>
+          </li-->
+        </ul>
+        <a href="prezanto.html"><button class="btn-speaker-nav active-present">Prezanto ne konference</button></a>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container-flex">
+<table>
+  <thead>
+    <tr>
+      <th>Emri Mbiemri</th>
+      <th>Tema</th>
+      <th>Koha</th>
+    </tr>
+  </thead>
+  <tbody id="tbody">
+    <tr>
+      <td data-column="First Name">Denat Hoxha</td>
+      <td data-column="Job Title">Design Patterns</td>
+      <td data-column="Twitter">9:45-10AM</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/data.js"></script>
+  <script>
+    AOS.init();
+
+  </script>
+  <script src="js/handlebars-v4.0.12.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/main.js"></script>
+  <script id="schedule-template" type="text/x-handlebars-template">
+    {{#each speakersks}}
+        <tr>
+          <td data-column="First Name">{{name}}</td>
+          <td data-column="Job Title">{{occupation}}</td>
+          <td data-column="Twitter">9:45-10AM</td>
+        </tr>
+      {{/each}}
+    </script>
+
+<script type="text/javascript">
+  var templateSchedule = document.getElementById('schedule-template').innerHTML;
+  var templateSCH = Handlebars.compile(templateSchedule);
+  var templateDataSCH = templateSCH(speakers);
+  document.getElementById('tbody').innerHTML += templateDataSCH;
+</script>
+</body>
+
+</html>
