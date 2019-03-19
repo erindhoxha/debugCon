@@ -988,3 +988,6 @@ a.link-text-dark {
 .f-700 {
    font-weight:700;
 }
+.footer-credits {
+  align-self:flex-end;
+}
