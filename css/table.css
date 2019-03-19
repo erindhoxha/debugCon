@@ -49,7 +49,7 @@ and also iPads specifically.
   }
   table {
     width: 100%;
-    margin-top:100px;
+    margin: 100px 20px 20px 20px;
   }
 
   /* Force table to not be like tables anymore */
@@ -71,6 +71,7 @@ and also iPads specifically.
 
   tr {
     border: 1px solid #ccc;
+    margin-bottom:5px;
   }
 
   td {
