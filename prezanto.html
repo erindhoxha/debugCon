@@ -58,92 +58,16 @@
     </div>
   </nav>
 
-  <div class="bg-contact3" id="apliko">
+  <div class="bg-contact3" id="apliko" style="height:90vh">
     <div class="container-contact3">
-      <div class="wrap-contact3">
-        <form class="contact3-form validate-form" action="https://formspree.io/info@debug.al" method="POST">
-          <input id="presentation-subject" type="hidden" name="_subject" value="Presentation submission form">
-          <span class="contact3-form-title">
-            Thirrje për prezantues
-          </span>
-
-          <p class='text-white'>A ka ndonjë ide që të mahnitë? A ke mësuar diçka të re kohëve të fundit për të cilën
-            nuk po mund të ndalesh duke folur? A ke arritur diçka të jashtëzakonshme që duhet bota ta dijë?</p>
-
-          <p class='text-white'>Dërgoni formën e mëposhtme me detajet rreth temës suaj, dhe ndoshta do të përzgjedheni
-            të prezantoni në debugCon 2019. </p>
-
-          <p class='text-white'>Kërkesat e vetme të prezantimit janë:</p>
-          <ul class="bullets">
-            <li class='text-white'>Tema duhet të jetë në lidhje me zhvillimin e softuerit</li>
-            <li class='text-white'>Koha e prezantimit duhet të jetë maksimalisht 10 minuta!</li>
-          </ul>
-
-          <h4 class="text-white mt-5 mb-3" style="font-family:Track; width:100%; font-size:22px;">Info rreth temës dhe prezantimit</h4>
-
-          <div class="wrap-input3 validate-input">
-            <div class="tooltip-i" data-tooltip='<div class="info-popup">
-              Nese nuk keni ndonje teme te caktuar, ose ju duhet inspirim per titull, ja disa shembuj qe mund ti
-              perdorni:
-              <ul>
-                <li class="list-presentation">Centrimi i elementeve ne CSS me flexbox</li>
-                <li class="list-presentation">Praktikat e duhura dhe te gabuara me PHP dhe SQL</li>
-                <li class="list-presentation">Sintetizimi bazik me WebAudio</li>
-                <li class="list-presentation">Observer paterna dhe aplikimi i saj</li>
-              </ul>
-            </div>' data-tooltip-config="top">
-              <i class="fas fa-info-circle info-icon"></i>
-            </div>
-            <input id="presentation-title" class="input3" type="text" name="presentationTitle" placeholder="Titulli i prezantimit" autocorrect="off" spellcheck="false">
-          </input>
-            <span class="focus-input3"></span>
-          </div>
-          <div class="wrap-input3 validate-input">
-            <div class="tooltip-i" data-tooltip='<div class="info-popup">
-              Nje shembull per kete seksion do te ishte:
-              <p>
-                <br/>
-                Observer paterna eshte pattern shume cool, qe mundet me u perdore neper aplikacione te tipit X, Y, dhe
-                Z. Filani do te demonstroje se si ky pattern i shkeput komponentet (loose coupling) dhe lehteson
-                zhvillimin e softuereve te medha.
-              </p>
-            </div>' data-tooltip-config="top">
-            <i class="fas fa-info-circle info-icon"></i>
-          </div>
-            <textarea class="input3" name="presentationTopic" placeholder="2-3 fjali per temen tuaj" autocorrect="off" spellcheck="false"></textarea>
-            <span class="focus-input3"></span>
-          </div>
-
-          <h4 class="text-white mt-5 mb-3" style="font-family:Track; width:100%; font-size:22px;">Info rreth teje</h4>
-
-          <div class="wrap-input3 validate-input">
-            <input class="input3" type="text" name="name" placeholder="Emri dhe mbiemri" autocorrect="off" spellcheck="false">
-            <span class="focus-input3"></span>
-          </div>
-
-          <div class="wrap-input3 validate-input">
-            <input class="input3" name="_replyto" placeholder="Email" autocorrect="off" spellcheck="false" />
-            <span class="focus-input3"></span>
-          </div>
-
-          <div class="wrap-input3 validate-input">
-            <div class="tooltip-i" data-tooltip='<div class="info-popup">Informatat e juaja personale do te perdoren vetem per qellime organizative te konferences. Ato do te ruhen me kujdesin me te madh dhe nuk do te shiten ose dorezohen ne pale te trete.</div>'
-             data-tooltip-config="top">
-              <i class="fas fa-info-circle info-icon"></i>
-            </div>
-            <input class="input3" name="phone" placeholder="Nr. Telefoni" autocorrect="off" spellcheck="false" />
-            <span class="focus-input3"></span>
-          </div>
-
-          <h4 class="text-white mt-5 mb-3" style="font-family:Track; width:100%; font-size:22px;">Faleminderit!</h4>
-
-
-          <div class="container-contact3-form-btn">
-            <button type="submit" class="contact3-form-btn">
-              Dërgo
-            </button>
-          </div>
-        </form>
+      <div class="wrap-contact3 text-center">
+        <div id="closed-icon">
+            <i class="fas fa-angle-left" style="color:white;font-size:40px;"></i>&nbsp;
+            <span style="font-size:40px; color:white; font-weight:700">/</span>
+            <i class="fas fa-angle-right" style="color:white;font-size:40px;"></i>
+        </div>
+          <p class='text-white' style="font-size:25px; text-align:center; font-weight:400;">Faliminderit per interesimin ne konferencen tone, thirrja per prezantues eshte mbyllur. Per cdo pyetje ose informate
+          shkruani ne <a class="mailtodc" href="mailto:info@debug.al">info@debug.al</a></p>
       </div>
     </div>
   </div>
@@ -151,7 +75,7 @@
 
 
 
-  <div class="container">
+  <div class="container" style="height:10vh;">
     <footer class="p-4 text-white text-center">
       <h6><a href="http://github.com/erindhoxha" target="_blank"><img src="img/code.svg"></a> with <a href="https://en.wikipedia.org/wiki/Love"
           target="_blank"><img src="img/heart.svg"></a> by debugCon</h6>

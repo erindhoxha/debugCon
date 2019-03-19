@@ -469,6 +469,8 @@ ul {
 .info {
   color: white; }
 
+
+
 ul li.list-presentation::before {
   content: "\2022";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -490,7 +492,9 @@ li.list-presentation {
   height: 115px;
   margin-right: 20px;
   animation: float 2s ease-in-out infinite; }
-
+#closed-icon {
+  animation: float 2s ease-in-out infinite;
+}
 .st0 {
   fill: none;
   stroke: #FFFFFF;
@@ -962,3 +966,6 @@ a.link-text {
 a.link-text-dark {
   color: #6139a0;
   text-decoration: underline; }
+.mailtodc {
+  text-decoration: underline !important;
+}
