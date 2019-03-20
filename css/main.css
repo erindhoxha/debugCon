@@ -96,8 +96,13 @@ body {
   padding-top: 50px;
   padding-bottom: 80px; }
 
-.col-spo img {
-  width: 100%; }
+#sponsor-div {
+  text-align: center; }
+  #sponsor-div .col-spo {
+    display: inline-block;
+    width: 20%; }
+    #sponsor-div .col-spo img {
+      width: 100%; }
 
 .nav-link {
   transition: 0.3s ease; }
@@ -469,8 +474,6 @@ ul {
 .info {
   color: white; }
 
-
-
 ul li.list-presentation::before {
   content: "\2022";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -492,9 +495,7 @@ li.list-presentation {
   height: 115px;
   margin-right: 20px;
   animation: float 2s ease-in-out infinite; }
-#closed-icon {
-  animation: float 2s ease-in-out infinite;
-}
+
 .st0 {
   fill: none;
   stroke: #FFFFFF;
@@ -558,7 +559,7 @@ li.list-presentation {
     padding: 5px;
     border-radius: 13px; }
 
-  @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .tooltip {
     width: 70% !important; }
   .active {
@@ -966,28 +967,3 @@ a.link-text {
 a.link-text-dark {
   color: #6139a0;
   text-decoration: underline; }
-.mailtodc {
-  text-decoration: underline !important;
-}
-
-.vh-10 {
-  height:10vh;
-}
-.t-4-w {
-  color:white;
-  font-size:40px;
-}
-.thank-you-message {
-  font-size:25px;
-  text-align:center;
-  font-weight:400;
-}
-.vh-90 {
-   height:90vh;
-}
-.f-700 {
-   font-weight:700;
-}
-.footer-credits {
-  align-self:flex-end;
-}
