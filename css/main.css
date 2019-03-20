@@ -95,6 +95,8 @@ body {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 80px; }
+  #sponsors h3 {
+    padding: 20px 0; }
 
 #sponsor-div {
   text-align: center; }

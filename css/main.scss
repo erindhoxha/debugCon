@@ -125,12 +125,17 @@ body {
   text-align:center;
   padding-top:50px;
   padding-bottom:80px;
+  h3 {
+    padding:20px 0;
+  }
 }
 #sponsor-div {
   text-align: center;
+  
 .col-spo {
   display:inline-block;
   width:20%;
+  
   img {
     width:100%;
   }
