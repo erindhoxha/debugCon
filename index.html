@@ -348,7 +348,7 @@
   <div id="sponsors">
     <div class="container">
       <h1 style="margin-bottom: 40px;" class="mt-5">Sponzorët tonë:</h1>
-      <div id="sponsor-div" data-aos="fade-up">
+      <div id="sponsor-div" class="row" data-aos="fade-up">
       </div>
       <h5>A jeni të interesuar të jeni sponzor i debugCon? Si sponzor ju do të mbeteni në mendjet e programerëve si burim i punës së jashtëzakonshme dhe përkrahës të komunitetit. Dërgoni email në <a class="link-text-dark" href="mailto:sponsorship@debug.al">sponsorship@debug.al</a> për më shumë informata.</h5>
       
@@ -413,8 +413,8 @@
 
   <script id="sponsors-template" type="text/x-handlebars-template">
     {{#each sponsorsks as |sponsor|}}
-      <div class="col-spo">
-        <a href="{{sponsor.url}}"><img src="{{sponsor.img}}"></a>
+      <div class="col-lg-6 col-md-6 col-sm-12 sponsor-div {{sponsor.name}}-image">
+        <a href="{{sponsor.url}}" target="_blank"><img id="{{sponsor.name}}" class="sponsor-image" src="{{sponsor.img}}"></a>
       </div>
     {{/each}}
   </script>

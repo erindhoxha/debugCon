@@ -311,9 +311,11 @@
 
 var sponsors = {
   sponsorsks: [{
+        name: 'gjirafa',
         img: "img/gjirafa.svg",
         url: "https://gjirafa.com/"
     },{
+        name: 'sprigs',
         img: "img/sprigs.svg",
         url: "https://sprigs.eu/"
     }, 

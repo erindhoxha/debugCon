@@ -676,8 +676,10 @@ li.list-presentation {
   }
 }
 
-
 @media only screen and (max-width: 767px) {
+  .gjirafa-image, .sprigs-image {
+    text-align:center !important;
+  }
   .tooltip {
     width:70% !important;
   }
@@ -981,7 +983,23 @@ nav {
   text-align: center;
   font-weight: 400;
 }
-
+.sponsor-image {
+  width:70%;
+  padding:50px;
+}
+.sponsor-div {
+  text-align:center;
+}
+#gjirafa {
+  width:80%;
+  padding: 34px 0px 0px 15px;
+}
+.gjirafa-image {
+  text-align:right;
+}
+.sprigs-image {
+  text-align:left;
+}
 .vh-90 {
   height: 90vh;
 }
