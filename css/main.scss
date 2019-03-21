@@ -781,7 +781,9 @@ nav {
   min-height:400px;
 }
 }
-
+#closed-icon {
+  animation: float 2s ease-in-out infinite;
+}
 
 @media only screen and (max-width: 1023px) {
   #hnn-pr {
@@ -959,6 +961,37 @@ nav {
 .active:after {
   content: " }";
   color:#6022FF;
+}
+
+.mailtodc {
+  text-decoration: underline !important;
+}
+
+.vh-10 {
+  height: 10vh;
+}
+
+.t-4-w {
+  color: white;
+  font-size: 40px;
+}
+
+.thank-you-message {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
+.f-700 {
+  font-weight: 700;
+}
+
+.footer-credits {
+  align-self: flex-end;
 }
 
 #path2656,
