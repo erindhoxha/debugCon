@@ -321,5 +321,10 @@ var sponsors = {
         img: "img/up.svg",
         url: "https://www.uni-pr.edu/"
     }, 
+    {
+        name: 'i11',
+        img: "img/i11.svg",
+        url: "https://www.inspire11.com/"
+    },
   ]
 }
