@@ -6,7 +6,7 @@
        'img-id': 1,
        text: 'Ermir Suldashi',
        p1: `Ermiri gjithmonë ka dashur të prezantojë në konferencë, prandaj e krijoi debugCon pikërisht për këtë qëllim! 
-       Ermirit i pëlqen të eksperimentojë me teknologji të ndryshme, dhe kohëve të fundita po i teston teknologjitë multimediale,
+       Ermirit i pëlqen të eksperimentojë me teknologji të ndryshme, dhe kohëve të fundit po i teston teknologjitë multimediale,
        duke u fokusuar në WebRTC dhe teknologji tjera të kohës reale.`,
        p2: `Në sistemet multiplayer të videolojave moderne, UDP protokoli përdoret për t'i lidhur lojtarët për shkak të shpejtësisë
         qe mund të arrihet me të. Lojat e implementuara me JavaScript në browserë nuk e kanë pasur këtë mundësi, që e ka mbajtur
@@ -21,11 +21,8 @@
        name: 'Denat Hoxha',
        occupation: 'Dashamir i arkitekturës dhe dizajnit të softuerit',
        text: 'Denat Hoxha',
-       p1: `Denati që një kohë të gjatë punon profesionalisht në web, dhe ka kaluar nëpër gjuhë programuese dhe frameworks të ndryshme. 
-       Përderisa këto kanë ardh e kanë shku, çka ka mbetë nëvojë konstante është kodi i pastër dhe i lexueshëm.`,
-       p2: `Dizajn patern-at (Design patterns) janë vegla të dobishme për ata që i njohin dhe dijnë kur me i apliku. Mirëpo, ka
-        shumë raste kur përfundon tu shkaktu dëm, nëse tenton me i apliku aty ku nuk duhet. Denati ka me i prezantu disa shembuj 
-        të kurthave të tilla.`,
+       p1: `Denati që një kohë të gjatë punon profesionalisht në web, dhe ka kaluar nëpër gjuhë programuese dhe frameworks të ndryshme. Përderisa këto kanë ardh e kanë shku, ai ka vërejt që nëvojë konstante ka mbetë kodi i pastër dhe i lexueshëm. Denati poashtu pajtohet që pjesa më e vështirë e programimit është emërtimi i variablave.`,
+       p2: `Pavarësisht se ka kaluar hovi i madh i tregtisë së kriptovalutave, koncepti i blockchain ende qëndron i fortë. Denati do të flasë për SmartPool, një protokol praktik i dizajnuar për decentralizimin e minimit të kriptovalutave.`,
        daysText: "",
        daysSubject: ""
      }, 
