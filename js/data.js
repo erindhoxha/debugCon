@@ -316,5 +316,10 @@ var sponsors = {
         img: "img/sprigs.svg",
         url: "https://sprigs.eu/"
     }, 
+    {
+        name: 'up',
+        img: "img/up.svg",
+        url: "https://www.uni-pr.edu/"
+    }, 
   ]
 }
