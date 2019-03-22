@@ -98,13 +98,13 @@ body {
   #sponsors h5 {
     padding-top: 50px; }
 
-#sponsor-div {
+#sponsors {
   text-align: center; }
-  #sponsor-div .col-spo {
+  #sponsors .col-spo {
     display: inline-block;
     width: 20%;
     margin: 0 2.5%; }
-    #sponsor-div .col-spo img {
+    #sponsors .col-spo img {
       width: 100%; }
 
 .nav-link {
