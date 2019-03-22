@@ -312,18 +312,19 @@ var sponsors = {
         img: "img/gjirafa.svg",
         url: "https://gjirafa.com/"
     },{
-        name: 'i11',
-        img: "img/i11.svg",
-        url: "https://www.inspire11.com/"
-    },{
         name: 'sprigs',
         img: "img/sprigs.svg",
         url: "https://sprigs.eu/"
-    },{
+    }, 
+    {
         name: 'up',
         img: "img/up.svg",
         url: "https://www.uni-pr.edu/"
     }, 
-    
+    {
+        name: 'i11',
+        img: "img/i11.svg",
+        url: "https://www.inspire11.com/"
+    },
   ]
 }
