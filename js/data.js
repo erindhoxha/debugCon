@@ -283,8 +283,9 @@
         occupation: 'Hardware Architect',
         'img-id': 23,
         text: `Dijon Vula`,
-        p1: ``,
-        p2: ``,
+        p1: `Dijoni eshte Chief Hardware Architect ne Solaborate, dhe njekohesisht truri prapa modelimit harduerik te produkteve flagship te kompanise, HELLO dhe HELLO 2.`,
+        p2: `Dijoni e kalon nje pjese te madhe te vitit ne Kine, duke u marre me mbikqyrjen e prodhimit te pajisjeve HELLO 2. 
+		Ai do te ndaje me neve procesin, pervojat, dhe sfidat qe i perjetu gjate punes atje.`,
         daysText: "",
         daysSubject: ""
     }, {
