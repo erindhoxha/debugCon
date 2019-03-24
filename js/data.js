@@ -21,7 +21,7 @@
        name: 'Denat Hoxha',
        occupation: 'Dashamir i arkitekturës dhe dizajnit të softuerit',
        text: 'Denat Hoxha',
-       p1: `Denati që një kohë të gjatë punon profesionalisht në web, dhe ka kaluar nëpër gjuhë programuese dhe frameworks të ndryshme. Përderisa këto kanë ardh e kanë shku, ai ka vërejt që nëvojë konstante ka mbetë kodi i pastër dhe i lexueshëm. Denati poashtu pajtohet që pjesa më e vështirë e programimit është emërtimi i variablave.`,
+       p1: `Denati që një kohë të gjatë punon profesionalisht në web, dhe ka kaluar nëpër gjuhë programuese dhe frameworks të ndryshme. Përderisa këto kanë ardh e kanë shku, ai ka vërejt që nëvojë konstante ka mbetë kodi i pastër dhe i lexueshëm. Denati poashtu pajtohet që nuk duhet me lansu kurrgjo të premteve.`,
        p2: `Pavarësisht se ka kaluar hovi i madh i tregtisë së kriptovalutave, koncepti i blockchain ende qëndron i fortë. Denati do të flasë për SmartPool, një protokol praktik i dizajnuar për decentralizimin e minimit të kriptovalutave.`,
        daysText: "",
        daysSubject: ""
@@ -317,5 +317,15 @@ var sponsors = {
         img: "img/sprigs.svg",
         url: "https://sprigs.eu/"
     }, 
+    {
+        name: 'up',
+        img: "img/up.svg",
+        url: "https://www.uni-pr.edu/"
+    }, 
+    {
+        name: 'i11',
+        img: "img/i11.svg",
+        url: "https://www.inspire11.com/"
+    },
   ]
 }
