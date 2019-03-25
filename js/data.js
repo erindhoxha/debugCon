@@ -82,11 +82,9 @@
         occupation: 'Backend Developer, olimpist',
         'img-id': 7,
         text: 'Lum Zhaveli',
-        p2: `Lumi do të flasë për efikasitetin energjitik të datacenters, dhe si mund 
-        të ulim emetimet e karbonit duke shkruar kod efikas për ndërmarrje dhe pajisje mobile.`,
-        p1: `Lumi mirret me programim prej nga mosha 15 vjeçare. Ai punon si Senior Back-End Java
-         developer në OpenResearch. Pasionet e tij në shkencat kompjuterike janë High Performance 
-         Computing, Parallel Computing, dhe Computer Graphics (ray-tracing).`,
+        p2: `Lumi do të flasë për efikasitetin e data qendrave, ku behën gabimet nga programerët, dhe si mund të ulen emetimet e karbonit duke shkruar kod efikas për aplikacione enterprise dhe aplikacion mobile.`,
+        p1: `Lumi merret me programim nga mosha 15 vjeçare, I diplomuar nga “The University of Sheffield”, me focus në analizat të opinioneve.  Për temën e diplomës fitoi çmimin "Best Thesis of the Year" nga Albanian ICT Awards në vitin 2013. Studimet master i vijoj në “The University of Arizona” i përqendruar në matjen e performancës në data qendra të mëdha dhe High Performance Computing. Përveç programimit Lumi është altet i dalluar, e përfaqësoi Kosovën edhe në lojerat Olimpike verore në Rio 2016 në Not.
+Ai punon si Senior Back-End Java developer në OpenResearch. Pasionet e tij në shkencat kompjuterike janë High Performance Computing, Parallel Computing, dhe Computer Graphics (Ray Tracing).`,
         daysText: "",
         daysSubject: ""
     }, {
@@ -283,8 +281,9 @@
         occupation: 'Hardware Architect',
         'img-id': 23,
         text: `Dijon Vula`,
-        p1: ``,
-        p2: ``,
+        p1: `Dijoni eshte Chief Hardware Architect ne Solaborate, dhe njekohesisht truri prapa modelimit harduerik te produkteve flagship te kompanise, HELLO dhe HELLO 2.`,
+        p2: `Dijoni e kalon nje pjese te madhe te vitit ne Kine, duke u marre me mbikqyrjen e prodhimit te pajisjeve HELLO 2. 
+		Ai do te ndaje me neve procesin, pervojat, dhe sfidat qe i perjetu gjate punes atje.`,
         daysText: "",
         daysSubject: ""
     }, {
