@@ -283,7 +283,7 @@ Ai punon si Senior Back-End Java developer në OpenResearch. Pasionet e tij në 
         text: `Dijon Vula`,
         p1: `Dijoni eshte Chief Hardware Architect ne Solaborate, dhe njekohesisht truri prapa modelimit harduerik te produkteve flagship te kompanise, HELLO dhe HELLO 2.`,
         p2: `Dijoni e kalon nje pjese te madhe te vitit ne Kine, duke u marre me mbikqyrjen e prodhimit te pajisjeve HELLO 2. 
-		Ai do te ndaje me neve procesin, pervojat, dhe sfidat qe i perjetu gjate punes atje.`,
+		Ai do te ndaje me neve procesin, pervojat, dhe sfidat qe i ka perjetu gjate punes atje.`,
         daysText: "",
         daysSubject: ""
     }, {
