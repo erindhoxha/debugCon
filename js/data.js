@@ -335,5 +335,15 @@ var sponsors = {
         img: "img/rrota.svg",
         url: "http://www.rrota.com"
     },
+    {
+        name: 'llatki',
+        img: "img/llatki.svg",
+        url: "https://www.linkedin.com/company/llatki"
+    },
+    {
+        name: 'celonis',
+        img: "img/celonis.svg",
+        url: "http://www.celonis.com"
+    },
   ]
 }
