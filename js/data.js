@@ -330,5 +330,10 @@ var sponsors = {
         img: "img/prime.svg",
         url: "https://goprime.io/"
     },
+    {
+        name: 'rrota',
+        img: "img/rrota.svg",
+        url: "http://www.rrota.com"
+    },
   ]
 }
