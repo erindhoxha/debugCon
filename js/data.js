@@ -325,5 +325,10 @@ var sponsors = {
         img: "img/i11.svg",
         url: "https://www.inspire11.com/"
     },
+    {
+        name: 'prime',
+        img: "img/prime.svg",
+        url: "https://goprime.io/"
+    },
   ]
 }
