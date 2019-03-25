@@ -53,17 +53,17 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/visar.jpg",
-        name: 'Visar Shehu',
-        occupation: 'Developer, arkitekt softueri, profesor',
+        img: "img/krenare.jpg",
+        name: 'Krenare Pireva Nuçi',
+        occupation: 'PhD në Shkenca Kompjuterike',
         'img-id': 5,
-        text: 'Visar Shehu',
-        p1: `Visar Shehu është profesor i asocuar në Universitetin e Evropës Juglindore në Tetovë, Maqedoni. 
-        Gjithashtu, ai është edhe drejtor teknik i kompanise Inspire11 në Maqedoni.`,
-        p2: `Duke punuar dhe udhëhequr projekte të shumta, Visari ka pasur fatin e mirë që të mesojë dhe provojë
-         shumë gjuhë programuese. Ai është entuziast i teknologjisë dhe këtë entuziazëm dëshiron ta ndajë me të tjerët. Për
-          këtë arsye ai ka vendosur t'i indoktrinojë gjeneratat më të reja. Visari do të flasë për disa iniciativa në STEM 
-          edukim dhe çfarë ai përdor për të infektuar të rinjtë me virusin e programimit.`,
+        text: `Krenare Pireva Nuçi`,
+        p1: `Krenarja është programere multidiciplinare, që i ka lejuar të bashkojë disa degë të Shkencave Kompjuterike në praktikën e
+         saj. Si PhD në Shkenca Kompjuterike, Krenarja është profesoreshë në UBT dhe jep mësim në kurset e Ndërveprimit Kompjuter-Njeri
+          dhe Inxhinierimit të Kërkesave.`,
+        p2: `Falë hulumtimeve të saja shkencore, Krenarja ka zhvilluar një prototip për një platformë Cloud eLearning. Kjo platformë 
+        përdor teknika të Intelegjencës Articifiale (sistemet e rekomandimit) për të krijuar një ambient të personalizuar për secilin
+         individ që e përdor.`,
         daysText: "",
         daysSubject: ""
     }, {
@@ -300,21 +300,7 @@ Ai punon si Senior Back-End Java developer në OpenResearch. Pasionet e tij në 
         p2: ``,
         daysText: "",
         daysSubject: ""
-    }, {
-        img: "img/krenare.jpg",
-        name: 'Krenare Pireva Nuçi',
-        occupation: 'PhD në Shkenca Kompjuterike',
-        'img-id': 25,
-        text: `Krenare Pireva Nuçi`,
-        p1: `Krenarja është programere multidiciplinare, që i ka lejuar të bashkojë disa degë të Shkencave Kompjuterike në praktikën e
-         saj. Si PhD në Shkenca Kompjuterike, Krenarja është profesoreshë në UBT dhe jep mësim në kurset e Ndërveprimit Kompjuter-Njeri
-          dhe Inxhinierimit të Kërkesave.`,
-        p2: `Falë hulumtimeve të saja shkencore, Krenarja ka zhvilluar një prototip për një platformë Cloud eLearning. Kjo platformë 
-        përdor teknika të Intelegjencës Articifiale (sistemet e rekomandimit) për të krijuar një ambient të personalizuar për secilin
-         individ që e përdor.`,
-        daysText: "",
-        daysSubject: ""
-    }
+    }, 
    ]
  }
 
