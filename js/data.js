@@ -301,6 +301,20 @@
         p2: ``,
         daysText: "",
         daysSubject: ""
+    }, {
+        img: "img/krenare.jpg",
+        name: 'Krenare Pireva Nuçi',
+        occupation: 'PhD në Shkenca Kompjuterike',
+        'img-id': 25,
+        text: `Krenare Pireva Nuçi`,
+        p1: `Krenarja është programere multidiciplinare, që i ka lejuar të bashkojë disa degë të Shkencave Kompjuterike në praktikën e
+         saj. Si PhD në Shkenca Kompjuterike, Krenarja është profesoreshë në UBT dhe jep mësim në kurset e Ndërveprimit Kompjuter-Njeri
+          dhe Inxhinierimit të Kërkesave.`,
+        p2: `Falë hulumtimeve të saja shkencore, Krenarja ka zhvilluar një prototip për një platformë Cloud eLearning. Kjo platformë 
+        përdor teknika të Intelegjencës Articifiale (sistemet e rekomandimit) për të krijuar një ambient të personalizuar për secilin
+         individ që e përdor.`,
+        daysText: "",
+        daysSubject: ""
     }
    ]
  }
