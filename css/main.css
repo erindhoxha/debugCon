@@ -565,6 +565,9 @@ li.list-presentation {
 @media only screen and (max-width: 767px) {
   .gjirafa-image, .sprigs-image {
     text-align: center !important; }
+  .sponsor-image {
+    width: 70%;
+    margin: 20px 0; }
   .tooltip {
     width: 70% !important; }
   .active {
