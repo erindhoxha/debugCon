@@ -98,13 +98,13 @@ body {
   #sponsors h5 {
     padding-top: 50px; }
 
-#sponsors {
+#sponsor-div {
   text-align: center; }
-  #sponsors .col-spo {
+  #sponsor-div .col-spo {
     display: inline-block;
     width: 20%;
     margin: 0 2.5%; }
-    #sponsors .col-spo img {
+    #sponsor-div .col-spo img {
       width: 100%; }
 
 .nav-link {
@@ -791,8 +791,8 @@ li.list-presentation {
   font-weight: 400; }
 
 .sponsor-image {
-  width: 100%;
-  padding: 20px; }
+  width: 70%;
+  padding: 50px; }
 
 .sponsor-div {
   text-align: center; }
@@ -803,11 +803,6 @@ li.list-presentation {
 
 .gjirafa-image {
   text-align: right; }
-
-#up {
-  width: 100%;
-  padding: 0;
-  padding-left: 120px; }
 
 .sprigs-image {
   text-align: left; }

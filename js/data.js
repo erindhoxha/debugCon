@@ -67,13 +67,18 @@
         daysText: "",
         daysSubject: ""
     }, {
-        img: "img/tali.jpg",
-        name: 'Mehmetali Shaqiri',
-        occupation: 'Mjeshtër i infrastrukturës dhe arkitekturës të softuerit',
+        img: "img/hashim.jpg",
+        name: 'Hashim Llumnica',
+        occupation: 'Programer i specializuar në qasshmëri',
         'img-id': 6,
-        text: 'Mehmetali Shaqiri',
-        p1: ``,
-        p2: ``,
+        text: 'Hashim Llumnica',
+        p1: `Në moshën 18 vjeçare Hashimi u verbua, gjë që i ndryshoi komplet kahjen e jetës dhe karrierës së tij. Duke e pasur të pamundur
+        të vazhdoje studimet makinerike, Hashimi vazhdoi dhe mbaroi studimet e Sociologjisë në Universitetin e Prishtinës. Mbas studimeve, 
+        Hashimi ndoqi kurse të zhvillimit softuerik, dhe tani punon si programer në Android, duke u specializuar në aplikacione për përdorim
+        nga personat e verbër dhe me shikim të dobët.`,
+        p2: `Deri tani Hashimi ka zhvilluar mbi 10 aplikacione për persona me shikim të dobët dhe të verbër. Në konferencën debugCon Hashimi
+         do të flasë për sfidat dhe përvojat e tij si zhvillues i specializuar për këtë lëmi, por edhe si person që vetë ka nevojë për aplikacionet
+         që i krijon.`,
         daysText: "",
         daysSubject: ""
     }, {
@@ -344,6 +349,11 @@ var sponsors = {
         name: 'celonis',
         img: "img/celonis.svg",
         url: "http://www.celonis.com"
+    },
+    {
+        name: 'openresearch',
+        img: "img/openresearch.svg",
+        url: "http://www.openresearch.com"
     },
   ]
 }
