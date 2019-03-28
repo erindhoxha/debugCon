@@ -355,5 +355,11 @@ var sponsors = {
         img: "img/openresearch.svg",
         url: "http://www.openresearch.com"
     },
+    {
+        name: 'solaborate',
+        img: "img/solaborate.svg",
+        url: "http://www.solaborate.com",
+        extraClass:"offset-md-4 offset-lg-4 offset-sm-0"
+    },
   ]
 }
