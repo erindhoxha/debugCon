@@ -416,7 +416,7 @@
 
   <script id="sponsors-template" type="text/x-handlebars-template">
     {{#each sponsorsks as |sponsor|}}
-      <div class="col-lg-4 col-md-4 col-sm-12 sponsor-div">
+      <div class="col-lg-4 col-md-4 col-sm-12 {{sponsor.extraClass}} sponsor-div">
         <a href="{{sponsor.url}}" target="_blank"><img class="sponsor-image" src="{{sponsor.img}}"></a>
       </div>
     {{/each}}
